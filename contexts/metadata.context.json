@@ -1,0 +1,23 @@
+{
+    "@context": {
+    "@base": "http://fhircat.org/cord-19/",
+    "dc": "http://purl.org/dc/terms/",
+    "ncit": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#",
+    "sso": "http://semanticscholar.org/cv-research/",
+    "@vocab": "http://semanticscholar.org/cv-research/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "id": "@id",
+    "title": "dc:title",
+    "doi": {"@id": "dc:identifier", "@type": "@id", "@context": {"@base": "https://doi.org/"}},
+    "pmcid": {"@id": "dc:identifier", "@type": "@id", "@context": {"@base": "https://www.ncbi.nlm.nih.gov/pmc/articles/"}},
+    "pubmed_id": {"@id": "dc:identifier", "@type": "@id", "@context": {"@base": "https://www.ncbi.nlm.nih.gov/pubmed/"}},
+    "Microsoft Academic Paper ID": {"@id": "dc:identifier", "@type": "@id", "@context": {"@base": "    https://academic.microsoft.com/paper/"}},
+    "license": "dc:license",
+    "abstract": "dc:abstract",
+    "authors": {
+      "@id": "dc:creator"
+    },
+    "publish_time": {"@id": "dc:issued", "@type": "xsd:date"}
+  }
+}
