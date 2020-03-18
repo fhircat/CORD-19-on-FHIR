@@ -3,15 +3,16 @@
 CORD-19-on-FHIR is a superset of the 
 COVID-19 Open Research Dataset [(CORD-19)](https://pages.semanticscholar.org/coronavirus-research) data, provided by the [Allen Institute](https://alleninstitute.org/) to support research on COVID-19 / SARS-CoV-2 / Novel Coronavirus.  It is represented 
 in [FHIR RDF](https://www.hl7.org/fhir/rdf.html)
-and was produced by data mining the CORD-19 dataset and adding semantic annotations.  The purpose is to facilitate linkage with other biomedical datasets.  
+and was produced by data mining the CORD-19 dataset and adding semantic annotations.  The purpose is to facilitate linkage with other biomedical datasets and enable answering research questions. 
 
 ## Semantic annotations
 
 So far, the following
 semantic annotations have been added to CORD-19-on-FHIR:
 
-- Drug URIs
-- TODO: list others
+- Conditions
+- Medications
+- Procedures
 
 Collaboration is invited.
 
