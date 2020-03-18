@@ -1,2 +1,2 @@
 # CORD-19-on-FHIR
-Producing FHIR RDF on CORD-19 Datasets for Discovery
+Producing FHIR RDF on the COVID-19 Open Research Dataset (CORD-19) for Discovery
