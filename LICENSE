@@ -1,3 +1,72 @@
+CORD-19-on-FHIR LICENSE
+
+CORD-19-on-FHIR is a data mining dataset derived from the CORD-19
+dataset released by the Allen Institute (AI2), described at
+https://pages.semanticscholar.org/coronavirus-research .  As such,
+the CORD-19-on-FHIR dataset is a "derivative work", produced under the
+CORD-19 license terms.  The results of the CORD-19-on-FHIR data mining
+are represented in FHIR RDF https://www.hl7.org/fhir/rdf.html in Turtle
+format.
+
+The CORD-19-on-FHIR dataset is a superset of the CORD-19 dataset,
+and includes the CORD-19 dataset as a subset.  The rest of the
+CORD-19-on-FHIR dataset consists of the CORD-19-on-FHIR data mining
+results.  The CORD-19-on-FHIR dataset is therefore licensed under two
+licenses, one license applying to each of the aforementioned subsets:
+
+ - The CORD-19 license (copied below from
+   https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/2020-03-13/COVID.DATA.LIC.AGMT.pdf) 
+   applies to the underlying CORD-19 dataset that is contained (as a
+   translated subset) in the CORD-19-on-FHIR dataset.
+
+ - A CC0 license (shown below) applies to the subset of the
+   CORD-19-on-FHIR dataset that expresses the data mining results of the
+   CORD-19-on-FHIR data mining effort, not including the aforementioned
+   CORD-19 data subset.
+
+Note also that these licenses pertain to the aggregate 
+datasets -- not the individual articles that the datasets reference.
+The individual articles are subject to their own licenses,
+many of which are listed in the accompanying CSV metadata file at:
+https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/2020-03-13/all_sources_metadata_2020-03-13.csv
+A "readme" for the metadata file is also available at:
+https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/2020-03-13/all_sources_metadata_2020-03-13.readme
+
+
+================================================================
+                     CORD-19 LICENSE
+================================================================
+
+COVID DATASET LICENSE AGREEMENT
+By accessing, downloading or otherwise using any Journals, Articles,
+Metadata, Abstracts, Full-Texts or any other content types provided
+in the COVID-19 Open Research Dataset (CORD-19) Database (the Data),
+You expressly acknowledge and agree to the following:
+
+ - AI2 grants to You a worldwide, perpetual, non-exclusive,
+   non-transferable license to use and make derivatives of the Data for
+   text and data mining only.
+
+ - AI2 warrants that it has the right to make the Data available to You
+   as provided for in and subject to this Agreement and in accordance
+   with applicable law. EXCEPT FOR THE LIMITED WARRANTY IN THIS SECTION,
+   THE DATA IS PROVIDED AS IS, WITHOUT ANY WARRANTIES OF ANY KIND.
+
+ - You agree to comply with all applicable local, state, national,
+   and international laws and regulations with respect to AI2's license
+   and Your use of the Data.
+
+ - Data provided by AI2 is from copyrighted sources of the respective
+   copyright holders. You are solely responsible for Your and Your users'
+   compliance with any copyright, patent or trademark restrictions and are
+   referred to the copyright, patent or trademark notices appearing in the
+   original sources, all of which are hereby incorporated by reference.
+
+
+================================================================
+            CORD-19-on-FHIR Data Mining Subset License
+================================================================
+
 Creative Commons Legal Code
 
 CC0 1.0 Universal
@@ -119,3 +188,4 @@ express Statement of Purpose.
  d. Affirmer understands and acknowledges that Creative Commons is not a
     party to this document and has no duty or obligation with respect to
     this CC0 or use of the Work.
+
