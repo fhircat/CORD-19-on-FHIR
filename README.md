@@ -18,7 +18,7 @@ Collaboration is invited.
 
 ## License
 
-This dataset was derived from the CORD-19 dataset, and therefore consists of two subsets having different licenses:
+This dataset was derived from the CORD-19 dataset, and therefore consists of two subsets, having different licenses, that are intermingled in the CORD-19-on-FHIR dataset:
 
 - the CORD-19 dataset, subject to the CORD-19 license; and
 
