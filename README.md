@@ -10,13 +10,16 @@ https://github.com/fhircat/CORD-19-on-FHIR/wiki
 
 ## Semantic annotations
 
-So far, we have only parsed the titles and abstracts, and have the following semantic annotations have been added to CORD-19-on-FHIR:
+So far, CORD-19-on-FHIR adds the following semantic annotations to the CORD-19 dataset, based only on parsing the titles and abstracts:
 
 - Conditions - 103,968 instances 
 - Medications - 16,406 instances
 - Procedures - 54,720 instances
 
-Collaboration is invited.
+We plan to parse the full text articles soon, for those that we can access.  
+
+If you can generate other semantic linkages, please let us know.  Collaboration is invited.  Please issue a pull request or contact Guoqian Jiang <jiang.guoqian@mayo.edu> and Harold Solbrig <solbrig@jhu.edu>.
+
 
 ## License
 
