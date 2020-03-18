@@ -13,9 +13,9 @@ https://github.com/fhircat/CORD-19-on-FHIR/wiki
 So far, the following
 semantic annotations have been added to CORD-19-on-FHIR:
 
-- Conditions
-- Medications
-- Procedures
+- Conditions - 103,968 instances 
+- Medications - 16,406 instances
+- Procedures - 54,720 instances
 
 Collaboration is invited.
 
