@@ -110,10 +110,10 @@ venv.bak/
 **/.DS_Store
 
 # Datasets
-**/cord-19-bioRxiv-medRxiv/
-**/cord-19-Commercial/
-**/cord-19-Non-commercial/
-**/cord-19-PMC/
+**/biorxiv_medrxiv/
+**/comm_use_subset/
+**/noncomm_use_subset/
+**/pmc_custom_license/
 
 # Metadata
 **/metadata/
