@@ -1,0 +1,2768 @@
+{
+    "paper_id": "cb690769762bb2fc4b4d9b898b03623b589fe8c1",
+    "metadata": {
+        "title": "CLINICAL EXPERIMENTAL VACCINE RESEARCH",
+        "authors": []
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Inflammasomes are cytosolic multiprotein complexes that sense microbial motifs or cellular stress and stimulate caspase-1-dependent cytokine secretion and cell death. Recently, it has become increasingly evident that both DNA and RNA viruses activate inflammasomes, which control innate and adaptive immune responses against viral infections. In addition, recent studies suggest that certain microbiota induce inflammasomes-dependent adaptive immunity against influenza virus infections. Here, we review recent advances in research into the role of inflammasomes in antiviral immunity. fection that bridges the innate and adaptive immune responses. For example, intranasally inoculated formalin-inactivated influenza virus vaccine induces protective immunity against both homologous and heterologous viruses [11, 12] ; this is probably because the vaccine retains the viral genomic RNA that stimulates TLR7/8 [13] . By contrast, a split influenza vaccine does not induce antigen-specific immunity when the vaccine is introduced intranasally [14] . However, synthetic double-stranded RNA (dsRNA) can restore the immunogenicity of the vaccine by mimicking PAMPs [14] .",
+            "cite_spans": [
+                {
+                    "start": 808,
+                    "end": 812,
+                    "text": "[11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 813,
+                    "end": 816,
+                    "text": "12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 909,
+                    "end": 913,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1041,
+                    "end": 1045,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1160,
+                    "end": 1164,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Inflammasomes are cytosolic multiprotein complexes that stimulate the activation of caspase-1, which in turn induces the secretion of inflammatory cytokines such as interleukin (IL)-1 beta and IL-18 ( Fig. 1) [15, 16] . Inflammasome-mediated cytokine release requires two signals: signal 1 (transmitted via TLR, IL-1R, or the tumor necrosis factor receptor) upregulates the expression of pro-1\u03b2, pro-IL-18, and nucleotide-binding domain and leucine-rich-repeat-containing protein 3 (NLRP3), whereas signal 2 induces activation of caspase-1 [17] . Thus far, three classes of inflammasome, RIG-I, NLRP3, and pyrin and HIN domain-containing protein (PYHIN), are known to be involved in viral recognition. One study reported that infection with vesicular stomatitis virus or transfection with 5'-triphosphate RNA activates the RIG-I inflammasome [18] . The PYHIN proteins absent in melanoma 2 (AIM2) and gamma IFN-inducible protein 16 (IFI16), the so-called \"AIM2like receptors (ALRs)\", bind directly to viral DNA and engage the adaptor protein, apoptosis-associated speck-like protein containing a CARD (ASC) to form the PYHIN inflammasome. The RNA helicase DHX33 binds to cytosolic double-stranded RNAs (dsRNAs) to trigger NLRP3 inflammasome activation. After activation of the NLRP3, it recruits apoptosis-associated speck-like protein containing a CARD (ASC) that, in turn, recruits pro-caspase-1, which is activated by autocatalytic cleavage. Cleaved caspase-1 catalyses proteolytic processing of pro-interleukin (IL)-1\u03b2 and pro-IL-18 into the active forms and stimulates their secretion. ER, endoplasmic reticulum; SH, small hydrophobic. The AIM2 inflammasome is activated by intracellular doublestranded DNA (dsDNA) derived from DNA viruses [19] [20] [21] [22] . Experiments using AIM2-deficient mice reveal that AIM2 is essential for regulating caspase-1-dependent maturation of IL-1\u03b2 and IL-18 in response to dsDNA and DNA viruses, such as vaccinia virus and mouse cytomegalovirus [23] . The intranuclear DNA genomes of Kaposi sarcoma-associated herpesvirus, Epstein-Barr virus, or herpes simplex virus 1, are recognized by the DNA sensor, IFI16, which then activates the IFI16 inflammasome [24] [25] [26] . In contrast to the RIG-I and PY-HIN (ALRs) inflammasomes, which recognize viral nucleic acids, the NLRP3 inflammasome is activated by a wide range of stimuli, including endogenous metabolites, bacterial components, and environmental irritants, in addition to viruses [17] . In the case of influenza virus, the proton-selective ion channel protein, M2, is necessary and sufficient to stimulate the NLRP3 inflammasome pathway, and its localization to the trans-Golgi network is important for NLRP3 activation ( Table 1 , Fig. 1 ) [27] . Interestingly, a mutant influenza virus M2 protein, which has lost its proton selectivity and, therefore, enables the transport of other cations (Na + and K + ), mediated increased IL-1\u03b2 secretion when compared with the wild-type M2 protein [27] . Encephalomyocarditis virus activates the NLRP3 inflammasome via its non-structural protein, 2B, by stimulating Ca 2+ flux from intracellular storage sites into the cytosol (Table 1 , Fig. 1 ) [28] . Importantly, 2B proteins expressed by other picornaviruses, poliovirus, and enterovirus 71, also activate the NLRP3 inflammasome. In agreement with Ito et al. [28] , Triantafilou et al. [29] showed that the 2B protein of human rhinovirus, another member of the Picornaviridae family, triggers NLRP3 inflammasome activation by inducing Ca 2+ flux from the endoplasmic reticulum and Golgi compartments. They also demonstrated that human respiratory syncytial virus (RSV) small hydrophobic protein, which mediates membrane permeability to ions or small molecules [30] , is essential for activating the NLRP3 inflammasome (Table 1 , Fig. 1 ) [31] . Recently, Mitoma et al. [32] identified a new pathway that links RNA viruses with NLRP3 inflammasome activation. The DExD/H-box RNA helicase, DHX33, binds to cytosolic dsRNAs in RSV-or reovirus-infected THP-1 cells (a human acute monocytic leukemia cell line) to trigger NLRP3 inflammasome activation (Table 1, Fig. 1 ). It should be emphasized that the activation status of caspase-1 is different between monocytes (constitutive activation) and macrophages (inducible activation) [33] . Although the celltype specific differences in caspase-1 activation should be considered in each case, these observations highlight the importance of viroporins, transmembrane pore-forming viral proteins [34] , and dsRNA in the virus-induced activation of the NLRP3 inflammasome.",
+            "cite_spans": [
+                {
+                    "start": 209,
+                    "end": 213,
+                    "text": "[15,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 214,
+                    "end": 217,
+                    "text": "16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 540,
+                    "end": 544,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 842,
+                    "end": 846,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1744,
+                    "end": 1748,
+                    "text": "[19]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1749,
+                    "end": 1753,
+                    "text": "[20]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1754,
+                    "end": 1758,
+                    "text": "[21]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1759,
+                    "end": 1763,
+                    "text": "[22]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1986,
+                    "end": 1990,
+                    "text": "[23]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 2196,
+                    "end": 2200,
+                    "text": "[24]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 2201,
+                    "end": 2205,
+                    "text": "[25]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 2206,
+                    "end": 2210,
+                    "text": "[26]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 2480,
+                    "end": 2484,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 2741,
+                    "end": 2745,
+                    "text": "[27]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 2989,
+                    "end": 2993,
+                    "text": "[27]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 3188,
+                    "end": 3192,
+                    "text": "[28]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 3354,
+                    "end": 3358,
+                    "text": "[28]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 3381,
+                    "end": 3385,
+                    "text": "[29]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 3755,
+                    "end": 3759,
+                    "text": "[30]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 3833,
+                    "end": 3837,
+                    "text": "[31]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 3864,
+                    "end": 3868,
+                    "text": "[32]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 4321,
+                    "end": 4325,
+                    "text": "[33]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 4531,
+                    "end": 4535,
+                    "text": "[34]",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 201,
+                    "end": 208,
+                    "text": "Fig. 1)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 2722,
+                    "end": 2729,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 2732,
+                    "end": 2738,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 3168,
+                    "end": 3176,
+                    "text": "(Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 3179,
+                    "end": 3185,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 3813,
+                    "end": 3821,
+                    "text": "(Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 3824,
+                    "end": 3830,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 4141,
+                    "end": 4157,
+                    "text": "(Table 1, Fig. 1",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Recognition of Viruses by Inflammasomes"
+        },
+        {
+            "text": "Innate recognition of influenza virus via PRRs not only plays a key role in limiting viral replication at the early stages of infection, but also in initiating antigen-specific adaptive immune responses [3, 35] . Recent studies highlight the importance of inflammasome activation for antiviral defense. NL-RP3 plays a critical role in limiting lung damage resulting from influenza virus infection [36, 37] ; however, recognition of influenza virus by the NLRP3 inflammasome does not limit early viral replication in the lung [38] . Using a sub-lethal dose (10 pfu) of influenza virus, the NLRP3-independent inflammasomes activation and its downstream IL-1R signaling events are found to be required to mount adaptive immune responses to influenza virus infection (Fig. 2) [38] . The discrepancies in these results may be explained by the fact that other mem- bers of the NLRP family, such as NLRP6 and NLRP12, form an ASC-dependent caspase-1 activating complex [39, 40] . So how do inflammasomes activation and downstream cytokine signaling initiate adaptive immune responses? Trans-activation of respiratory DCs via IL-1R is required for the trafficking of antigen-captured DCs to the draining mediastinal lymph nodes (mLNs) and the subsequent induction of virus-specific CD8 + T cell priming (Fig. 2 ) [41] , suggesting that DCs that recognize influenza virus and activate the NLRP inflammasomes are infected by the virus, which renders them unable to perform their antigen-presenting functions in mLNs [42, 43] . This should be considered when developing new intranasal vaccines for influenza virus, since heat-or ultraviolet-inactivated influenza virus does not activate inflammasomes [38] .",
+            "cite_spans": [
+                {
+                    "start": 203,
+                    "end": 206,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 207,
+                    "end": 210,
+                    "text": "35]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 397,
+                    "end": 401,
+                    "text": "[36,",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 402,
+                    "end": 405,
+                    "text": "37]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 525,
+                    "end": 529,
+                    "text": "[38]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 772,
+                    "end": 776,
+                    "text": "[38]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 961,
+                    "end": 965,
+                    "text": "[39,",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 966,
+                    "end": 969,
+                    "text": "40]",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 1304,
+                    "end": 1308,
+                    "text": "[41]",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 1505,
+                    "end": 1509,
+                    "text": "[42,",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 1510,
+                    "end": 1513,
+                    "text": "43]",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 1689,
+                    "end": 1693,
+                    "text": "[38]",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 763,
+                    "end": 771,
+                    "text": "(Fig. 2)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1294,
+                    "end": 1301,
+                    "text": "(Fig. 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Inflammasomes Control Antiviral Adaptive Immune Responses"
+        },
+        {
+            "text": "Because DNA vaccines induce long-lasting humoral and cellular immunity, they are a powerful tool in the fight against infectious diseases. Genetic vaccinations comprise eukaryot-ic expression plasmids that are inoculated into target cells, which then translate them and express the antigens. The efficacy of this technique correlates with the inflammation induced in muscle cells at the site of DNA vaccination, which causes the release of \"danger signals\" that induce local inflammatory responses and recruit immune cells to the site of vaccination. In this context, co-administration of plasmid DNA along with adjuvant-like cytokine genes, liposomes, or hyaluronidase, substantially improves the immunogenicity of the DNA vaccine [44] [45] [46] [47] [48] . The protective immunity conferred by DNA vaccines has been illustrated using animal models, including those infected by severe acute respiratory syndrome, influenza virus, or human immunodeficiency virus (HIV) [49] [50] [51] . DNA vaccines have proved successful in pre-clinical and clinical trials [52] [53] [54] . In addition, passive immune-prophylaxis using viral vectors or plasmids encoding neutralizing antibodies induces the long-term expression of antibodies at high concentrations, and provides effective protection against influenza virus or HIV infection [55] [56] [57] [58] . AIM2, which recognizes cytosolic dsDNAs of self-and nonself-origin, including viral DNA, combines with the adaptor protein ASC to form a caspase-1-activating inflammasome [59] . A recent report shows that the electrotransfer of plasmid DNA into murine skeletal muscle augments the expression of genes associated with intracellular DNA sensors, including AIM2 [60] . This suggests that the AIM2 inflammasome pathway is required for the immunogenicity of DNA vaccines. In fact, AIM2 knockout mice show a significantly reduced antihemagglutinin (HA) antibody response after immunization with a DNA vaccine expressing the HA of influenza virus [61] . Interestingly, blocking IL-1 signaling did not significantly affect the anti-HA antibody responses. Further studies are required to determine the mechanisms by which the AIM2 inflammasome pathway enhances antibody responses after DNA vaccination.",
+            "cite_spans": [
+                {
+                    "start": 732,
+                    "end": 736,
+                    "text": "[44]",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 737,
+                    "end": 741,
+                    "text": "[45]",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 742,
+                    "end": 746,
+                    "text": "[46]",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 747,
+                    "end": 751,
+                    "text": "[47]",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 752,
+                    "end": 756,
+                    "text": "[48]",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 969,
+                    "end": 973,
+                    "text": "[49]",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 974,
+                    "end": 978,
+                    "text": "[50]",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 979,
+                    "end": 983,
+                    "text": "[51]",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 1058,
+                    "end": 1062,
+                    "text": "[52]",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 1063,
+                    "end": 1067,
+                    "text": "[53]",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 1068,
+                    "end": 1072,
+                    "text": "[54]",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 1326,
+                    "end": 1330,
+                    "text": "[55]",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 1331,
+                    "end": 1335,
+                    "text": "[56]",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 1336,
+                    "end": 1340,
+                    "text": "[57]",
+                    "ref_id": "BIBREF58"
+                },
+                {
+                    "start": 1341,
+                    "end": 1345,
+                    "text": "[58]",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 1519,
+                    "end": 1523,
+                    "text": "[59]",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 1707,
+                    "end": 1711,
+                    "text": "[60]",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 1988,
+                    "end": 1992,
+                    "text": "[61]",
+                    "ref_id": "BIBREF62"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DNA Vaccination and the AIM2 Inflammasome"
+        },
+        {
+            "text": "Commensal bacteria are essential for shaping intestinal immune responses [62] ; however, the beneficial role of commensal bacteria is not restricted to the intestinal mucosa. Recent studies suggest a link between the intestinal microbiota and antiviral immunity at non-intestinal mucosal surfaces, such as those in the lung. We previously demonstrated that antibiotic-treated mice show impaired adaptive immune re-",
+            "cite_spans": [
+                {
+                    "start": 73,
+                    "end": 77,
+                    "text": "[62]",
+                    "ref_id": "BIBREF63"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Regulation of Antiviral Immunity by the Intestinal Microbiota"
+        },
+        {
+            "text": "stimulates secretion of interleukin-1 beta (IL-1\u03b2) and triggers a form of cells death, known as pyroptosis. Bystander DCs activated by inflammatory signals capture viral antigens (vAg) and migrate from the lung to the mediastinal lymph nodes (mLNs) to prime na\u00efve CD8 T cells. Gut-resident microbiota provides signals leading to the expression of mRNA for pro-IL-1\u03b2, pro-IL-18, and NLRP3 at steady state. NLRP3, nucleotide-binding domain and leucine-rich-repeat-containing protein 3. [63] . Mice treated with antibiotics showed reduced expression of pro-IL-1\u03b2, pro-IL-18, and NLRP3 mRNA in the lung, resulting in reduced secretion of mature IL-1\u03b2 after intranasal infection with influenza virus (Fig. 2) . As a result of impaired inflammasome activation in the lungs of antibiotic-treated mice, the number of DCs migrating from the lung to the mLNs was lower than that in water-fed mice after influenza virus infection. Importantly, the administration of a TLR ligand, lipopolysaccharide, was able to restore both the migration of respiratory DCs to mLNs and the virus-specific T cell responses in antibiotic-treated mice. Two follow-up studies identified the molecular mechanism that links the intestinal microbiota to antiviral immunity [64, 65] . The induced expression of antiviral defense genes by peritoneal macrophages derived from antibiotic-treated mice, or by splenic DCs derived from germ-free mice, was diminished after stimulation with influenza virus or poly(I:C). This suggests that the microbiota primes APCs by providing tonic type I IFN signals that induce efficient viral recognition and the generation of antiviral adaptive immune responses. Although the main rea son of antibiotic treatment to patients infected with influenza virus is to protect the patients from the secondary bacterial infection that causes sever pneumonia, these studies suggest that the administration of antibiotics to patients infected with influenza virus may have negative effects. Although it is still unclear whether it is the species of bacteria or the overall composition of the microbiota that is important for antiviral immunity, the use of gnotobiotic animals and genomic sequencing analysis of the microbiota will highlight new strategies for the development of effective influenza vaccines.",
+            "cite_spans": [
+                {
+                    "start": 484,
+                    "end": 488,
+                    "text": "[63]",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 1239,
+                    "end": 1243,
+                    "text": "[64,",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 1244,
+                    "end": 1247,
+                    "text": "65]",
+                    "ref_id": "BIBREF66"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 695,
+                    "end": 703,
+                    "text": "(Fig. 2)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Fig. 2. Proposed model of inflammasome-dependent induction of adaptive immunity against influenza virus infection. Activation of caspase-1 in influenza virus-infected respiratory dendritic cells (DCs)"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Human infection with a novel avian-origin influenza A (H7N9) virus",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "N Engl J Med",
+            "volume": "368",
+            "issn": "",
+            "pages": "1888--97",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Emergence and pandemic potential of swine-origin H1N1 influenza virus",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Neumann",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Noda",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kawaoka",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Nature",
+            "volume": "459",
+            "issn": "",
+            "pages": "931--940",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Regulation of adaptive immunity by the innate immune system",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Iwasaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Medzhitov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Science",
+            "volume": "327",
+            "issn": "",
+            "pages": "291--296",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The role of pattern-recognition receptors in innate immunity: update on Toll-like receptors",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kawai",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Akira",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Nat Immunol",
+            "volume": "11",
+            "issn": "",
+            "pages": "373--84",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Innate antiviral responses by means of TLR7-mediated recognition of single-stranded RNA",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Diebold",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kaisho",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hemmi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Akira",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Reis E Sousa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Science",
+            "volume": "303",
+            "issn": "",
+            "pages": "1529--1560",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Recognition of single-stranded RNA viruses by Toll-like receptor 7",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lund",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Alexopoulou",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sato",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "101",
+            "issn": "",
+            "pages": "5598--603",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Cell type-specific involvement of RIG-I in antiviral response",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kato",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sato",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yoneyama",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Immunity",
+            "volume": "23",
+            "issn": "",
+            "pages": "19--28",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "RIG-I detects viral genomic RNA during negative-strand RNA virus infection",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Rehwinkel",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Goubau",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Cell",
+            "volume": "140",
+            "issn": "",
+            "pages": "397--408",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Type I IFN is a powerful mucosal adjuvant for a selective intranasal vaccination against influenza virus in mice and affects antigen capture at mucosal level",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Bracci",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Canini",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Puzelli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Vaccine",
+            "volume": "23",
+            "issn": "",
+            "pages": "2994--3004",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Innate sensors of influenza virus: clues to developing better intranasal vaccines",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ichinohe",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Iwasaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hasegawa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Expert Rev Vaccines",
+            "volume": "7",
+            "issn": "",
+            "pages": "1435--1480",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Intranasal immunization with formalin-inactivated virus vaccine induces a broad spectrum of heterosubtypic immunity against influenza A virus infection in mice",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Takada",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Matsushita",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ninomiya",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kawaoka",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kida",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "",
+            "volume": "21",
+            "issn": "",
+            "pages": "3212--3220",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Mucosal delivery of inactivated influenza vaccine induces B-celldependent heterosubtypic cross-protection against lethal influenza A H5N1 virus infection",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Tumpey",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Renshaw",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Clements",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Katz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "J Virol",
+            "volume": "75",
+            "issn": "",
+            "pages": "5141--50",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Plasmacytoid dendritic cells delineate immunogenicity of influenza vaccine subtypes",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Koyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Aoshi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Tanimoto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Sci Transl Med",
+            "volume": "2",
+            "issn": "",
+            "pages": "25--49",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Synthetic double-stranded RNA poly(I:C) combined with mucosal vaccine protects against influenza virus infection",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ichinohe",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Watanabe",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ito",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J Virol",
+            "volume": "79",
+            "issn": "",
+            "pages": "2910--2919",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "The inflammasomes: guardians of the body",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Martinon",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mayor",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tschopp",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Annu Rev Immunol",
+            "volume": "27",
+            "issn": "",
+            "pages": "229--65",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "NLRP3 inflammasome activation: the convergence of multiple signalling pathways on ROS production?",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tschopp",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Schroder",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Nat Rev Immunol",
+            "volume": "10",
+            "issn": "",
+            "pages": "210--215",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Inflammasomes: current understanding and open questions",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Bauernfeind",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ablasser",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Bartok",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Cell Mol Life Sci",
+            "volume": "68",
+            "issn": "",
+            "pages": "765--83",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Recognition of RNA virus by RIG-I results in activation of CARD9 and inflammasome signaling for interleukin 1 beta production",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Poeck",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bscheider",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Gross",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.7774/cevr.2014.3.1.5"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "An orthogonal proteomic-genomic screen identifies AIM2 as a cytoplasmic DNA sensor for the inflammasome",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Burckstummer",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Baumann",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bluml",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Nat Immunol",
+            "volume": "10",
+            "issn": "",
+            "pages": "266--72",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "AIM2 activates the inflammasome and cell death in response to cytoplasmic DNA",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Fernandes-Alnemri",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Datta",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Alnemri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Nature",
+            "volume": "458",
+            "issn": "",
+            "pages": "509--522",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "AIM2 recognizes cytosolic dsDNA and forms a caspase-1-activating inflammasome with ASC",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Hornung",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ablasser",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Charrel-Dennis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Nature",
+            "volume": "458",
+            "issn": "",
+            "pages": "514--522",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "HIN-200 proteins regulate caspase activation in response to foreign cytoplasmic DNA",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Roberts",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Idris",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Dunn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Science",
+            "volume": "323",
+            "issn": "",
+            "pages": "1057--60",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "The AIM2 inflammasome is essential for host defense against cytosolic bacteria and DNA viruses",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rathinam",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Waggoner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Nat Immunol",
+            "volume": "11",
+            "issn": "",
+            "pages": "395--402",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Constitutive interferon-inducible protein 16-inflammasome activation during Epstein-Barr virus latency I, II, and III in B and epithelial cells",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ansari",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Singh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Dutta",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Virol",
+            "volume": "87",
+            "issn": "",
+            "pages": "8606--8629",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "IFI16 acts as a nuclear pathogen sensor to induce the inflammasome in response to Kaposi Sarcoma-associated herpesvirus infection",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kerur",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Veettil",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Sharma-Walia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Cell Host Microbe",
+            "volume": "9",
+            "issn": "",
+            "pages": "363--75",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Herpes simplex virus 1 infection induces activation and subsequent inhibition of the IFI16 and NLRP3 inflammasomes",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Chikoti",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Chandran",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Virol",
+            "volume": "87",
+            "issn": "",
+            "pages": "5005--5023",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Influenza virus activates inflammasomes via its intracellular M2 ion channel",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ichinohe",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Pang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Iwasaki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Nat Immunol",
+            "volume": "11",
+            "issn": "",
+            "pages": "404--414",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Encephalomyocarditis virus viroporin 2B activates NLRP3 inflammasome",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ito",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yanagi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ichinohe",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "PLoS Pathog",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Rhinovirus-induced calcium flux triggers NLRP3 and NL-RC5 activation in bronchial cells",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Triantafilou",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kar",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Van Kuppeveld",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Triantafilou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Am J Respir Cell Mol Biol",
+            "volume": "49",
+            "issn": "",
+            "pages": "923--957",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Direct visualization of the small hydrophobic protein of human respiratory syncytial virus reveals the structural basis for membrane permeability",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Carter",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Dent",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Atkins",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "FEBS Lett",
+            "volume": "584",
+            "issn": "",
+            "pages": "2786--90",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Human respiratory syncytial virus viroporin SH: a viral recognition pathway used by the host to signal inflammasome activation",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Triantafilou",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kar",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Vakakis",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kotecha",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Triantafilou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Thorax",
+            "volume": "68",
+            "issn": "",
+            "pages": "66--75",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "The DHX33 RNA helicase senses cytosolic RNA and activates the NLRP3 inflammasome",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Mitoma",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hanabuchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Immunity",
+            "volume": "39",
+            "issn": "",
+            "pages": "123--158",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Differential requirement for the activation of the inflammasome for processing and release of IL-1beta in monocytes and macrophages",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Netea",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Nold-Petry",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Nold",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Blood",
+            "volume": "113",
+            "issn": "",
+            "pages": "2324--2359",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Viral proteins function as ion channels",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Biochim Biophys Acta",
+            "volume": "1808",
+            "issn": "",
+            "pages": "510--515",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Control of antiviral immunity by pattern recognition and the microbiome",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Pang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Iwasaki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Immunol Rev",
+            "volume": "245",
+            "issn": "",
+            "pages": "209--235",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "The NLRP3 inflammasome mediates in vivo innate immunity to influenza A virus through recognition of viral RNA",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Allen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Scull",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Moore",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Immunity",
+            "volume": "30",
+            "issn": "",
+            "pages": "556--65",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "The intracellular sensor NLRP3 mediates key innate and healing responses to influenza A virus via the regulation of caspase-1",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Thomas",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Dash",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Aldridge",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Jr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Immunity",
+            "volume": "30",
+            "issn": "",
+            "pages": "566--75",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Inflammasome recognition of influenza virus is essential for adaptive immune responses",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ichinohe",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ogura",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Flavell",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Iwasaki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J Exp Med",
+            "volume": "206",
+            "issn": "",
+            "pages": "79--87",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "PYPAF7, a novel PY-RIN-containing Apaf1-like protein that regulates activation of NF-kappa B and caspase-1-dependent cytokine processing",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Manji",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Grenier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "J Biol Chem",
+            "volume": "277",
+            "issn": "",
+            "pages": "29874--80",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "The inflammasome: a molecular platform triggering activation of inflammatory caspases and processing of proIL-beta",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Martinon",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Burns",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tschopp",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Mol Cell",
+            "volume": "10",
+            "issn": "",
+            "pages": "417--443",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "IL-1R signaling in dendritic cells replaces pattern-recognition receptors in promoting CD8(+) T cell responses to influenza A virus",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Pang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ichinohe",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Iwasaki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Nat Immunol",
+            "volume": "14",
+            "issn": "",
+            "pages": "246--53",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Influenza virus evades innate and adaptive immunity via the NS1 protein",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Fernandez-Sesma",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Marukian",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ebersole",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J Virol",
+            "volume": "80",
+            "issn": "",
+            "pages": "6295--304",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Influenza A virus infection of human primary dendritic cells impairs their ability to cross-present antigen to CD8 T cells",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Smed-Sorensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Chalouni",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Chatterjee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "PLoS Pathog",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "C3d enhancement of antibodies to hemagglutinin accelerates protection against influenza virus challenge",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ross",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bright",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Robinson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Nat Immunol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "MDA5 can be exploited as efficacious genetic adjuvant for DNA vaccination against lethal H5N1 influenza virus infection in chickens",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Liniger",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Summerfield",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ruggli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "PLoS One",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Optimisation of electrotransfer of plasmid into skeletal muscle by pretreatment with hyaluronidase: increased expression with reduced muscle damage",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcmahon",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Signori",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Wells",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Fazio",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wells",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Gene Ther",
+            "volume": "8",
+            "issn": "",
+            "pages": "1264--70",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Apoptosis-mediated enhancement of DNA-raised immune responses by mutant caspases",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sasaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Amara",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Oran",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Robinson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Nat Biotechnol",
+            "volume": "19",
+            "issn": "",
+            "pages": "543--550",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Cytokine and costimulatory factor-encoding plasmids as adjuvants for DNA vaccination",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Okuda",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kawamoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fukushima",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Methods Mol Med",
+            "volume": "29",
+            "issn": "",
+            "pages": "197--204",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "A DNA vaccine induces SARS coronavirus neutralization and protective immunity in mice",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Kong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Nature",
+            "volume": "428",
+            "issn": "",
+            "pages": "561--565",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Protection and antibody responses in different strains of mouse immunized with plasmid DNAs encoding influenza virus haemagglutinin, neuraminidase and nucleoprotein",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yoshikawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kadowaki",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "J Gen Virol",
+            "volume": "80",
+            "issn": "",
+            "pages": "2559--64",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Dendritic cell targeted HIV gag protein vaccine provides help to a DNA vaccine including mobilization of protective CD8+ T cells",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Nchinda",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Amadu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Trumpfheller",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Mizenina",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Uberla",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Steinman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "107",
+            "issn": "",
+            "pages": "4281--4287",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Effect of plasmid DNA vaccine design and in vivo electroporation on the resulting vaccine-specific immune responses in rhesus macaques",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Luckay",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Sidhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kjeken",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J Virol",
+            "volume": "81",
+            "issn": "",
+            "pages": "5257--69",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Delivery of DNA vaccines using electroporation",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Babiuk",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Van Drunen Littel-Van Den Hurk",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Babiuk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Methods Mol Med",
+            "volume": "127",
+            "issn": "",
+            "pages": "73--82",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "DNA priming prior to inactivated influenza A(H5N1) vaccination expands the antibody epitope repertoire and increases affinity maturation in a boost-interval-dependent manner in adults",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Khurana",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dimitrova",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Infect Dis",
+            "volume": "208",
+            "issn": "",
+            "pages": "413--420",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Antibody-based protection against HIV infection by vectored immunoprophylaxis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Balazs",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hong",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Rao",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Baltimore",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Nature",
+            "volume": "481",
+            "issn": "",
+            "pages": "81--85",
+            "other_ids": {}
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Passive immune-prophylaxis against influenza virus infection by the expression of neutralizing anti-hemagglutinin monoclonal antibodies from plasmids",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yamazaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Nagashima",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ninomiya",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Jpn J Infect Dis",
+            "volume": "64",
+            "issn": "",
+            "pages": "40--49",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Broad protection against influenza infection by vectored immunoprophylaxis in mice",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Balazs",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Bloom",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hong",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Rao",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Baltimore",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Nat Biotechnol",
+            "volume": "31",
+            "issn": "",
+            "pages": "647--52",
+            "other_ids": {}
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Intranasal antibody gene transfer in mice and ferrets elicits broad protection against pandemic influenza",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Limberis",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Adam",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Wong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Sci Transl Med",
+            "volume": "5",
+            "issn": "",
+            "pages": "187--72",
+            "other_ids": {}
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "The inflammasomes",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Schroder",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tschopp",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Cell",
+            "volume": "140",
+            "issn": "",
+            "pages": "821--853",
+            "other_ids": {}
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "Molecular signature of the immune and tissue response to non-coding plasmid DNA in skeletal muscle after electrotransfer",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mann",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Anguela",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Montane",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Gene Ther",
+            "volume": "19",
+            "issn": "",
+            "pages": "1177--86",
+            "other_ids": {}
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Involvement of the Aim2 inflammasome pathway in generating antibody responses elicited by DNA vaccination",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Suschak",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Remington",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Fitzgerald",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Immunol",
+            "volume": "190",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Role of the gut microbiota in immunity and inflammatory disease",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kamada",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Seo",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Nunez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Nat Rev Immunol",
+            "volume": "13",
+            "issn": "",
+            "pages": "321--356",
+            "other_ids": {}
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Microbiota regulates immune defense against respiratory tract influenza A virus infection",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ichinohe",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Pang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kumamoto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "108",
+            "issn": "",
+            "pages": "5354--5363",
+            "other_ids": {}
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "Commensal bacteria calibrate the activation threshold of innate antiviral immunity",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Abt",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Osborne",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Monticelli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Immunity",
+            "volume": "37",
+            "issn": "",
+            "pages": "158--70",
+            "other_ids": {}
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "Priming of natural killer cells by nonmucosal mononuclear phagocytes requires instructive signals from commensal microbiota",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Ganal",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Sanos",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Kallfass",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Immunity",
+            "volume": "37",
+            "issn": "",
+            "pages": "171--86",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Keywords: Orthomyxoviridae, Human NLRP3 protein, Metagenome, Dendritic cells Inflammasomes in antiviral immunity: clues for influenza vaccine development http://www.ecevr.org/ http://dx.doi.org/10.7774/cevr.2014.3.1.5",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Recognition of RNA viruses by nucleotide-binding domain and leucine-rich-repeat-containing protein 3 (NLRP3) inflammasome. The NLRP3 recognizes the disturbances in intracellular ionic concentrations induced by viroporins from respiratory syncytial virus (RSV), encephalomyocarditis virus (EMCV), poliovirus, enterovirus 71 (EV71), human rhinovirus (HRV), or influenza virus. Measles virus V protein inhibits activation of NLRP3 inflammasome by interacting with the NLRP3.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "http://www.ecevr.org/ http://dx.doi.org/10.7774/cevr.2014.3.1.5",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Molecular mechanisms underlying RNA virus-induced activation of the NLRP3 inflammasome",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "vAg http://www.ecevr.org/ http://dx.doi.org/10.7774/cevr.2014.3.1.5 sponses to influenza virus infection when compared with water-fed mice",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We would like to acknowledge all our colleagues for their contributions and express apologies to those whose work could not be cited. This work was supported by Japan Society for Promotion of Science KAKENHI (Grant Number 23790506 and 25713018), the Japanese Ministry of Health, Labor and Welfare, the Mochida Memorial Foundation for Medical and Pharmaceutical Research, the Takeda Science Foundation, Astellas Foundation for Research on Metabolic Disorders, the Uehara Memorial Foundation and the Kao Foundation for Arts and Sciences.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        }
+    ]
+}

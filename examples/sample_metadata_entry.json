@@ -1,0 +1,22 @@
+{
+   "sha": "c630ebcdf30652f0422c3ec12a00b50241dc9bd9",
+   "source_x": "CZI",
+   "title": "Angiotensin-converting enzyme 2 (ACE2) as a SARS-CoV-2 receptor: molecular mechanisms and potential therapeutic target",
+   "doi": "10.1007/s00134-020-05985-9",
+   "pubmed_id": "32125455",
+   "license": "cc-by-nc",
+   "publish_time": "2020",
+   "authors": [
+      "Zhang, Haibo",
+      " Penninger, Josef M.",
+      " Li, Yimin",
+      " Zhong, Nanshan",
+      " Slutsky, Arthur S."
+   ],
+   "journal": "Intensive Care Med",
+   "Microsoft Academic Paper ID": "2002765492",
+   "WHO #Covidence": "#3252",
+   "has_full_text": "True",
+   "id": "c630ebcdf30652f0422c3ec12a00b50241dc9bd9",
+   "fhir_link": "Non-comercial/c630ebcdf30652f0422c3ec12a00b50241dc9bd9"
+}

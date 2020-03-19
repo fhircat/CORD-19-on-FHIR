@@ -1,0 +1,2663 @@
+{
+    "paper_id": "ac6ab25f83e79fc2c1794b69c8bbfe0616f527ad",
+    "metadata": {
+        "title": "Hendra Virus Vaccine, a One Health Approach to Protecting Horse, Human, and Environmental Health Sources",
+        "authors": [
+            {
+                "first": "Deborah",
+                "middle": [],
+                "last": "Middleton",
+                "suffix": "",
+                "affiliation": {},
+                "email": ":email:deborah.middleton@csiro.au"
+            },
+            {
+                "first": "Jackie",
+                "middle": [],
+                "last": "Pallister",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Reuben",
+                "middle": [],
+                "last": "Klein",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yan-Ru",
+                "middle": [],
+                "last": "Feng",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jessica",
+                "middle": [],
+                "last": "Haining",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Rachel",
+                "middle": [],
+                "last": "Arkinstall",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Leah",
+                "middle": [],
+                "last": "Frazer",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jin-An",
+                "middle": [],
+                "last": "Huang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Nigel",
+                "middle": [
+                    "Edwards"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mark",
+                "middle": [],
+                "last": "Wareing",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Martin",
+                "middle": [],
+                "last": "Elhay",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Zia",
+                "middle": [],
+                "last": "Hashmi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "John",
+                "middle": [],
+                "last": "Bingham",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Manabu",
+                "middle": [],
+                "last": "Yamada",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Dayna",
+                "middle": [],
+                "last": "Johnson",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "John",
+                "middle": [],
+                "last": "White",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Adam",
+                "middle": [],
+                "last": "Foord",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Hans",
+                "middle": [
+                    "G"
+                ],
+                "last": "Heine",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Glenn",
+                "middle": [
+                    "A"
+                ],
+                "last": "Marsh",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Christopher",
+                "middle": [
+                    "C"
+                ],
+                "last": "Broder",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Lin-Fa",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Victoria",
+                "middle": [],
+                "last": "Geelong",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "(",
+                "middle": [
+                    "D"
+                ],
+                "last": "Australia",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "J",
+                "middle": [],
+                "last": "Middleton",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "R",
+                "middle": [],
+                "last": "Pallister",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "J",
+                "middle": [],
+                "last": "Klein",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "R",
+                "middle": [],
+                "last": "Haining",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "L",
+                "middle": [],
+                "last": "Arkinstall",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "J",
+                "middle": [],
+                "last": "Frazer",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "D",
+                "middle": [],
+                "last": "Bingham",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "J",
+                "middle": [],
+                "last": "Johnson",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "A",
+                "middle": [],
+                "last": "White",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "H",
+                "middle": [
+                    "G"
+                ],
+                "last": "Foord",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "G",
+                "middle": [
+                    "A"
+                ],
+                "last": "Heine",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "L.-F",
+                "middle": [],
+                "last": "Marsh",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Y.-R",
+                "middle": [],
+                "last": "Feng",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "C",
+                "middle": [
+                    "C"
+                ],
+                "last": "Broder",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "J.-A",
+                "middle": [],
+                "last": "Huang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "N",
+                "middle": [],
+                "last": "Edwards",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "M",
+                "middle": [],
+                "last": "Wareing",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "M",
+                "middle": [],
+                "last": "Elhay",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Z",
+                "middle": [],
+                "last": "Hashmi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "In recent years, the emergence of several highly pathogenic zoonotic diseases in humans has led to a renewed emphasis on the interconnectedness of human, animal, and environmental health, otherwise known as One Health. For example, Hendra virus (HeV), a zoonotic paramyxovirus, was discovered in 1994, and since then, infections have occurred in 7 humans, each of whom had a strong epidemiologic link to similarly affected horses. As a consequence of these outbreaks, eradication of bat populations was discussed, despite their crucial environmental roles in pollination and reduction of the insect population. We describe the development and evaluation of a vaccine for horses with the potential for breaking the chain of HeV transmission from bats to horses to humans, thereby protecting horse, human, and environmental health. The HeV vaccine for horses is a key example of a One Health approach to the control of human disease.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "H endra virus (HeV) is an emerging zoonotic paramyxovirus for which natural reservoirs are the 4 species of flying fox (Pteropus bats) found on mainland Australia (1) . HeV was discovered in 1994, and since then, infections have occurred in 7 humans, 4 of whom died. Each casepatient had a strong epidemiologic connection to similarly affected horses through exposure to equine secretions late in the incubation period, during terminal illness, or at the time of postmortem examination of infected animals (2) : no human case of HeV infection has been attributable to direct spillover from bats (3) .",
+            "cite_spans": [
+                {
+                    "start": 163,
+                    "end": 166,
+                    "text": "(1)",
+                    "ref_id": null
+                },
+                {
+                    "start": 506,
+                    "end": 509,
+                    "text": "(2)",
+                    "ref_id": null
+                },
+                {
+                    "start": 595,
+                    "end": 598,
+                    "text": "(3)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "HeV infection in the bat host appears to be asymptomatic (1); however, in humans and horses there is evidence of initial virus replication in the nasopharynx that progresses through a viremic phase during which the virus spreads to major organ systems, resulting in disseminated endothelial cell infection, vasculitis, encephalitis, and pneumonia (4) (5) (6) (7) . There is no licensed anti-HeV therapeutic drug for use in any species. Experimental exposure of horses to HeV/ Australia/Horse/2008/Redlands under Biosafety Level 4 (BSL-4) conditions identified comparatively low gene copy numbers in nasal secretions early in the incubation period. However, gene copy numbers increased exponentially with the onset of fever, when viral genome could also be recovered from blood, oral secretions, urine, and feces (6) . Rapid progression of clinical signs, as observed in equine field cases of this disease, led to euthanasia of experimental animals on humane grounds. Viral RNA was recovered from all tissues sampled at postmortem examination, and virus was reisolated from lung, brain, lymphoid tissues, and kidney (6) . In accordance with epidemiologic observations (2), it was concluded that HeV-infected horses in the immediate presymptomatic or symptomatic stages of disease pose a high risk for transmission of HeV to humans. This risk is then exacerbated because it is symptomatic horses that come to the attention of veterinarians, leading to various clinical investigations (e.g., respiratory tract endoscopy) that may facilitate human exposure to virus.",
+            "cite_spans": [
+                {
+                    "start": 347,
+                    "end": 350,
+                    "text": "(4)",
+                    "ref_id": null
+                },
+                {
+                    "start": 351,
+                    "end": 354,
+                    "text": "(5)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 355,
+                    "end": 358,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 359,
+                    "end": 362,
+                    "text": "(7)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 812,
+                    "end": 815,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1115,
+                    "end": 1118,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "During 1994-2010, there were a total of 14 HeV outbreaks, including those with the 7 human infections. Then, in 2011, for reasons that are as yet poorly understood, an unprecedented 18 equine incidents, some involving >1 horse, occurred within a 3-month period and over an expanded geographic range, emphasizing that HeV was an unmanaged emerging disease (3) . These events were accompanied by a marked rise in the number of HeV-related media reports. The reports had an increasingly politicized focus on the role (and control) of flying foxes as carriers of HeV (8) and a deemphasis of the critical role played by horses in HeV transmission to humans.",
+            "cite_spans": [
+                {
+                    "start": 355,
+                    "end": 358,
+                    "text": "(3)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Heightened public awareness of the risk that infected horses posed to humans persisted and was paralleled by increased numbers of veterinarians leaving equine practice because of personal safety and liability concerns (9) . The considerable investment in education and improved infection control measures that had been implemented did not effectively mitigate perceptions around the risks associated with the routine veterinary care of horses (10) .",
+            "cite_spans": [
+                {
+                    "start": 218,
+                    "end": 221,
+                    "text": "(9)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 443,
+                    "end": 447,
+                    "text": "(10)",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The actual mechanism of HeV transmission from bats to horses is probably complex and dependent upon socioeconomic, environmental, and ecologic factors (11) , and there is currently no straightforward solution for preventing transmission. Eradication of flying foxes would pose extraordinary operational challenges, notwithstanding attendant moral, ethical, and environmental issues, and eliminating the interface between bats and horses is impractical for periurban and rural communities.",
+            "cite_spans": [
+                {
+                    "start": 151,
+                    "end": 155,
+                    "text": "(11)",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The most direct approach for reducing the risk posed to humans by HeV-infected horses would be implementation of a strategy that will lead to suppression of virus replication in horses. We describe the development and evaluation of a vaccine for horses with the potential for breaking the chain of HeV transmission from bats to horses to humans, thereby protecting horse and human health. The emergence of several highly pathogenic zoonotic diseases in humans in recent years has led to a renewed emphasis on the interconnectedness of human, animal, and environmental health, otherwise known as One Health. The HeV vaccine for horses, Equivac HeV (Zoetis, Parkville, VIC, Australia), is a key example of a One Health approach to the control of human disease (12) .",
+            "cite_spans": [
+                {
+                    "start": 758,
+                    "end": 762,
+                    "text": "(12)",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "For efficacy studies, up to 3 female horses at a time were housed in single pens under BSL-4 conditions meeting the Victorian Bureau of Animal Welfare Code of Practice for the Welfare of Horses (www.dpi.vic.gov.au/ agriculture/about-agriculture/legislation-regulation/ animal-welfare-legislation/codes-of-practice-animalwelfare/code-welfare-of-horses). One of the sides of each pen was able to be moved in toward the horse on a ratchet mechanism, allowing staff close access to the horses, as required, over the side of the pen without the need for them to enter the pen itself (13) . Room temperature was maintained at 22\u00b0C with 15 air changes/h; humidity ranged from 40% to 60%. Horses were fed a mixture of lucerne (alfalfa) and grass hay, concentrates, and specified fruit and vegetables. On the day before HeV exposure, an indwelling jugular catheter was sutured in position, and an intrauterine temperature data-logger was placed into each horse. All vaccinated horses were euthanized electively on day 7, 8, or 9 after challenge; unvaccinated horses were euthanized upon reaching a predetermined humane endpoint (6-9 days after vaccination). The humane end point was defined as fever for up to 48 h accompanied by increased respiratory rate, dyspnea, depression, ataxia, or pressing the head against the side of the stall. Euthanasia was conducted by intravenous injection of a barbiturate following sedation with intravenous detomidine and butorphanol.",
+            "cite_spans": [
+                {
+                    "start": 578,
+                    "end": 582,
+                    "text": "(13)",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Animals, Accommodation, Handling, and Biosafety"
+        },
+        {
+            "text": "Ferrets and guinea pigs used as controls in efficacy studies to confirm pathogenicity of the inoculum were housed in pairs in the BSL-4 facility, given species-appropriate dry rations and dietary treats, and provided with water ad libitum. For virus challenge and sampling, they were immobilized by intramuscular injection of a mixture of ketamine hydrochloride (3 mg/kg) and medetomidine (30 g/kg). The effects of medetomidine were reversed by intramuscular injection of atipemazole (15 g/kg). While in the BSL-4 animal room, staff wore fully encapsulated suits with an external air supply.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Animals, Accommodation, Handling, and Biosafety"
+        },
+        {
+            "text": "As appropriate, animal studies were endorsed by the CSIRO Australian Animal Health Laboratory Animal Ethics Committee and/or Commonwealth Serum Laboratories /Zoetis Animal Ethics Committee. Work using gamma-irradiated HeV soluble G (HeVsG) glycoprotein produced in Chinese hamster ovary (CHO) cells was done under Australian Quarantine and Inspection Service in vivo permit number 2012/012, and work using non-gamma-irradiated HeVsG glycoprotein produced in 293F human embryonic kidney was done under Australian Quarantine and Inspection Service in vivo permit number 2010/027. All clinical trials were conducted under the Australian Pesticides and Veterinary Medicines Authority research permits PER 7250, PER 13169, PER 13247, and PER 13418.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Animals, Accommodation, Handling, and Biosafety"
+        },
+        {
+            "text": "A subunit vaccine containing recombinant HeVsG glycoprotein (14) was formulated in a proprietary adjuvant (Zoetis). For vaccine formulation, HeVsG glycoprotein was produced by using a Chinese hamster ovary (CHO) or a 293F human embryonic kidney cell expression system (15) with 1 of 2 different HeVsG glycoprotein preparations: 1) affinity-purified sG glycoprotein (293F cells) or 2) clarified sG containing cell culture supernatant (CHO cells). Vaccines for initial efficacy studies in target species were formulated with 50 \u00b5g or 100 \u00b5g of affinity-purified sG glycoprotein. All subsequent vaccines were formulated with clarified CHO cell culture supernatant that was then gamma irradiated. The change of the expression system from 293F cells to CHO cells was driven by the need for higher antigen yields, and equivalence was supported by laboratory analysis of the expressed antigens from the 2 systems and a comparison study in ferrets. Vaccine formulations used in efficacy studies are summarized in Table 1 .",
+            "cite_spans": [
+                {
+                    "start": 60,
+                    "end": 64,
+                    "text": "(14)",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1005,
+                    "end": 1012,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Vaccine Preparation"
+        },
+        {
+            "text": "All immunizations comprised two 1-mL doses administered intramuscularly 3 weeks apart, unless stated otherwise. In the efficacy studies, 7 horses (V1, V2, and V6-V10) received vaccine containing 100 \u00b5g of HeVsG glycoprotein/dose and 3 horses (V3-V5) received 50 \u00b5g of HeVsG glycoprotein/dose (Table 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 292,
+                    "end": 301,
+                    "text": "(Table 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Immunization"
+        },
+        {
+            "text": "Horses in the efficacy studies were exposed oronasally to 2 \u00d7 10 6 50% tissue culture infectious doses of a low-passage HeV isolate (Hendra virus/Australia/ Horse/2008/Redlands). Horses V1-V7 were challenged 28 days after the second vaccination, and horses V8-V10 were challenged 194 days after the second vaccination. Horses V8-V10 were selected from 29 vaccinated horses in a larger field efficacy and safety study on the basis of temperament and for having the lowest serum neutralization titers in the group at the time. Overall, 4 efficacy tests were completed; 2 vaccinated horses were used in the first test, 3 were used in the second, 2 were used in the third, and 3 were used in the fourth. For the 4 tests, a pathogenicity control for the inoculum was provided by 1 horse (test 1), 4 guinea pigs (test 2), 2 ferrets (test 3), and 2 ferrets (test 4). Guinea pigs and ferrets each received 50,000 50% tissue culture infectious doses of the same virus preparation that was used in the horses; guinea pigs received the dose by intraperitoneal injection, and ferrets received the dose by the oronasal route. Experience has shown that these doses and routes of administration were expected to be lethal in >25% of guinea pigs and 100% of ferrets. Exposure conditions for 3 additional unvaccinated control horses were equivalent to those used in both vaccinated horses and the inoculum-control horse and have been described (6) .",
+            "cite_spans": [
+                {
+                    "start": 1427,
+                    "end": 1430,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Animal Infection"
+        },
+        {
+            "text": "During efficacy studies, nasal, oral, and rectal swab samples; urine and feces samples; and blood samples (in EDTA) were collected from the horses before virus exposure and then daily until the animals were euthanized. Swab samples were collected in duplicate into 1 mL of phosphate-buffered saline for virus isolation or into 800 mL of MagMax Lysis/Binding Solution (Ambion, Austin, TX, USA) for RNA extraction. For urine and EDTA blood samples, 100 mL of fluid was added to 260 mL of the lysis/binding solution. At postmortem examination, the following tissues were collected for viral genome detection, virus isolation, histopathology, and immunohistochemistry according to (15) : adrenal gland, bladder, brain (including olfactory pole), cerebrospinal fluid, guttural pouch, heart, kidney, large intestine, liver, lung, lymph nodes (bronchial, inguinal, intermandibular, mandibular, renal), meninges, nasal turbinates, ovaries, pharynx, small intestine, spinal cord, spleen, sympathetic nerve, trigeminal ganglion, and uterus. The following analyses were conducted as described (15) ",
+            "cite_spans": [
+                {
+                    "start": 677,
+                    "end": 681,
+                    "text": "(15)",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Sample Collection and Analysis"
+        },
+        {
+            "text": "Vaccine efficacy in immunized horses was assessed against the clinical, virologic, and pathologic features of HeV infection in 4 unvaccinated control horses. Infection characteristics for 3 of these unvaccinated animals have been described (6) ; data from the fourth control animal was gathered as part of the current work. In that fourth control, onset of fever accompanied by a rising heart rate was noted on postchallenge day 6. On postchallenge day 7, the horse became clinically depressed, its temperature and heart rate continued to rise, and it was euthanized. Gross postmortem findings included pleural thickening and moderate dilation of the lymphatic vessels on the ventral 10 cm of the cardiac lung lobes. Histologic examination revealed systemic vasculitis affecting the lung (Figure 1, panel A) , spleen, kidney, nasal epithelium, lymph nodes, and brain; alveolitis; and lymphadenitis. HeV antigen was identified in endothelial cells and vascular walls within lung, brain ( Figure 1, panel B) , nasal epithelium, lymph nodes, spleen, kidney, liver, myocardium, salivary gland, pharynx, small intestine, uterus, ovary, and adrenal gland, as well as in myocardial fibers and glomeruli.",
+            "cite_spans": [
+                {
+                    "start": 240,
+                    "end": 243,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 788,
+                    "end": 807,
+                    "text": "(Figure 1, panel A)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 987,
+                    "end": 1005,
+                    "text": "Figure 1, panel B)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Viral RNA from this fourth control horse was detected in nasal swabs collected on postchallenge day 3 ( Table 2 ; summarized in Table 3 ) and also in blood collected immediately before the onset of fever. After onset of fever, but before development of other clinical signs of illness, HeV RNA was also detected in the oral swab sample. On the day of euthanasia, genome was detected in oral and nasal swab samples, blood, rectal swab, and urine samples; however, virus was not reisolated from any sample collected before postmortem examination. Viral RNA was detected in all tissues sampled at postmortem examination except cerebrospinal fluid. Reisolation of virus was attempted for all tissues: HeV was recovered from lung, submandibular lymph node, small intestine, large intestine, and adrenal gland.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 104,
+                    "end": 111,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 128,
+                    "end": 135,
+                    "text": "Table 3",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "In a series of vaccine efficacy studies, 10 horses were immunized with HeVsG glycoprotein and then exposed to an otherwise lethal dose of HeV by the oronasal route.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Each study also included a pathogenicity control for the virus inoculum. In the first of these, the pathogenicity control was the fourth control horse described above. Together with historical data gathered from 3 horses following their exposure to HeV under equivalent experimental conditions (5), data from this horse completed the requirements of the Australian Pesticides and Veterinary Medicines Authority for defining the horse infection model. In subsequent studies, guinea pigs or ferrets were used as pathogenicity controls to maximize the number of vaccinated horses that could be accommodated in the BSL-4 facility. These animals duly displayed signs, lesions, tissue antigen and viral genome distribution, and virus reisolation data consistent with acute HeV infection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "In contrast to unvaccinated control horses, vaccinated horses remained clinically healthy during the observation period after exposure to HeV. Following elective euthanasia at the time of predicted peak viral replication, there was no gross or histologic evidence of HeV infection in vaccinated horses; all tissues examined were negative for viral antigen by immunohistochemistry; and viral genome was not recovered from any tissue, including nasal turbinates, pharynx, and guttural pouch (Table 3 ). For 9 of 10 vaccinated horses, viral RNA was not detected in daily nasal, oral, or rectal swab specimens or from blood, urine, or feces samples collected before euthanasia, and virus was not reisolated from any of these clinical samples. For 1 (V9) of 3 horses exposed to HeV 6 months after completing the vaccination course, low viral gene copy numbers were detected in nasal swab samples collected on postchallenge days 2-4 and 7 ( Figure 2 ); this finding was consistent with self-limiting local replication. Virus was not reisolated from these samples.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 489,
+                    "end": 497,
+                    "text": "(Table 3",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 935,
+                    "end": 943,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Serum neutralization titers before HeV challenge ranged from 128/256 to >4,096 for horses V1-V7 when challenged 21 days after the second vaccination and from 16 to 32 for horses V8-V10 when challenged 6 months after the second vaccination (Table 3 ). At the time of euthanasia, no rise in antibody titer was detected in any vaccinated horse following exposure to HeV. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 239,
+                    "end": 247,
+                    "text": "(Table 3",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The formal launch of the HeV horse vaccine in November 2012 represents the culmination of multiple studies conducted in several animal infection models over the course of many years. Studies using Nipah virus in cats (16, 17) and monkeys (18) and HeV in ferrets (15) provided strong evidence that a HeVsG glycoprotein subunit-based vaccine could prevent not only disease but often infection in animals exposed to otherwise lethal doses of Nipah virus or HeV. Where evidence of low-level virus replication did occur in secretions, it was transient and unaccompanied by the development of clinical illness, and virus was not isolated from the secretions.",
+            "cite_spans": [
+                {
+                    "start": 217,
+                    "end": 221,
+                    "text": "(16,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 222,
+                    "end": 225,
+                    "text": "17)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 238,
+                    "end": 242,
+                    "text": "(18)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 262,
+                    "end": 266,
+                    "text": "(15)",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The henipavirus surface-expressed G glycoprotein has the critical role of initiating infection by binding to receptors on host cells, and antibodies directed against this protein can neutralize virus (19) . Earlier reports have shown that passive immunotherapy with antibody to the G or F glycoprotein of HeV or Nipah virus alone can prevent fulminating disease (20) : G glycoprotein-specific human monoclonal antibody prevented Nipah virus disease in ferrets (21) and HeV infection in African green monkeys (22) ; and F or G glycoprotein-specific monoclonal or polyclonal antibodies prevented HeV and Nipah virus disease in hamsters (23) (24) (25) . Thus it is likely that, as seen for other paramyxoviruses with a viremic infection phase (e.g., measles and mumps), antibodies to the G and F glycoproteins play a major role in protection provided by HeVsG glycoprotein vaccination (26) (27) (28) .",
+            "cite_spans": [
+                {
+                    "start": 200,
+                    "end": 204,
+                    "text": "(19)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 362,
+                    "end": 366,
+                    "text": "(20)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 460,
+                    "end": 464,
+                    "text": "(21)",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 508,
+                    "end": 512,
+                    "text": "(22)",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 634,
+                    "end": 638,
+                    "text": "(23)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 639,
+                    "end": 643,
+                    "text": "(24)",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 644,
+                    "end": 648,
+                    "text": "(25)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 882,
+                    "end": 886,
+                    "text": "(26)",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 887,
+                    "end": 891,
+                    "text": "(27)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 892,
+                    "end": 896,
+                    "text": "(28)",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In the studies reported here, we show that 2 doses of a commercially formulated HeVsG glycoprotein subunit-based vaccine prevented infection in 7 of 7 horses exposed to HeV at least 21 days after the second vaccine dose; this finding is in contrast to that for unvaccinated control horses. Similar results were obtained for 2 of 3 horses exposed to HeV 6 months after vaccination. In the third horse, which also remained clinically healthy, evidence of HeV replication was limited to low-level transient detection of viral genome (but not virus) from the nasal cavity. In assessing the field significance of this observation, the following must be noted: the experimental horses were exposed to considerably higher levels of HeV than have been recovered from flying foxes (1), higher levels of viral genome were routinely found in the nasal secretions of nonimmunized horses, and all human infections have been acquired from animals in which clinical disease developed. It is reasonable to suggest that the higher transmission risk that is clearly associated with such horses is a consequence of not only increased viral load but also of the illness itself: it is the clinically ill horse that promotes increased human-animal contact through diagnostic investigations and administration of nursing care. We conclude that the level *Duplicate samples were obtained and tested by reverse transcription PCR. Cycle threshold values were converted to relative copy numbers by using a standard curve of a sample with a known copy number. dpc, days after challenge. \uf02d indicates a negative result; blank space indicates no sample was tested. \u2020N gene data for horse 1 was obtained from the current study. \u2021N gene data for horses 2-4 are unpublished data from a previous study (6) . and pattern of virus replication in the 1 vaccinated horse do not meet the epidemiologic criteria presently associated with transmission of infection to humans.",
+            "cite_spans": [
+                {
+                    "start": 1767,
+                    "end": 1770,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In previous henipavirus vaccine efficacy studies in cats and ferrets, a neutralizing antibody titer of 32 was shown to be protective against the development of clinical disease (17) . In the horse efficacy studies, the 3 horses with prechallenge antibody titers of 16 or 32 were similarly protected from clinical illness. However, we caution that any correlation between antibody titer at the time of exposure to virus and levels of subsequent protection against infection and disease is unlikely to be linear; it is possible that animals with even lower titers will have epidemiologically meaningful protection against HeV exposure occurring in the field, not least because of stimulation of immunological memory. Additional studies assessing the duration of protection are planned, and the outcome of these will further inform recommendations regarding booster vaccination.",
+            "cite_spans": [
+                {
+                    "start": 177,
+                    "end": 181,
+                    "text": "(17)",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "As expected, initial uptake of the HeVsG glycoprotein subunit-based vaccine was strongest in the area with the highest perceived risk for HeV infection, namely coastal Queensland, Australia. In other regions where HeV infection of horses has not been reported, there is understandably more uncertainty regarding the value of vaccination as part of horse preventative health programs. Any reluctance to vaccinate horses against HeV that is based on assessment of risk is probably exacerbated by several factors, including the novelty of the vaccine roll-out process to the Australian horse industry, a (mistaken) perception that fast-tracking vaccine release involved overlooking key safety and efficacy issues, the lack of published data on safety in pregnant mares, reluctance of certain industry sectors to vaccinate because of import restrictions on HeV-seropositive horses, and cost. Although it is likely that each of these barriers will diminish over time, our experiences may assist the development of road maps to guide the future release of vaccines against BSL-4 pathogens that are associated with highly sporadic disease events and where the decision to vaccinate is in the hands of the persons whom vaccination was designed to protect.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Several recently emerged zoonotic viruses, including HeV, Nipah, Ebola, and Marburg viruses, are classified as BSL-4 agents because of their ability to cause severe illness or death in humans and because there have been no effective vaccines or postexposure treatments to protect against the diseases they cause. The vaccine against HeV (Equivac HeV) is a commercially deployed vaccine developed against a BSL-4 agent and is the only licensed treatment for henipavirus infection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Development of vaccines against BSL-4 agents for use in humans requires that the US Food and Drug Administration implement the animal rule, which requires that such vaccines first be tested for efficacy in at least 2 animal models (29) . As a veterinary vaccine, Equivac HeV did not need to meet this requirement, and it was both cheaper and faster to produce than a vaccine intended for human use. At the same time, the vaccine is expected to provide a substantial health benefit to humans.",
+            "cite_spans": [
+                {
+                    "start": 231,
+                    "end": 235,
+                    "text": "(29)",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In so doing, this vaccine encapsulates the spirit of a One Health approach, not just in terms of the interconnectedness of human and animal health but also with respect to environmental health. One consequence of the recent HeV outbreaks was a move to eradicate bat populations, despite their crucial environmental roles in pollination and reduction of the insect population. Successful deployment of the HeV vaccine, with a targeted reduction in the risk for acute disease events in horses and humans, should help reduce the current momentum toward the setting of control policies with potential adverse effects on the environment. Furthermore, the increasing evidence for henipaviruses and henipa-like viruses in bats in other areas (30) (31) (32) raises the possibility of future henipavirus outbreaks. The current HeVsG glycoprotein vaccine technology provides a platform for the rapid development of related vaccines to counter future emergent threats.",
+            "cite_spans": [
+                {
+                    "start": 735,
+                    "end": 739,
+                    "text": "(30)",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 740,
+                    "end": 744,
+                    "text": "(31)",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 745,
+                    "end": 749,
+                    "text": "(32)",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Pteropid bats are confirmed as the reservoir hosts of henipaviruses: a comprehensive experimental study of virus transmission",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Halpin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Hyatt",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Fogarty",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Middleton",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bingham",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Epstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Am J Trop Med Hyg",
+            "volume": "85",
+            "issn": "",
+            "pages": "946--51",
+            "other_ids": {
+                "DOI": [
+                    "10.4269/ajtmh.2011.10-0567"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Human Hendra virus encephalitis associated with equine outbreak",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Playford",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Mccall",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Slinko",
+                    "suffix": ""
+                },
+                {
+                    "first": "Allen",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Emerg Infect Dis",
+            "volume": "16",
+            "issn": "",
+            "pages": "219--242",
+            "other_ids": {
+                "DOI": [
+                    "10.3201/eid1602.090552"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Ecological aspects of Hendra virus",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Field",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Crameri",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Kung",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Curr Top Microbiol Immunol",
+            "volume": "359",
+            "issn": "",
+            "pages": "11--23",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/82_2012_214"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Transmission studies of Hendra virus (equine morbillivirus) in fruit bats, horses and cats",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Williamson",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Hooper",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Selleck",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Gleeson",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Daniels",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Westbury",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Aust Vet J",
+            "volume": "76",
+            "issn": "",
+            "pages": "813--821",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1751-0813.1998.tb12335.x"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Animal models of henipavirus infection",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Weingartl",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Berhane",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Czub",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Vet J",
+            "volume": "181",
+            "issn": "",
+            "pages": "211--231",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.tvjl.2008.10.016"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Experimental infection of horses with Hendra virus",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Marsh",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Haining",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hancock",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Robinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Foord",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Barr",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Henipaviruses in their natural hosts",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Middleton",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Weingartl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Curr Top Microbiol Immunol",
+            "volume": "359",
+            "issn": "",
+            "pages": "105--126",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/82_2012_210"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Hendra in the news: public policy meets public morality in times of zoonotic uncertainty",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Degeling",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Kerridge",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Soc Sci Med",
+            "volume": "82",
+            "issn": "",
+            "pages": "156--63",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.socscimed.2012.12.024"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Unexpected result of Hendra virus outbreaks for veterinarians",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Mendez",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Judd",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Speare",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Emerg Infect Dis",
+            "volume": "18",
+            "issn": "",
+            "pages": "83--88",
+            "other_ids": {
+                "DOI": [
+                    "10.3201/eid1801.111006"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Hendra virus: an emerging paramyxovirus in Australia",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mahalingam",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Herrero",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Playford",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Spann",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Herring",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Rolph",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Lancet Infect Dis",
+            "volume": "12",
+            "issn": "",
+            "pages": "799--807",
+            "other_ids": {
+                "DOI": [
+                    "doi.org/10.1016/S1473-3099(12)70158-5"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Global trends in emerging infectious diseases",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Patel",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Levy",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Storeygard",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Balk",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gittleman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Nature",
+            "volume": "451",
+            "issn": "",
+            "pages": "990--993",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nature06536"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "One Health\" approach to address emerging zoonoses: the Hali Project in Tanzania",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mazet",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Clifford",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Coppolillo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Deolalikar",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Erickson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Kazwala",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "PLoS Med",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pmed.1000190"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Animal experimentation in level 4 facilities",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Abraham",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Muschialli",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Middleton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Anthology of biosafety: BSL-4 laboratories",
+            "volume": "",
+            "issn": "",
+            "pages": "343--59",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Receptor binding, fusion inhibition and induction of cross-reactive neutralizing antibodies by a soluble G glycoprotein of Hendra virus",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Bossart",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Crameri",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Dimitrov",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mungall",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Patch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J Virol",
+            "volume": "79",
+            "issn": "",
+            "pages": "6690--702",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.79.11.6690-6702.2005"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "A recombinant Hendra virus G glycoprotein-based subunit vaccine protects ferrets from lethal Hendra virus challenge",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Pallister",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Middleton",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Klein",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Haining",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Robinson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Vaccine",
+            "volume": "29",
+            "issn": "",
+            "pages": "5623--5653",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.vaccine.2011.06.015"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Feline model of acute Nipah virus infection and protection with a soluble glycoprotein-based subunit vaccine",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mungall",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Middleton",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Crameri",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bingham",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Halpin",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Russell",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "A recombinant subunit vaccine formulation protects against lethal Nipah virus challenge in cats",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mceachern",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bingham",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Crameri",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Green",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hancock",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Middleton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Vaccine",
+            "volume": "26",
+            "issn": "",
+            "pages": "3842--52",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.vaccine.2008.05.016"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "A Hendra virus G glycoprotein subunit vaccine protects African green monkeys from Nipah virus challenge",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Bossart",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Rockx",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Feldmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Brining",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Scott",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lacasse",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Sci Transl Med",
+            "volume": "4",
+            "issn": "",
+            "pages": "146--153",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Henipavirus mediated membrane fusion, virus entry and targeted therapeutics",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Steffen",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Nikolov",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Broder",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Viruses",
+            "volume": "4",
+            "issn": "",
+            "pages": "280--308",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/v4020280"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Immunization strategies against henipaviruses",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Broder",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Geisbert",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Nikolov",
+                    "suffix": ""
+                },
+                {
+                    "first": "L-F",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Middleton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "197--223",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "A neutralizing human monoclonal antibody protects against lethal disease in a new ferret model of acute Nipah virus infection",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Bossart",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Middleton",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Klippel",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Crameri",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bingham",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "A neutralizing human monoclonal antibody protects African green monkeys from Hendra virus challenge",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Bossart",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Geisbert",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Feldmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Feldmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Geisbert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Sci Transl Med",
+            "volume": "3",
+            "issn": "",
+            "pages": "105--108",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Nipah virus: vaccination and passive protection studies in a hamster model",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Guillaume",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Contamin",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Loth",
+                    "suffix": ""
+                },
+                {
+                    "first": "Georges-Courbot",
+                    "middle": [],
+                    "last": "Mc",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lefeuvre",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Marianneau",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J Virol",
+            "volume": "78",
+            "issn": "",
+            "pages": "834--874",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.78.2.834-840.2004"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Antibody prophylaxis and therapy against Nipah virus infection in hamsters",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Guillaume",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Contamin",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Loth",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Grosjean",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Courbot",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Deubel",
+                    "suffix": ""
+                }
+            ],
+            "year": 1972,
+            "venue": "J Virol",
+            "volume": "80",
+            "issn": "",
+            "pages": "1972--1980",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.80.4"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Acute Hendra virus infection: analysis of the pathogenesis and passive antibody protection in the hamster model",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Guillaume",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Looi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Georges-Courbot",
+                    "middle": [],
+                    "last": "Mc",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Barrot",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Buckland",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Virology",
+            "volume": "387",
+            "issn": "",
+            "pages": "459--65",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.virol.2009.03.001"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Immunization against viral diseases",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Graham",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Crowe",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Knipe",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Griffin",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lamb",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Straus",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Howley",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Fields virology",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Martin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "487--538",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Protective effects of glycoprotein-specific monoclonal antibodies on the course of experimental mumps virus meningoencephalitis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Wolinsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Waxham",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Server",
+                    "suffix": ""
+                }
+            ],
+            "year": 1985,
+            "venue": "J Virol",
+            "volume": "53",
+            "issn": "",
+            "pages": "727--761",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Vaccination against the major infectious diseases. C R Acad Sci III",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Plotkin",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "",
+            "volume": "322",
+            "issn": "",
+            "pages": "87191--87198",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0764-4469"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Establishing efficacy of human products using animals: the US Food and Drug Administration's \"animal rule",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Snoy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Vet Pathol",
+            "volume": "47",
+            "issn": "",
+            "pages": "774--782",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/0300985810372506"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Prevalence of henipavirus and rubulavirus antibodies in pteropid bats",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Breed",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Barr",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Crameri",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Thalmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Emerg Infect Dis",
+            "volume": "16",
+            "issn": "",
+            "pages": "1997--2006",
+            "other_ids": {
+                "DOI": [
+                    "10.3201/eid1612.100879"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Henipavirus RNA in African bats",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Drexler",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Corman",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Gloza-Rausch",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Seebens",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Annan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ipsen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "PLoS ONE",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0006367"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Henipavirus infection in fruit bats (Pteropus giganteus)",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Epstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Prakash",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Daszak",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Mclaughlin",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Meehan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "India. Emerg Infect Dis",
+            "volume": "14",
+            "issn": "",
+            "pages": "1309--1320",
+            "other_ids": {
+                "DOI": [
+                    "10.3201/eid1408.071492"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "rpoB gene sequence-based characterization of emerging non-tuberculous mycobacteria with descriptions of Mycobacterium bolletii sp. nov., Mycobacterium phocaicum sp. nov. and Mycobacterium aubagnense sp. nov",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ad\u00e9kambi",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Berger",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Raoult",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Drancourt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Int J Syst Evol Microbiol",
+            "volume": "56",
+            "issn": "",
+            "pages": "133--176",
+            "other_ids": {
+                "DOI": [
+                    "10.1099/ijs.0.63969-0"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Amoebal coculture of \"Mycobacterium massiliense\" sp. nov. from the sputum of a patient with hemotoic pneumonia",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ad\u00e9kambi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Reynaud-Gaubert",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Greub",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Gevaudan",
+                    "suffix": ""
+                },
+                {
+                    "first": "La",
+                    "middle": [],
+                    "last": "Scola",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Raoult",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J Clin Microbiol",
+            "volume": "42",
+            "issn": "",
+            "pages": "5493--501",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JCM.42.12.5493-5501.2004"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Proposal that Mycobacterium massiliense and Mycobacterium bolletii be united and reclassified as Mycobacterium abscessus subsp. bolletii comb. nov., designation of Mycobacterium abscessus subsp. abscessus subsp. nov. and emended description of Mycobacterium abscessus",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Leao",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Tortoli",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Euz\u00e9by",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Garcia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Int J Syst Evol Microbiol",
+            "volume": "61",
+            "issn": "",
+            "pages": "2311--2314",
+            "other_ids": {
+                "DOI": [
+                    "10.1099/ijs.0.023770-0"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "An unusual acid-fast infection of the knee with subcutaneous, abscess-like lesions of the gluteal region",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Moore",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Frerichs",
+                    "suffix": ""
+                }
+            ],
+            "year": 1953,
+            "venue": "J Invest Dermatol",
+            "volume": "20",
+            "issn": "",
+            "pages": "133--69",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Histologic and immunohistologic findings in Hendra virus-infected horse tissue. A) Hematoxylin and eosin staining shows systemic vasculitis affecting the lung. B) Immunohistologic examination, using polyclonal rabbit anti-Nipah N protein, indicates Hendra virus antigen in a blood vessel in the brain. Scale bars represent 50 \u00b5m.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Scatter plot showing quantitation of the Hendra virus N gene in nasal swab samples from 1 vaccinated horse (V9) and 4 control horses (C1-C4); controls were challenged but not vaccinated. Days represent days after challenge.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": ": quantitative reverse transcription PCR for the detection of the HeV N gene, histology, immunohistology, serum neutralization test, and virus isolation.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Quantitative reverse transcription PCR detection of Hendra virus N gene in samples collected daily from control horses*",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Summary of sample analysis data from 10 horses in the 4 efficacy trials* *A 100-\uf06dg dose of Hendra virus soluble G glycoprotein was used in trials 1, 3, and 4; a 50-\uf06dg dose was used in trial 2. Genome was detected by PCR. ID, identification; dpc, days after challenge; PM, postmortem. \uf02d indicates a negative result.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank Sarah Eastwood and Tim Hancock for animal husbandry; Jean Payne, Jenni Harper, and Fenella Long for preparation of slides for histology and immunohistochemistry; Tyrone McDonald for RNA extraction; and Chris Cowled and Gary Crameri for critical review of the manuscript. Dr Middleton, a veterinarian with a PhD in pathology, works as a senior principal research scientist. Her research interest is the pathogenesis of emerging infectious diseases (including highly pathogenic avian influenza viruses, henipaviruses, severe acute respiratory syndrome, and bat-borne viruses) in reservoir and spillover hosts.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        },
+        {
+            "text": "F rom the Latin ab-(\"away\") + cedere (\"to go\"), an abscess is named for the notion that humors leave the body through pus. Mycobacterium abscessus was first isolated from gluteal abscesses in a 62-year-old patient who had injured her knee as a child and had a disseminated infection 48 years later. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "annex"
+        }
+    ]
+}
