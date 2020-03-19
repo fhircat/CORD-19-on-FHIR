@@ -54,6 +54,6 @@
       "@id": "dc:issued",
       "@type": "xsd:date"
     },
-    "WHO #Covidence": "whocv:"
+    "WHO #Covidence": "http://semanticscholar.org/cv-research/WHO"
   }
 }
