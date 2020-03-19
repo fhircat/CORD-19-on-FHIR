@@ -33,3 +33,11 @@ See [LICENSE](https://github.com/fhircat/CORD-19-on-FHIR/blob/master/LICENSE).  
 
 Specific licensing information for individual articles in the dataset is available in the [metadata file](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/2020-03-13/all_sources_metadata_2020-03-13.csv).  See also the [readme for the metadata file[(https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/2020-03-13/all_sources_metadata_2020-03-13.readme).
 
+## Files
+
+-**Pipfile, Pipfile.lock** -- Use by pip python installer
+- **contexts** -- JSON-LD 1.1 `@context` files used in converting JSON data files into RDF Turtle
+- **source** -- Source data from CORD-19 release, EXCEPT for the commercial subset, which was too big to put on github.  It is available here: https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/2020-03-13/comm_use_subset.tar.gz
+- **datasets** -- CORD-19-on-FHIR releases.  There is one zip for corresponding to each of the CORD-19 source subsets.  And there are zip files that, taken together, correspond to the CORD-19 metadata file.
+- **examples** -- A few sample files, illustrating the content of the `datasets` directory.
+
