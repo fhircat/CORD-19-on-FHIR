@@ -8,6 +8,7 @@ verify_ssl = true
 [packages]
 jsonasobj = "*"
 rdflib = "*"
+fe7407a = {editable = true,path = "/Users/solbrig/git/rdflib/rdflib-jsonld"}
 
 [requires]
 python_version = "3.8"
