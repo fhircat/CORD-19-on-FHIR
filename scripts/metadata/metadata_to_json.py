@@ -101,7 +101,7 @@ with open(os.path.join(SOURCE_DIR, 'all_sources_metadata_2020-03-13.csv')) as f:
                 row_j.fhir_link = SUBDIR_MAP[subdir] + '/' + row_j.sha
 
         if hasattr(row_j, "authors"):
-            row_j.authors = [a.trim() for a in row_j.authors.split(';')]
+            row_j.authors = [a.strip() for a in row_j.authors.split(';')]
         with open(os.path.join(METADATA_DIR, f'e{row_num}.json'), 'w') as json_file:
             # print(f"***** Writing {row_num}.json")
             json_file.write(as_json(row_j))

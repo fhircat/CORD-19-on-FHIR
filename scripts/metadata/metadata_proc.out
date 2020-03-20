@@ -1,4 +1,3 @@
-/Users/solbrig/.local/share/virtualenvs/CORD-19-on-FHIR-eWi-Bil2/bin/python "/Users/solbrig/data/CORD Dataset/fhircat/CORD-19-on-FHIR/scripts/metadata/metadata_to_json.py"
 *** Starting Content ***
 	pmc_custom_license: 1426
 	noncomm_use_subset: 1973
