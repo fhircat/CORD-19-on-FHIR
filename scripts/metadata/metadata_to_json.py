@@ -98,7 +98,7 @@ with open(os.path.join(SOURCE_DIR, 'all_sources_metadata_2020-03-13.csv')) as f:
         if hasattr(row_j, "sha"):
             subdir = which_subdir(row_j.sha)
             if subdir in SUBDIR_MAP:
-                row_j.fhir_link = f"{SUBDIR_MAP[subdir]}/Composition/{row_j.sha}Typ.json"
+                row_j.fhir_link = f"{SUBDIR_MAP[subdir]}/Composition/{row_j.sha}"
 
         if hasattr(row_j, "authors"):
             row_j.authors = [a.strip() for a in row_j.authors.split(';')]
