@@ -1,5 +1,4 @@
 @prefix : <http://semanticscholar.org/cv-research/> .
-@prefix WHO #Covidence: <http://semanticscholar.org/cv-research/WHO#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix fhir_link: <http://hl7.org/fhir/link/> .
 @prefix ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> .
@@ -10,19 +9,19 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://fhircat.org/cord-19/metadata/c630ebcdf30652f0422c3ec12a00b50241dc9bd9> fhir_link: <https://fhircat.org/cord-19/fhir/Non-comercial/c630ebcdf30652f0422c3ec12a00b50241dc9bd9> ;
-    dc:creator " Li, Yimin",
-        " Penninger, Josef M.",
-        " Slutsky, Arthur S.",
-        " Zhong, Nanshan",
-        "Zhang, Haibo" ;
+<http://fhircat.org/cord-19/metadata/c630ebcdf30652f0422c3ec12a00b50241dc9bd9> fhir_link: <https://fhircat.org/cord-19/fhir/Non-comercial/Composition/c630ebcdf30652f0422c3ec12a00b50241dc9bd9.json> ;
+    dc:creator "Li, Yimin",
+        "Penninger, Josef M.",
+        "Slutsky, Arthur S.",
+        "Zhang, Haibo",
+        "Zhong, Nanshan" ;
     dc:identifier <https://academic.microsoft.com/paper/2002765492>,
         <https://doi.org/10.1007/s00134-020-05985-9>,
         <https://www.ncbi.nlm.nih.gov/pubmed/32125455> ;
     dc:issued "2020-01-01"^^xsd:date ;
     dc:license "cc-by-nc" ;
     dc:title "Angiotensin-converting enzyme 2 (ACE2) as a SARS-CoV-2 receptor: molecular mechanisms and potential therapeutic target" ;
-    WHO #Covidence: "#3252" ;
+    sso:WHO "#3252" ;
     sso:has_full_text "True" ;
     sso:journal "Intensive Care Med" ;
     sso:sha "c630ebcdf30652f0422c3ec12a00b50241dc9bd9" ;
