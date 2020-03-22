@@ -18,7 +18,7 @@ def write_json_files(lines, sha_lookup1, sha_lookup2, out_dir: Path, pmc=True):
         for line in lines.splitlines():
             data = json.loads(line)
             article_id = data["id"]
-            data["sha"] = sha_lookup1.get(article_id) or sha_lookup2.get(article_id)
+            data["sha"] = sha_lookup1.get("PMC"* pmc + article_id) or sha_lookup2.get("PMC"* pmc + article_id)
             with open(out_dir / f'{"PMC" * pmc}{article_id}.json', 'w') as fp:
                 json.dump(data, fp=fp, indent=4)
     except Exception:
