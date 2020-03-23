@@ -9,11 +9,11 @@ from scripts.metadata import SOURCE_DIR
 CORD19_RELEASE = "2020-03-20"
 CORD19_BASE = f"https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/{CORD19_RELEASE}/"
 CORD19_FILES: List[Tuple[str, bool]] = [
-    ("comm_use_subset.tar.gz", False),
-    ("biorxiv_medrxiv.tar.gz", False),
-    ("noncomm_use_subset.tar.gz", False),
-    ("custom_license.tar.gz", False),
-    (f"metadata.csv", False)]
+    ("comm_use_subset.tar.gz", True),
+    ("biorxiv_medrxiv.tar.gz", True),
+    ("noncomm_use_subset.tar.gz", True),
+    ("custom_license.tar.gz", True),
+    (f"metadata.csv", True)]
 
 
 # Borrowed from https://stackoverflow.com/questions/16694907/download-large-file-in-python-with-requests

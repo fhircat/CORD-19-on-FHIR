@@ -1,4 +1,4 @@
 # Scripts directory
+The scripts in the script directory perform the following transformations
 
-## gen_datasets.py
-```bas```
+## [download_cord19_resources.py](metadata/download_cord_19)

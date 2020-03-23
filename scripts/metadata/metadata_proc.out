@@ -1,17 +1,19 @@
 *** Starting Content ***
-	pmc_custom_license: 1426
-	noncomm_use_subset: 1973
-	biorxiv_medrxiv: 803
-	comm_use_subset: 9000
+	custom_license: 16959
+	noncomm_use_subset: 2353
+	biorxiv_medrxiv: 885
+	comm_use_subset: 9118
 
-29500 entries written
+Escaping DOI in 14527
+Escaping DOI in 14528
+Escaping DOI in 16744
+Escaping DOI in 25181
+44220 entries written
 
 *** File by source_x ***
-{'CZI': 1236, 'PMC': 27337, 'biorxiv': 566, 'medrxiv': 361}
+{'Elsevier': 19471, 'CZI': 153, 'WHO': 1154, 'PMC': 22309, 'PMC_new': 83, 'biorxiv': 605, 'medrxiv': 445}
 
 *** File by subdirectory ***
-{'noncomm_use_subset': 1973, 'comm_use_subset': 10069, 'MISSING': 4218, 'pmc_custom_license': 12437, 'biorxiv_medrxiv': 803}
+{'comm_use_subset': 8863, 'custom_license': 31004, 'MISSING': 13, 'noncomm_use_subset': 3290, 'biorxiv_medrxiv': 1050}
 
 *** Unreferenced files ***
-
-Process finished with exit code 0

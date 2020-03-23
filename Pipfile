@@ -10,6 +10,7 @@ jsonasobj = "*"
 rdflib = "*"
 fe7407a = {editable = true,path = "/Users/solbrig/git/rdflib/rdflib-jsonld"}
 sources = "*"
+requests = "*"
 
 [requires]
 python_version = "3.8"

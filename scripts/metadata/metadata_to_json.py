@@ -5,6 +5,7 @@ import os
 import string
 from csv import DictReader
 from typing import Optional, Set, Dict, List, Tuple
+from urllib.parse import urlencode, quote
 
 from jsonasobj import as_json, JsonObj
 from rdflib import Namespace
@@ -22,9 +23,9 @@ subdir_contents: Dict[str, Set[str]] = dict()
 
 # TODO: Can we find WHO Covidence?
 IDENTIFIERS: List[Tuple[str, Namespace]] = [
+    ('doi', prefixes.DOI),
     ('pubmed_id', prefixes.PUBMED),
     ('pmcid', prefixes.PMC),
-    ('doi', prefixes.DOI),
     ('Microsoft Academic Paper Id', prefixes.MS_ACADEMIC)
 ]
 
@@ -42,13 +43,15 @@ def generate_identifier(entry: JsonObj) -> None:
     Generate an "id" entry for entry
     :param entry: metadata entry
     """
-    if hasattr(entry, 'sha'):
-        row_j.id = row_j.sha
+    for identifier, namespace in IDENTIFIERS:
+        if hasattr(entry, identifier):
+            row_j.id = namespace[entry[identifier].split()[0]]
+            break
     else:
-        for identifier, namespace in IDENTIFIERS:
-            if hasattr(entry, identifier):
-                row_j.id = namespace[entry[identifier].split()[0]]
-                break
+        if hasattr(entry, 'sha'):
+            row_j.id = row_j.sha
+        else:
+            assert(True, "Record has no identifier - at a loss")
 
 
 def normalize_namespaces(entry: JsonObj) -> None:
@@ -97,13 +100,19 @@ with open(os.path.join(SOURCE_DIR, METADATA_FILE)) as f:
     for row in reader:
         row_num += 1
         row_j = JsonObj(**{k: v for k, v in row.items() if v != ""})
+        if hasattr(row_j, 'doi') and ';' in row_j.doi:
+            print(f"Escaping DOI in {row_num}")
+            row_j.doi = quote(row_j.doi)
         generate_identifier(row_j)
         normalize_namespaces(row_j)
 
         if hasattr(row_j, "sha"):
-            subdir = which_subdir(row_j.sha)
-            if subdir in SUBDIR_MAP:
-                row_j.fhir_link = f"{SUBDIR_MAP[subdir]}/Composition/{row_j.sha}"
+            row_j.fhir_link = []
+            # Possible to have more than one SHA
+            for sha in [e.strip() for e in row_j.sha.split(';')]:
+                subdir = which_subdir(sha)
+                if subdir in SUBDIR_MAP:
+                    row_j.fhir_link.append(f"{SUBDIR_MAP[subdir]}/Composition/{sha}")
 
         if hasattr(row_j, "authors"):
             row_j.authors = [a.strip() for a in row_j.authors.split(';')]
