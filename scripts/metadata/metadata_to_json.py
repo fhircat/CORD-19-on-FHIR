@@ -4,6 +4,7 @@ Process the all_sources_metadata file producing both a JSON and an RDF rendering
 import os
 import string
 from csv import DictReader
+from pathlib import Path
 from typing import Optional, Set, Dict, List, Tuple
 
 from jsonasobj import as_json, JsonObj
@@ -107,6 +108,7 @@ with open(os.path.join(SOURCE_DIR, METADATA_FILE)) as f:
 
         if hasattr(row_j, "authors"):
             row_j.authors = [a.strip() for a in row_j.authors.split(';')]
+        Path(METADATA_DIR).mkdir(parents=True, exist_ok=True)
         with open(os.path.join(METADATA_DIR, f'e{row_num}.json'), 'w') as json_file:
             # print(f"***** Writing {row_num}.json")
             json_file.write(as_json(row_j))
