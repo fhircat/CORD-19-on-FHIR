@@ -1,0 +1,2274 @@
+@prefix ns1: <https://www.ncbi.nlm.nih.gov/pmc/articles/#$> .
+@prefix pmc: <https://www.ncbi.nlm.nih.gov/pmc/articles/#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix sso: <http://semanticscholar.org/cv-research/> .
+@prefix fhir: <http://hl7.org/fhir/>
+
+<https://www.ncbi.nlm.nih.gov/pmc/articles/PMC212558> pmc:_id "12969506|PMC212558" ;
+    dc:identifier <https://www.ncbi.nlm.nih.gov/pubmed/32125455>,
+                  <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC212558>;
+    fhir:link <https://fhircat.org/cord-19/fhir/Non-comercial/Composition/0104f6ceccf92ae8567a0102f89cbb976969a774> ;
+
+    pmc:accessions "chemical@MESH:D003401",
+        "chemical@MESH:D004492",
+        "chemical@MESH:D006514",
+        "disease@MESH:D001008",
+        "disease@MESH:D001327",
+        "disease@MESH:D003141",
+        "disease@MESH:D003327",
+        "disease@MESH:D004487",
+        "disease@MESH:D005334",
+        "disease@MESH:D007239",
+        "disease@MESH:D007676",
+        "disease@MESH:D007877",
+        "disease@MESH:D007918",
+        "disease@MESH:D008171",
+        "disease@MESH:D008231",
+        "disease@MESH:D008288",
+        "disease@MESH:D010437",
+        "disease@MESH:D011014",
+        "disease@MESH:D012131",
+        "disease@MESH:D014376",
+        "disease@MESH:D015004",
+        "disease@MESH:D015658",
+        "disease@MESH:D018352",
+        "disease@MESH:D045169",
+        "disease@MESH:D051436",
+        "disease@MESH:D056486",
+        "gene@1401",
+        "gene@26503",
+        "gene@3105",
+        "gene@3105;3106",
+        "gene@3106",
+        "gene@3123",
+        "gene@4698",
+        "gene@6301",
+        "species@12637",
+        "species@1313",
+        "species@227859",
+        "species@31631",
+        "species@813",
+        "species@83554",
+        "species@83558",
+        "species@9606" ;
+    pmc:authors "Chen PJ",
+        "Chu CC",
+        "Huang CH",
+        "Lee HL",
+        "Lim KH",
+        "Lin M",
+        "Lin RS",
+        "Lin RY",
+        "Loo JH",
+        "Su YW",
+        "Trejaut JA",
+        "Tsai ZU",
+        "Tseng HK" ;
+    pmc:created [ ns1:date "1572689280000.0"^^xsd:float ] ;
+    pmc:id "212558" ;
+    pmc:infons [ ] ;
+    pmc:journal "BMC Med. Genet." ;
+    pmc:passages [ pmc:infons [ pmc:section "Abstract" ;
+                    pmc:section_type "ABSTRACT" ;
+                    pmc:type "abstract_title_1" ] ;
+            pmc:offset "623"^^xsd:int ;
+            pmc:text "Methods" ],
+        [ pmc:annotations [ pmc:id "194" ;
+                    pmc:infons [ pmc:identifier "MESH:D006514" ;
+                            pmc:type "Chemical" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "10449"^^xsd:int ] ;
+                    pmc:text "HBsAg" ],
+                [ pmc:id "189" ;
+                    pmc:infons [ pmc:identifier "26503" ;
+                            pmc:ncbi_homologene "56571" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "10344"^^xsd:int ] ;
+                    pmc:text "AST" ],
+                [ pmc:id "195" ;
+                    pmc:infons [ pmc:identifier "MESH:D003401" ;
+                            pmc:type "Chemical" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "10298"^^xsd:int ] ;
+                    pmc:text "creatine" ],
+                [ pmc:id "192" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "10088"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "191" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "9717"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "190" ;
+                    pmc:infons [ pmc:identifier "1401" ;
+                            pmc:ncbi_homologene "128039" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "18"^^xsd:int ;
+                            pmc:offset "10393"^^xsd:int ] ;
+                    pmc:text "C-reactive protein" ],
+                [ pmc:id "193" ;
+                    pmc:infons [ pmc:identifier "MESH:D008231" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "15"^^xsd:int ;
+                            pmc:offset "10204"^^xsd:int ] ;
+                    pmc:text "lymphocytopenia" ] ;
+            pmc:infons [ pmc:section "Methods" ;
+                    pmc:section_type "METHODS" ;
+                    pmc:type "paragraph" ] ;
+            pmc:offset "9688"^^xsd:int ;
+            pmc:text "Clinical symptoms, of the 37 patients diagnosed as probable SARS cases, were as follows: 92% (34 cases) showed diffuse infiltration of both lungs and 8% (3 cases) showed only solitary lung lesion; 65% (24 cases) showed at least one positive test result for SARS-CoV RNA by RT-PCR or by real time PCR (Artus, Germany). In addition, the following laboratory data was obtained from the 35 probable SARS patients managed in our hospital: 27% (10 cases) with reduced platelet count (<150x10-9/liter), 59% (22 cases) with lymphocytopenia (<1x10-9/liter), 70% (26 cases) with elevated LDH, 5% (2 cases) with elevated creatine kinase, 54% (20 cases) with elevated AST and /or ALT and 68% (25 cases) with elevated C-reactive protein. Fourteen cases were also tested for HBsAg, all showed negative results." ],
+        [ pmc:annotations [ pmc:id "493" ;
+                    pmc:infons [ pmc:identifier "MESH:D015658" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "39"^^xsd:int ;
+                            pmc:offset "25219"^^xsd:int ] ;
+                    pmc:text "immunodeficiency virus type 1 infection" ],
+                [ pmc:id "492" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "25105"^^xsd:int ] ;
+                    pmc:text "human" ] ;
+            pmc:infons [ pmc:fpage "1404" ;
+                    pmc:lpage "1410" ;
+                    pmc:name_0 "surname:Liu;given-names:C" ;
+                    pmc:name_1 "surname:Carrington;given-names:M" ;
+                    pmc:name_2 "surname:Kaslow;given-names:RA" ;
+                    pmc:name_3 "surname:Gao;given-names:X" ;
+                    pmc:name_4 "surname:Rinaldo;given-names:CR" ;
+                    pmc:name_5 "surname:Jacobson;given-names:LP" ;
+                    pmc:name_6 "surname:Margolick;given-names:JB" ;
+                    pmc:name_7 "surname:Phair;given-names:J" ;
+                    pmc:name_8 "surname:O'Brien;given-names:SJ" ;
+                    pmc:name_9 "surname:Detels;given-names:R" ;
+                    pmc:pub-id_doi "10.1086/374394" ;
+                    pmc:pub-id_pmid "12717621" ;
+                    pmc:section "Pre-publication history" ;
+                    pmc:section_type "REF" ;
+                    pmc:source "J Infect Dis" ;
+                    pmc:type "ref" ;
+                    pmc:volume "187" ;
+                    pmc:year "2003" ] ;
+            pmc:offset "25073"^^xsd:int ;
+            pmc:text "Association of polymorphisms in human leukocyte antigen class I and transporter associated with antigen processing genes with resistance to human immunodeficiency virus type 1 infection" ],
+        [ pmc:annotations [ pmc:id "485" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "24865"^^xsd:int ] ;
+                    pmc:text "HLA" ] ;
+            pmc:infons [ pmc:fpage "407" ;
+                    pmc:lpage "464" ;
+                    pmc:name_0 "surname:Marsh;given-names:SGE" ;
+                    pmc:name_1 "surname:Albert;given-names:ED" ;
+                    pmc:name_2 "surname:Bodmer;given-names:WF" ;
+                    pmc:name_3 "surname:Bontrop;given-names:RE" ;
+                    pmc:name_4 "surname:Dupont;given-names:B" ;
+                    pmc:name_5 "surname:Erlich;given-names:HA" ;
+                    pmc:name_6 "surname:Gerahty;given-names:DE" ;
+                    pmc:name_7 "surname:Hansen;given-names:JA" ;
+                    pmc:name_8 "surname:Mach;given-names:B" ;
+                    pmc:name_9 "surname:Mayr;given-names:WR" ;
+                    pmc:pub-id_doi "10.1034/j.1399-0039.2002.600509.x" ;
+                    pmc:pub-id_pmid "12492818" ;
+                    pmc:section "Pre-publication history" ;
+                    pmc:section_type "REF" ;
+                    pmc:source "Tissue Antigens" ;
+                    pmc:type "ref" ;
+                    pmc:volume "60" ;
+                    pmc:year "2002" ] ;
+            pmc:offset "24833"^^xsd:int ;
+            pmc:text "Nomenclature for factors of the HLA system, 2002" ],
+        [ pmc:annotations [ pmc:id "235" ;
+                    pmc:infons [ pmc:identifier "MESH:D007239" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "9"^^xsd:int ;
+                            pmc:offset "12517"^^xsd:int ] ;
+                    pmc:text "infection" ],
+                [ pmc:id "234" ;
+                    pmc:infons [ pmc:identifier "MESH:D007239" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "9"^^xsd:int ;
+                            pmc:offset "12755"^^xsd:int ] ;
+                    pmc:text "infection" ],
+                [ pmc:id "233" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "12699"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "232" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "12316"^^xsd:int ] ;
+                    pmc:text "patient" ] ;
+            pmc:infons [ pmc:section "Methods" ;
+                    pmc:section_type "METHODS" ;
+                    pmc:type "paragraph" ] ;
+            pmc:offset "12051"^^xsd:int ;
+            pmc:text "Blood samples were obtained at the end of May 2003 from 62 health care workers who had possibly been exposed to coronavirus and were not infected. These 62 health care workers were either working at emergency services, SARS wards (doctors and nurses) or at the out patient clinic (phlebotomists) of our hospital in May 2003. These 62 health care workers were included in control A (table 2) and had followed World Health Organization (WHO) vigorous measures against infection. Another 39 blood samples from non-infected health care workers from the Taipei Municipal Hoping Hospital were added to control A. These 39 controls had been treating SARS patients in April 2003 without adequate protection from infection, and about 10% of health care workers from the same wards developed probable SARS. In brief, 101 high risk non-infected health care workers were retained as control A for the analysis. Informed consent was obtained from all subjects." ],
+        [ pmc:annotations [ pmc:id "257" ;
+                    pmc:infons [ pmc:identifier "MESH:D004492" ;
+                            pmc:type "Chemical" ] ;
+                    pmc:locations [ pmc:length "4"^^xsd:int ;
+                            pmc:offset "13371"^^xsd:int ] ;
+                    pmc:text "EDTA" ],
+                [ pmc:id "256" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "13953"^^xsd:int ] ;
+                    pmc:text "HLA-DRB1" ],
+                [ pmc:id "255" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "13935"^^xsd:int ] ;
+                    pmc:text "HLA-B" ],
+                [ pmc:id "254" ;
+                    pmc:infons [ pmc:identifier "3105" ;
+                            pmc:ncbi_homologene "128352" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "13921"^^xsd:int ] ;
+                    pmc:text "HLA-A" ],
+                [ pmc:id "253" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "4"^^xsd:int ;
+                            pmc:offset "13689"^^xsd:int ] ;
+                    pmc:text "DRB1" ],
+                [ pmc:id "252" ;
+                    pmc:infons [ pmc:identifier "3105" ;
+                            pmc:ncbi_homologene "128352" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "13676"^^xsd:int ] ;
+                    pmc:text "HLA-A" ] ;
+            pmc:infons [ pmc:section "Methods" ;
+                    pmc:section_type "METHODS" ;
+                    pmc:type "paragraph" ] ;
+            pmc:offset "13339"^^xsd:int ;
+            pmc:text "Blood samples were collected in EDTA vacutainers. Buffy coat were lysed and genomic DNA was isolated by using proteinase K treatment and Q1Aamp blood kit (Q1Agen, Hilden, Germany) according to the manufacturer's instructions. Suspected SARS samples were processed in a bio-safety level-3 environment. Medium resolution allele typing for HLA-A, B and DRB1 loci was performed using PCR amplification followed by sequence-specific oligonucleotide probing (PCR-SSOP), (Dynal Biotech Ltd; Wirral, U.K.). Amplified sequences were hybridized to arrays of immobilized probes (35 probes for HLA-A, 56 for HLA-B, and 38 for HLA-DRB1)." ],
+        [ pmc:annotations [ pmc:id "155" ;
+                    pmc:infons [ pmc:type "Chemical" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "7669"^^xsd:int ] ;
+                    pmc:text "Haldane" ],
+                [ pmc:id "154" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "7593"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "153" ;
+                    pmc:infons [ pmc:identifier "3105;3106" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "11"^^xsd:int ;
+                            pmc:offset "7465"^^xsd:int ] ;
+                    pmc:text "HLA-A and B" ] ;
+            pmc:infons [ pmc:section "Methods" ;
+                    pmc:section_type "TABLE" ;
+                    pmc:type "table" ] ;
+            pmc:offset "7413"^^xsd:int ;
+            pmc:text "P = P-value n.s. = not significant.   In control B, HLA-A and B were defined by serological methods. Consequently data were re-analyzed after converting allotypes of probable SARS patients to their serological equivalents.  Odds ratio (OR) refers to Woolf-Haldane odds ratios, with 95% Woolf approximation confidence intervals (CI) and corresponding two tails Fisher P-values. Note: No corrected P-values (Pc-values) were significant; consequently Pc-values were not indicated." ],
+        [ pmc:infons [ pmc:section "Methods" ;
+                    pmc:section_type "METHODS" ;
+                    pmc:type "title_2" ] ;
+            pmc:offset "4024"^^xsd:int ;
+            pmc:text "Patients" ],
+        [ pmc:infons [ pmc:fpage "1" ;
+                    pmc:lpage "9" ;
+                    pmc:name_0 "surname:Lin;given-names:M" ;
+                    pmc:name_1 "surname:Chu;given-names:CC" ;
+                    pmc:name_2 "surname:Lee;given-names:HL" ;
+                    pmc:name_3 "surname:Chang;given-names:SL" ;
+                    pmc:name_4 "surname:Ohashi;given-names:J" ;
+                    pmc:name_5 "surname:Tokunaga;given-names:K" ;
+                    pmc:name_6 "surname:Akaza;given-names:T" ;
+                    pmc:name_7 "surname:Juji;given-names:T" ;
+                    pmc:pub-id_doi "10.1034/j.1399-0039.2000.550101.x" ;
+                    pmc:pub-id_pmid "10703601" ;
+                    pmc:section "Pre-publication history" ;
+                    pmc:section_type "REF" ;
+                    pmc:source "Tissue Antigens" ;
+                    pmc:type "ref" ;
+                    pmc:volume "55" ;
+                    pmc:year "2000" ] ;
+            pmc:offset "24882"^^xsd:int ;
+            pmc:text "Heterogeneity of Taiwan's indigenous population: possible relation to prehistoric mongoloid dispersals" ],
+        [ pmc:annotations [ pmc:id "465" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "22836"^^xsd:int ] ;
+                    pmc:text "peoples" ],
+                [ pmc:id "474" ;
+                    pmc:infons [ pmc:identifier "MESH:D007239" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "9"^^xsd:int ;
+                            pmc:offset "22951"^^xsd:int ] ;
+                    pmc:text "infection" ],
+                [ pmc:id "470" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "24026"^^xsd:int ] ;
+                    pmc:text "HLA" ],
+                [ pmc:id "469" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "24051"^^xsd:int ] ;
+                    pmc:text "HLA" ],
+                [ pmc:id "468" ;
+                    pmc:infons [ pmc:identifier "227859" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "16"^^xsd:int ;
+                            pmc:offset "23996"^^xsd:int ] ;
+                    pmc:text "SARS coronavirus" ],
+                [ pmc:id "464" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "23191"^^xsd:int ] ;
+                    pmc:text "HLA" ],
+                [ pmc:id "473" ;
+                    pmc:infons [ pmc:identifier "MESH:D018352" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "26"^^xsd:int ;
+                            pmc:offset "23777"^^xsd:int ] ;
+                    pmc:text "SARS coronavirus infection" ],
+                [ pmc:id "472" ;
+                    pmc:infons [ pmc:identifier "MESH:D001008" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "24251"^^xsd:int ] ;
+                    pmc:text "anxiety" ],
+                [ pmc:id "461" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "22608"^^xsd:int ] ;
+                    pmc:text "HLA-B" ],
+                [ pmc:id "466" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "23005"^^xsd:int ] ;
+                    pmc:text "peoples" ],
+                [ pmc:id "467" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "23093"^^xsd:int ] ;
+                    pmc:text "peoples" ],
+                [ pmc:id "471" ;
+                    pmc:infons [ pmc:identifier "MESH:D018352" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "29"^^xsd:int ;
+                            pmc:offset "23666"^^xsd:int ] ;
+                    pmc:text "infection of SARS coronavirus" ],
+                [ pmc:id "463" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "23726"^^xsd:int ] ;
+                    pmc:text "HLA" ],
+                [ pmc:id "475" ;
+                    pmc:infons [ pmc:identifier "MESH:D007239" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "9"^^xsd:int ;
+                            pmc:offset "24181"^^xsd:int ] ;
+                    pmc:text "infection" ],
+                [ pmc:id "462" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "22852"^^xsd:int ] ;
+                    pmc:text "HLA-B" ] ;
+            pmc:infons [ pmc:section "Discussion" ;
+                    pmc:section_type "DISCUSS" ;
+                    pmc:type "paragraph" ] ;
+            pmc:offset "22581"^^xsd:int ;
+            pmc:text "The presence or absence of HLA-B* 4601 in a population appeared to be an important element that acted during the outbreak of the SARS epidemic. Certainly, further independent studies are still needed to confirm this hypothesis. However, Taiwan indigenous peoples have no HLA-B* 4601 and have very low population density. This does not exclude that they may have avoided infection only by chance, even though many indigenous peoples are now urbanized and would have run the same risk as Taiwanese. Southern Asian peoples, not only live in highly densely populated regions, but also have less variation in their HLA related immune repertoires than European or African populations [Variation was inferred here from the heterozygosity (h = 1 - sum of squares of allele frequencies) seen in these populations, and h was obtained and calculated (data not shown) from published data [18]], which as a whole creates a favorable factor for rapid settling of any epidemic. It becomes evident that authorities must keep a state of disease awareness at all times. Little is known on the routes of infection of SARS coronavirus. In this study, the effect of HLA alleles on the resistance or susceptibility to SARS coronavirus infection was shown to be associated to class I alleles. No association with class II alleles was seen. Quickly establishing a procedure of mass screening for health care workers at risk of exposure to SARS coronavirus by detecting HLA-B* 4601 and possibly HLA-B* 1301 alleles appears justified. The results of such screening would help hospitals to better guard their personals against infection, make the workplace safer, and help to ease the tension and anxiety seen in the hospital environment." ],
+        [ pmc:annotations [ pmc:id "295" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "16147"^^xsd:int ] ;
+                    pmc:text "HLA-B" ],
+                [ pmc:id "299" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "15612"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "301" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "15695"^^xsd:int ] ;
+                    pmc:text "HLA" ],
+                [ pmc:id "293" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "15881"^^xsd:int ] ;
+                    pmc:text "HLA-B" ],
+                [ pmc:id "296" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "16276"^^xsd:int ] ;
+                    pmc:text "HLA-B" ],
+                [ pmc:id "302" ;
+                    pmc:infons [ pmc:identifier "MESH:D007239" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "9"^^xsd:int ;
+                            pmc:offset "15682"^^xsd:int ] ;
+                    pmc:text "infection" ],
+                [ pmc:id "297" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "16374"^^xsd:int ] ;
+                    pmc:text "HLA-B" ],
+                [ pmc:id "300" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "15977"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "303" ;
+                    pmc:infons [ pmc:identifier "MESH:D005334" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "15606"^^xsd:int ] ;
+                    pmc:text "fever" ],
+                [ pmc:id "294" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "16087"^^xsd:int ] ;
+                    pmc:text "HLA-B" ],
+                [ pmc:id "298" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "16111"^^xsd:int ] ;
+                    pmc:text "HLA" ] ;
+            pmc:infons [ pmc:section "Results" ;
+                    pmc:section_type "RESULTS" ;
+                    pmc:type "paragraph" ] ;
+            pmc:offset "15534"^^xsd:int ;
+            pmc:text "Analysis between 33 retained unrelated probable SARS cases, 28 excluded fever patients, and two control groups (table 2) showed weak association to infection of HLA class I alleles (B* 4601, OR = 2.08, P = 0.04, Pc = n.s. and B* 5401, OR = 5.44, P = 0.02, Pc = n.s. with control A; and B* 3901/B39, OR = 3.81, P = 0.03, Pc = n.s. with control B). HLA-B* 4601 was not significant (n.s.) when testing analogous serotypes of the 33 probable SARS patients against the 190 healthy unrelated Taiwanese of control B (OR = 1.86, P = 0.06, Pc = n.s.) (table 2). HLA-B* 1301 is a common HLA allele in Taiwan, the number of HLA-B* 1301 alleles seen in control A and control B were 18 (8.9%) and 34 (8.9%), respectively (table 2). Unexpectedly, only one HLA-B* 1301 allele was found among the 33 probable SARS cases (case 30, table 1, 2). When testing HLA-B* 1301 with the 33 probable SARS cases, both control A and control B showed elevated odds ratios (OR = 0.16, P = 0.03, Pc = n.s. and OR = 0.16, P = 0.02, Pc = n.s., respectively)." ],
+        [ pmc:annotations [ pmc:id "163" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "8560"^^xsd:int ] ;
+                    pmc:text "HLA-B" ] ;
+            pmc:infons [ pmc:file "T3.xml" ;
+                    pmc:id "T3" ;
+                    pmc:section "Methods" ;
+                    pmc:section_type "TABLE" ;
+                    pmc:type "table_caption" ] ;
+            pmc:offset "8560"^^xsd:int ;
+            pmc:text "HLA-B* 4601 allele and 6 deceased or intubated probable SARS patients" ],
+        [ pmc:infons [ pmc:fpage "271" ;
+                    pmc:lpage "287" ;
+                    pmc:name_0 "surname:De Vries;given-names:RRP" ;
+                    pmc:name_1 "surname:Meera Khan;given-names:VP" ;
+                    pmc:name_2 "surname:Bernini;given-names:LF" ;
+                    pmc:name_3 "surname:van Loghem;given-names:E" ;
+                    pmc:name_4 "surname:van Rood;given-names:JJ" ;
+                    pmc:pub-id_pmid "521665" ;
+                    pmc:section "Pre-publication history" ;
+                    pmc:section_type "REF" ;
+                    pmc:source "J Immunogenet" ;
+                    pmc:type "ref" ;
+                    pmc:volume "6" ;
+                    pmc:year "1979" ] ;
+            pmc:offset "24985"^^xsd:int ;
+            pmc:text "Genetic control of survival in epidemics" ],
+        [ pmc:annotations [ pmc:id "157" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "7945"^^xsd:int ] ;
+                    pmc:text "patients" ] ;
+            pmc:infons [ pmc:file "T2.xml" ;
+                    pmc:id "T2" ;
+                    pmc:section "Methods" ;
+                    pmc:section_type "TABLE" ;
+                    pmc:type "table_caption" ] ;
+            pmc:offset "7895"^^xsd:int ;
+            pmc:text "Allele odds ratios analysis between probable SARS patients and other groups" ],
+        [ pmc:infons [ pmc:name_0 "surname:Fisher;given-names:RA" ;
+                    pmc:section "Pre-publication history" ;
+                    pmc:section_type "REF" ;
+                    pmc:source "Edinburg: Oliver and Boyd" ;
+                    pmc:type "ref" ;
+                    pmc:year "1958" ] ;
+            pmc:offset "24746"^^xsd:int ;
+            pmc:text "Statistical methods for research worker" ],
+        [ pmc:infons [ pmc:section "Methods" ;
+                    pmc:section_type "METHODS" ;
+                    pmc:type "title_2" ] ;
+            pmc:offset "12032"^^xsd:int ;
+            pmc:text "Controls" ],
+        [ pmc:annotations [ pmc:id "161" ;
+                    pmc:infons [ pmc:identifier "4698" ;
+                            pmc:ncbi_homologene "3664" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "8345"^^xsd:int ] ;
+                    pmc:text "B13" ],
+                [ pmc:id "160" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "8115"^^xsd:int ] ;
+                    pmc:text "HLA" ] ;
+            pmc:infons [ pmc:File "T2.xml" ;
+                    pmc:id "T2" ;
+                    pmc:section "Methods" ;
+                    pmc:section_type "TABLE" ;
+                    pmc:type "table" ] ;
+            pmc:offset "7971"^^xsd:int ;
+            pmc:text " 33 CasesProbableSARSpatients 28 feverpatients Control A101 high risk non-infectedhealth care workers Control B 190 healthy unrelated Taiwanese HLA alleles Total number of allelesn = 66 Total number of allelesn = 56 P Total number of allelesn = 202 OR  CI P Total number of allelesn = 380 OR  CI P B* 4601/B46 15 9 n.s. 25 2.08 1.04-4.24 0.04 52 1.86 1.02-3.54 0.06 B* 1301/B13 1 3 n.s. 18 0.16 0.02-1.00 0.03 34 0.16 0.02-0.97 0.02 B* 5401/B54 5 3 n.s. 3 5.44 1.26-23.41 0.02 15 1.99 1.01-5.69 n.s. B* 3901/B39 5 2 n.s. 6 2.68 0.78-9.08 n.s. 8 3.81 1.21-12.03 0.03 " ],
+        [ pmc:infons [ pmc:fpage "147" ;
+                    pmc:lpage "175" ;
+                    pmc:name_0 "surname:Meachem;given-names:W" ;
+                    pmc:name_1 "surname:Keightly DK" ;
+                    pmc:section "Pre-publication history" ;
+                    pmc:section_type "REF" ;
+                    pmc:source "In The origins of Chinese civilization" ;
+                    pmc:type "ref" ;
+                    pmc:year "1981" ] ;
+            pmc:offset "25543"^^xsd:int ;
+            pmc:text "Origins and development of the Yueh coastal Neolithic: A microcosm of culture change of the mainland of East Asia" ],
+        [ pmc:infons [ pmc:section "Methods" ;
+                    pmc:section_type "METHODS" ;
+                    pmc:type "title_2" ] ;
+            pmc:offset "13964"^^xsd:int ;
+            pmc:text "Statistical analysis" ],
+        [ pmc:annotations [ pmc:id "332" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "17207"^^xsd:int ] ;
+                    pmc:text "HLA" ],
+                [ pmc:id "335" ;
+                    pmc:infons [ pmc:identifier "MESH:D045169" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "14"^^xsd:int ;
+                            pmc:offset "17623"^^xsd:int ] ;
+                    pmc:text "SARS infection" ],
+                [ pmc:id "324" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "17561"^^xsd:int ] ;
+                    pmc:text "HLA-B" ],
+                [ pmc:id "329" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "17110"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "325" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "16580"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "331" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "17434"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "328" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "16961"^^xsd:int ] ;
+                    pmc:text "patient" ],
+                [ pmc:id "323" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "17545"^^xsd:int ] ;
+                    pmc:text "HLA-B" ],
+                [ pmc:id "327" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "16851"^^xsd:int ] ;
+                    pmc:text "man" ],
+                [ pmc:id "336" ;
+                    pmc:infons [ pmc:identifier "MESH:D007676" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "21"^^xsd:int ;
+                            pmc:offset "16870"^^xsd:int ] ;
+                    pmc:text "chronic renal failure" ],
+                [ pmc:id "321" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "16802"^^xsd:int ] ;
+                    pmc:text "HLA-B" ],
+                [ pmc:id "322" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "17304"^^xsd:int ] ;
+                    pmc:text "HLA-B" ],
+                [ pmc:id "337" ;
+                    pmc:infons [ pmc:identifier "MESH:D010437" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "12"^^xsd:int ;
+                            pmc:offset "16893"^^xsd:int ] ;
+                    pmc:text "peptic ulcer" ],
+                [ pmc:id "330" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "17359"^^xsd:int ] ;
+                    pmc:text "patient" ],
+                [ pmc:id "334" ;
+                    pmc:infons [ pmc:identifier "MESH:D003327" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "22"^^xsd:int ;
+                            pmc:offset "16910"^^xsd:int ] ;
+                    pmc:text "coronary heart disease" ],
+                [ pmc:id "326" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "16640"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "333" ;
+                    pmc:infons [ pmc:identifier "MESH:D005334" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "17428"^^xsd:int ] ;
+                    pmc:text "fever" ] ;
+            pmc:infons [ pmc:section "Results" ;
+                    pmc:section_type "RESULTS" ;
+                    pmc:type "paragraph" ] ;
+            pmc:offset "16559"^^xsd:int ;
+            pmc:text "The 33 probable SARS patients also included 6 severe cases among whom three were patients who had been intubated for mechanical ventilation and five were deceased (table 1). Except for case 22 (table 1 and 3), the remaining five cases carried HLA-B* 4601. Case 22, however was a 91 years old man suffering from chronic renal failure, peptic ulcer and coronary heart disease. The cause of death of this patient was unlikely due to SARS alone and the case was removed from this group. The remaining 5 cases, labeled \"Deceased or intubated probable SARS patients\" in table 4, were retained for the analysis on the severity of SARS. The association of HLA class I and the severity of SARS was evidenced by an important increase of the odds ratio of HLA-B* 4601 in the deceased or intubated probable SARS patient group against all other groups, notably with the 28 excluded fever patients (OR = 7.83, P = 0.007, Pc = n.s.) and with control A (OR = 10.62, P = 0.0008, Pc = 0.0279) (table 4). HLA-B* 5401 and HLA-B* 3901/B39 did not show association with the severity of SARS infection (data not shown)." ],
+        [ pmc:annotations [ pmc:id "61" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "2077"^^xsd:int ] ;
+                    pmc:text "HLA-B" ],
+                [ pmc:id "69" ;
+                    pmc:infons [ pmc:identifier "MESH:D045169" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "14"^^xsd:int ;
+                            pmc:offset "1855"^^xsd:int ] ;
+                    pmc:text "SARS infection" ],
+                [ pmc:id "60" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "2038"^^xsd:int ] ;
+                    pmc:text "HLA-B" ],
+                [ pmc:id "66" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "2182"^^xsd:int ] ;
+                    pmc:text "patient" ],
+                [ pmc:id "68" ;
+                    pmc:infons [ pmc:identifier "MESH:D045169" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "14"^^xsd:int ;
+                            pmc:offset "2371"^^xsd:int ] ;
+                    pmc:text "SARS infection" ],
+                [ pmc:id "67" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "2273"^^xsd:int ] ;
+                    pmc:text "patient" ],
+                [ pmc:id "63" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "2338"^^xsd:int ] ;
+                    pmc:text "HLA-B" ],
+                [ pmc:id "62" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "2108"^^xsd:int ] ;
+                    pmc:text "HLA-B" ],
+                [ pmc:id "64" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "1907"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "65" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "1954"^^xsd:int ] ;
+                    pmc:text "peoples" ] ;
+            pmc:infons [ pmc:section "Abstract" ;
+                    pmc:section_type "ABSTRACT" ;
+                    pmc:type "abstract" ] ;
+            pmc:offset "1730"^^xsd:int ;
+            pmc:text "Densely populated regions with genetically related southern Asian populations appear to be more affected by the spreading of SARS infection. Up until recently, no probable SARS patients were reported among Taiwan indigenous peoples who are genetically distinct from the Taiwanese general population, have no HLA-B* 4601 and have high frequency of HLA-B* 1301. While increase of HLA-B* 4601 allele frequency was observed in the \"Probable SARS infected\" patient group, a further significant increase of the allele was seen in the \"Severe cases\" patient group. These results appeared to indicate association of HLA-B* 4601 with the severity of SARS infection in Asian populations. Independent studies are needed to test these results." ],
+        [ pmc:annotations [ pmc:id "503" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "25657"^^xsd:int ] ;
+                    pmc:text "HLA" ] ;
+            pmc:infons [ pmc:fpage "676" ;
+                    pmc:lpage "679" ;
+                    pmc:name_0 "surname:Chen;given-names:RB" ;
+                    pmc:name_1 "surname:Ye;given-names:GY" ;
+                    pmc:name_10 "surname:Tsuji K, Aizawa M, Sasazuki T" ;
+                    pmc:name_2 "surname:Geng;given-names:ZC" ;
+                    pmc:name_3 "surname:Wang;given-names:ZH" ;
+                    pmc:name_4 "surname:Kong;given-names:FH" ;
+                    pmc:name_5 "surname:Tian;given-names:D" ;
+                    pmc:name_6 "surname:Bao;given-names:PY" ;
+                    pmc:name_7 "surname:Liu;given-names:RY" ;
+                    pmc:name_8 "surname:Liu;given-names:J" ;
+                    pmc:name_9 "surname:Song;given-names:FJ" ;
+                    pmc:section "Pre-publication history" ;
+                    pmc:section_type "REF" ;
+                    pmc:source "In HLA 1991 Proceedings of the 11th International Histocompatibility Workshop and Conference" ;
+                    pmc:type "ref" ;
+                    pmc:volume "1" ;
+                    pmc:year "1992" ] ;
+            pmc:offset "25657"^^xsd:int ;
+            pmc:text "HLA polymorphism of the principal minorities, in mainland China" ],
+        [ pmc:annotations [ pmc:id "497" ;
+                    pmc:infons [ pmc:identifier "12637" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "12"^^xsd:int ;
+                            pmc:offset "25306"^^xsd:int ] ;
+                    pmc:text "dengue virus" ],
+                [ pmc:id "496" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "11"^^xsd:int ;
+                            pmc:offset "25259"^^xsd:int ] ;
+                    pmc:text "HLA-A and B" ] ;
+            pmc:infons [ pmc:fpage "309" ;
+                    pmc:lpage "318" ;
+                    pmc:name_0 "surname:Stephen;given-names:HA" ;
+                    pmc:name_1 "surname:Klaythong;given-names:R" ;
+                    pmc:name_2 "surname:Sirikong;given-names:M" ;
+                    pmc:name_3 "surname:Vaughn;given-names:DW" ;
+                    pmc:name_4 "surname:Green;given-names:S" ;
+                    pmc:name_5 "surname:Kalayanarooj;given-names:S" ;
+                    pmc:name_6 "surname:Endy;given-names:TP" ;
+                    pmc:name_7 "surname:Nisalak;given-names:A" ;
+                    pmc:name_8 "surname:Rothman;given-names:AL" ;
+                    pmc:name_9 "surname:Innis;given-names:BL" ;
+                    pmc:pub-id_doi "10.1034/j.1399-0039.2002.600405.x" ;
+                    pmc:pub-id_pmid "12472660" ;
+                    pmc:section "Pre-publication history" ;
+                    pmc:section_type "REF" ;
+                    pmc:source "Tissue Antigens" ;
+                    pmc:type "ref" ;
+                    pmc:volume "60" ;
+                    pmc:year "2002" ] ;
+            pmc:offset "25259"^^xsd:int ;
+            pmc:text "HLA-A and B allele associations with secondary dengue virus infections correlate with disease severity and the infecting viral serotype in ethnic Thais" ],
+        [ pmc:annotations [ pmc:id "483" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "24786"^^xsd:int ] ;
+                    pmc:text "HLA" ] ;
+            pmc:infons [ pmc:fpage "249" ;
+                    pmc:lpage "257" ;
+                    pmc:name_0 "surname:Edward;given-names:JH" ;
+                    pmc:section "Pre-publication history" ;
+                    pmc:section_type "REF" ;
+                    pmc:source "Immunogenet" ;
+                    pmc:type "ref" ;
+                    pmc:volume "1" ;
+                    pmc:year "1974" ] ;
+            pmc:offset "24786"^^xsd:int ;
+            pmc:text "HLA and disease, the detection of associations" ],
+        [ pmc:annotations [ pmc:id "121" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "5319"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "132" ;
+                    pmc:infons [ pmc:identifier "MESH:D004492" ;
+                            pmc:type "Chemical" ] ;
+                    pmc:locations [ pmc:length "4"^^xsd:int ;
+                            pmc:offset "4398"^^xsd:int ] ;
+                    pmc:text "EDTA" ],
+                [ pmc:id "130" ;
+                    pmc:infons [ pmc:identifier "MESH:D005334" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "5313"^^xsd:int ] ;
+                    pmc:text "fever" ],
+                [ pmc:id "129" ;
+                    pmc:infons [ pmc:identifier "MESH:D005334" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "4422"^^xsd:int ] ;
+                    pmc:text "fever" ],
+                [ pmc:id "125" ;
+                    pmc:infons [ pmc:identifier "MESH:D008171" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "12"^^xsd:int ;
+                            pmc:offset "5533"^^xsd:int ] ;
+                    pmc:text "lung lesions" ],
+                [ pmc:id "122" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "5374"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "126" ;
+                    pmc:infons [ pmc:identifier "MESH:D014376" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "12"^^xsd:int ;
+                            pmc:offset "5465"^^xsd:int ] ;
+                    pmc:text "tuberculosis" ],
+                [ pmc:id "117" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "4428"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "133" ;
+                    pmc:infons [ pmc:identifier "MESH:D012131" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "19"^^xsd:int ;
+                            pmc:offset "4442"^^xsd:int ] ;
+                    pmc:text "respiratory illness" ],
+                [ pmc:id "120" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "5147"^^xsd:int ] ;
+                    pmc:text "patient" ],
+                [ pmc:id "128" ;
+                    pmc:infons [ pmc:identifier "MESH:D005334" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "5368"^^xsd:int ] ;
+                    pmc:text "fever" ],
+                [ pmc:id "124" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "5483"^^xsd:int ] ;
+                    pmc:text "patient" ],
+                [ pmc:id "123" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "5395"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "131" ;
+                    pmc:infons [ pmc:identifier "MESH:D004487" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "10"^^xsd:int ;
+                            pmc:offset "5501"^^xsd:int ] ;
+                    pmc:text "lung edema" ],
+                [ pmc:id "127" ;
+                    pmc:infons [ pmc:identifier "MESH:D011014" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "10"^^xsd:int ;
+                            pmc:offset "5445"^^xsd:int ] ;
+                    pmc:text "pneumonias" ],
+                [ pmc:id "118" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "4865"^^xsd:int ] ;
+                    pmc:text "patient" ],
+                [ pmc:id "119" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "4978"^^xsd:int ] ;
+                    pmc:text "patients" ] ;
+            pmc:infons [ pmc:section "Methods" ;
+                    pmc:section_type "METHODS" ;
+                    pmc:type "paragraph" ] ;
+            pmc:offset "4033"^^xsd:int ;
+            pmc:text "In the course of March 19 to May 22, 2003, 93 cases of suspected SARS were reported by Mackay Memorial Hospital in Taipei City and its branch in Tan Sui County of Taipei to the Center for Disease Control in Taiwan. Up until early June, among 680 probable SARS cases reported in Taiwan, 71 (10.4%) cases were admitted to our hospital. Between May 5 and 26, 2003, 63 EDTA blood samples from fever patients with respiratory illness were collected in our hospitals. Two earlier specimens from the National Taiwan University Hospital (Taipei) were added to this study. Of the 65 (63+2) cases, 37 cases (table 1) were diagnosed as probable SARS cases according to updated WHO case definition for SARS (revised May 1, 2003). Three families were included (cases 31 and 32; cases 33 and 34; and cases 35, 36 and 37). Only the first infected patient in each family (cases 31, 33, 35) was retained for the analysis giving a final count of 33 probable SARS patients. Nine unrelated individuals (cases 7, 13, 18, 19, 21, 22, 26, 27, and 31) were infected from the same source (unfortunately this \"super-spreader\" probable SARS patient died 24 hours after admission in hospital and was not studied). Twenty eight cases of the 65 cases were not positive for SARS, and were referred as \"Excluded fever patients\" in tables 2 and 4. Among the \"Excluded fever patients\" group, two patients showed positive serological tests for M. pneumonias, one had tuberculosis, one patient presented lung edema, and the rest had no lung lesions." ],
+        [ pmc:infons [ pmc:section "Pre-publication history" ;
+                    pmc:section_type "SUPPL" ;
+                    pmc:type "title_1" ] ;
+            pmc:offset "24293"^^xsd:int ;
+            pmc:text "Pre-publication history" ],
+        [ pmc:infons [ pmc:section "Results" ;
+                    pmc:section_type "RESULTS" ;
+                    pmc:type "title_1" ] ;
+            pmc:offset "14892"^^xsd:int ;
+            pmc:text "Results" ],
+        [ pmc:annotations [ pmc:id "47" ;
+                    pmc:infons [ pmc:identifier "MESH:D018352" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "21"^^xsd:int ;
+                            pmc:offset "1153"^^xsd:int ] ;
+                    pmc:text "coronavirus infection" ],
+                [ pmc:id "42" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "1484"^^xsd:int ] ;
+                    pmc:text "patient" ],
+                [ pmc:id "43" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "1532"^^xsd:int ] ;
+                    pmc:text "patient" ],
+                [ pmc:id "46" ;
+                    pmc:infons [ pmc:type "Chemical" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "987"^^xsd:int ] ;
+                    pmc:text "Haldane" ],
+                [ pmc:id "41" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "1215"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "40" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "1314"^^xsd:int ] ;
+                    pmc:text "HLA-B" ],
+                [ pmc:id "39" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "1678"^^xsd:int ] ;
+                    pmc:text "HLA-B" ],
+                [ pmc:id "45" ;
+                    pmc:infons [ pmc:identifier "6301" ;
+                            pmc:ncbi_homologene "4751" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "1526"^^xsd:int ] ;
+                    pmc:text "SARS\"" ],
+                [ pmc:id "48" ;
+                    pmc:infons [ pmc:identifier "MESH:D045169" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "13"^^xsd:int ;
+                            pmc:offset "1201"^^xsd:int ] ;
+                    pmc:text "infected SARS" ],
+                [ pmc:id "49" ;
+                    pmc:infons [ pmc:identifier "MESH:D018352" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "26"^^xsd:int ;
+                            pmc:offset "1418"^^xsd:int ] ;
+                    pmc:text "SARS coronavirus infection" ],
+                [ pmc:id "38" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "1266"^^xsd:int ] ;
+                    pmc:text "HLA-B" ],
+                [ pmc:id "44" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "1116"^^xsd:int ] ;
+                    pmc:text "HLA" ] ;
+            pmc:infons [ pmc:section "Abstract" ;
+                    pmc:section_type "ABSTRACT" ;
+                    pmc:type "abstract" ] ;
+            pmc:offset "977"^^xsd:int ;
+            pmc:text "Woolf and Haldane Odds ratio (OR) and corrected P-value (Pc) obtained from two tails Fisher exact test were used to show susceptibility of HLA class I or class II alleles with coronavirus infection. At first, when analyzing infected SARS patients and high risk health care workers groups, HLA-B*4601 (OR = 2.08, P = 0.04, Pc = n.s.) and HLA-B*5401 (OR = 5.44, P = 0.02, Pc = n.s.) appeared as the most probable elements that may be favoring SARS coronavirus infection. After selecting only a \"severe cases\" patient group from the infected \"probable SARS\" patient group and comparing them with the high risk health care workers group, the severity of SARS was shown to be significantly associated with HLA-B*4601 (P = 0.0008 or Pc = 0.0279)." ],
+        [ pmc:annotations [ pmc:id "442" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "22349"^^xsd:int ] ;
+                    pmc:text "children" ],
+                [ pmc:id "441" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "22331"^^xsd:int ] ;
+                    pmc:text "peoples" ],
+                [ pmc:id "438" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "21985"^^xsd:int ] ;
+                    pmc:text "HLA" ],
+                [ pmc:id "444" ;
+                    pmc:infons [ pmc:identifier "MESH:D045169" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "14"^^xsd:int ;
+                            pmc:offset "22517"^^xsd:int ] ;
+                    pmc:text "SARS infection" ],
+                [ pmc:id "437" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "22432"^^xsd:int ] ;
+                    pmc:text "HLA-B" ],
+                [ pmc:id "439" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "21821"^^xsd:int ] ;
+                    pmc:text "peoples" ],
+                [ pmc:id "440" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "22022"^^xsd:int ] ;
+                    pmc:text "peoples" ],
+                [ pmc:id "443" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "22408"^^xsd:int ] ;
+                    pmc:text "peoples" ],
+                [ pmc:id "436" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "22131"^^xsd:int ] ;
+                    pmc:text "HLA-B" ],
+                [ pmc:id "445" ;
+                    pmc:infons [ pmc:identifier "MESH:D045169" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "14"^^xsd:int ;
+                            pmc:offset "22109"^^xsd:int ] ;
+                    pmc:text "SARS infection" ] ;
+            pmc:infons [ pmc:section "Discussion" ;
+                    pmc:section_type "DISCUSS" ;
+                    pmc:type "paragraph" ] ;
+            pmc:offset "21714"^^xsd:int ;
+            pmc:text "The probable SARS cases in this report consist mainly of southern Chinese origin Taiwanese (non indigenous peoples). Contraction of SARS by Taiwan indigenous individuals from any of the nine tribes of Taiwan has not yet been reported to this day. It is possible that the HLA make up of the Taiwan indigenous peoples has little in common to the Taiwanese and may not contain any element favoring SARS infection. Also, HLA-B* 4601/B46 displays higher frequencies in Southern Han (15.4%), in Singaporean (15.1%) and in Vietnamese (13.2%) than in Northern Han (2.8%), but the allele has rarely been seen among indigenous peoples except in children of intermarriage between Taiwanese and indigenous peoples. Interestingly, HLA-B* 4601/B46 is also seldom seen in Europeans populations where very few cases of SARS infection of individuals of European origin were reported." ],
+        [ pmc:annotations [ pmc:id "97" ;
+                    pmc:infons [ pmc:identifier "MESH:D007239" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "9"^^xsd:int ;
+                            pmc:offset "2731"^^xsd:int ] ;
+                    pmc:text "infection" ],
+                [ pmc:id "91" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "3565"^^xsd:int ] ;
+                    pmc:text "human" ],
+                [ pmc:id "92" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "3745"^^xsd:int ] ;
+                    pmc:text "HLA" ],
+                [ pmc:id "90" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "3446"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "87" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "3193"^^xsd:int ] ;
+                    pmc:text "patient" ],
+                [ pmc:id "89" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "3323"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "86" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "3093"^^xsd:int ] ;
+                    pmc:text "patient" ],
+                [ pmc:id "96" ;
+                    pmc:infons [ pmc:identifier "MESH:D003141" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "19"^^xsd:int ;
+                            pmc:offset "3665"^^xsd:int ] ;
+                    pmc:text "infectious diseases" ],
+                [ pmc:id "88" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "3278"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "95" ;
+                    pmc:infons [ pmc:identifier "MESH:D045169" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "26"^^xsd:int ;
+                            pmc:offset "2537"^^xsd:int ] ;
+                    pmc:text "acute respiratory syndrome" ],
+                [ pmc:id "94" ;
+                    pmc:infons [ pmc:identifier "MESH:D012131" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "19"^^xsd:int ;
+                            pmc:offset "2989"^^xsd:int ] ;
+                    pmc:text "respiratory failure" ],
+                [ pmc:id "98" ;
+                    pmc:infons [ pmc:identifier "MESH:D001327" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "20"^^xsd:int ;
+                            pmc:offset "3689"^^xsd:int ] ;
+                    pmc:text "autoimmune disorders" ],
+                [ pmc:id "85" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "2976"^^xsd:int ] ;
+                    pmc:text "patient" ],
+                [ pmc:id "93" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "3590"^^xsd:int ] ;
+                    pmc:text "HLA" ],
+                [ pmc:id "99" ;
+                    pmc:infons [ pmc:identifier "MESH:D001008" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "2904"^^xsd:int ] ;
+                    pmc:text "anxiety" ] ;
+            pmc:infons [ pmc:section "Background" ;
+                    pmc:section_type "INTRO" ;
+                    pmc:type "paragraph" ] ;
+            pmc:offset "2473"^^xsd:int ;
+            pmc:text "In late April 2003, Taiwan was stroked by an epidemic of severe acute respiratory syndrome (SARS). A general SARS panic spread over the country when the Taipei Municipal Hoping hospital announced its shutdown as a preventive measure following heavy hospital infection. Further closedown of medical services, including emergency services, appeared sporadically in other hospitals and clinics all over the country. This caused great anxiety among all health care workers. On May 4, 2003, a suspected SARS patient with respiratory failure was brought to the Emergency Service of the Mackay Memorial Hospital in Taipei. The patient was admitted into SARS wards and died 24 hours later. However, during this short period the patient most likely infected 4 health care workers and 5 individuals who were either patients or visiting family members of other patients present at the same time. The hospital set up emergency procedures, and most manpower was put into caring of SARS patients. Taiwan hospitals were facing an unpredictable and invisible enemy for the first time in recent 50 years. The human leukocyte antigen (HLA) system is widely used as a strategy in the search for the etiology of infectious diseases and autoimmune disorders. In this study we investigated the HLA-class I and II system for evidence of disease association. It was hoped that the discovery of disease susceptibility or a disease protection phenotype in the Taiwan population would help into setting up a preventive screening program for health care workers at risk." ],
+        [ pmc:annotations [ pmc:id "208" ;
+                    pmc:infons [ pmc:identifier "MESH:D008171" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "22"^^xsd:int ;
+                            pmc:offset "10896"^^xsd:int ] ;
+                    pmc:text "bilateral lung lesions" ],
+                [ pmc:id "203" ;
+                    pmc:infons [ pmc:identifier "83554" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "11"^^xsd:int ;
+                            pmc:offset "10567"^^xsd:int ] ;
+                    pmc:text "C. psittaci" ],
+                [ pmc:id "207" ;
+                    pmc:infons [ pmc:identifier "83558" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "9"^^xsd:int ;
+                            pmc:offset "10599"^^xsd:int ] ;
+                    pmc:text "Chlamydia" ],
+                [ pmc:id "206" ;
+                    pmc:infons [ pmc:identifier "1313" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "13"^^xsd:int ;
+                            pmc:offset "11019"^^xsd:int ] ;
+                    pmc:text "M. pneumoniae" ],
+                [ pmc:id "204" ;
+                    pmc:infons [ pmc:identifier "813" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "14"^^xsd:int ;
+                            pmc:offset "10583"^^xsd:int ] ;
+                    pmc:text "C. trachomatis" ],
+                [ pmc:id "209" ;
+                    pmc:infons [ pmc:identifier "MESH:D007877" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "23"^^xsd:int ;
+                            pmc:offset "11073"^^xsd:int ] ;
+                    pmc:text "Legionella pneumophilia" ],
+                [ pmc:id "205" ;
+                    pmc:infons [ pmc:identifier "1313" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "13"^^xsd:int ;
+                            pmc:offset "10783"^^xsd:int ] ;
+                    pmc:text "M. pneumoniae" ] ;
+            pmc:infons [ pmc:section "Methods" ;
+                    pmc:section_type "METHODS" ;
+                    pmc:type "paragraph" ] ;
+            pmc:offset "10487"^^xsd:int ;
+            pmc:text "Serum samples from 27 probable SARS cases were tested for Chlamydia pneumoniae, C. psittaci and C. trachomatis (Chlamydia IgM kit, Savyon Diagnostic, Israel), and 11 were further tested for IgG and IgA antibodies. All showed negative results. Among 24 probable SARS cases who had been tested for M. pneumoniae (IgM, Savyon Diagnostic, Israel), only two cases tested positive. These two cases also had diffuse bilateral lung lesions and positive SARS-CoV RNA test. It is possible that 8% of probable SARS cases were co-infected with M. pneumoniae. Finally, 15 cases were also tested for Legionella pneumophilia serogroup 1 antigen (Binax, US), and showed negative results." ],
+        [ pmc:annotations [ pmc:id "181" ;
+                    pmc:infons [ pmc:identifier "MESH:D005334" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "9378"^^xsd:int ] ;
+                    pmc:text "fever" ],
+                [ pmc:id "180" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "9384"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "179" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "9342"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "178" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "9449"^^xsd:int ] ;
+                    pmc:text "HLA" ] ;
+            pmc:infons [ pmc:File "T4.xml" ;
+                    pmc:id "T4" ;
+                    pmc:section "Methods" ;
+                    pmc:section_type "TABLE" ;
+                    pmc:type "table" ] ;
+            pmc:offset "9303"^^xsd:int ;
+            pmc:text " 5 deceased or intubated probable SARS patients (Severe cases) 28 Excluded fever patients Control A101 high risk non-infected health care workers HLA allele Total number of alleles (n = 10) Total number of alleles (n = 56) OR CI P Pc-value (20)  Total number of alleles (n = 202) OR CI P Pc-value (33)  B* 4601 6 9 7.83 1.83-33.47 0.007 n.s. 25 10.62 2.80-40.26 0.0008 0.0279 " ],
+        [ pmc:annotations [ pmc:id "281" ;
+                    pmc:infons [ pmc:identifier "MESH:D005334" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "14971"^^xsd:int ] ;
+                    pmc:text "fever" ],
+                [ pmc:id "276" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "15364"^^xsd:int ] ;
+                    pmc:text "HLA" ],
+                [ pmc:id "278" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "15014"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "277" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "14977"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "273" ;
+                    pmc:infons [ pmc:identifier "3105" ;
+                            pmc:ncbi_homologene "128352" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "15276"^^xsd:int ] ;
+                    pmc:text "HLA-A" ],
+                [ pmc:id "275" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "15467"^^xsd:int ] ;
+                    pmc:text "HLA" ],
+                [ pmc:id "280" ;
+                    pmc:infons [ pmc:identifier "227859" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "16"^^xsd:int ;
+                            pmc:offset "15144"^^xsd:int ] ;
+                    pmc:text "SARS coronavirus" ],
+                [ pmc:id "274" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "4"^^xsd:int ;
+                            pmc:offset "15289"^^xsd:int ] ;
+                    pmc:text "DRB1" ],
+                [ pmc:id "279" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "15062"^^xsd:int ] ;
+                    pmc:text "patients" ] ;
+            pmc:infons [ pmc:section "Results" ;
+                    pmc:section_type "RESULTS" ;
+                    pmc:type "paragraph" ] ;
+            pmc:offset "14900"^^xsd:int ;
+            pmc:text "In this study we performed allele typing on 37 probable SARS cases, 28 fever patients of suspected SARS (these 28 patients were later excluded for being non SARS patients), and 101 health care workers (control A) exposed or possibly exposed to SARS coronavirus but non-infected health care workers from Mackay Memorial Hospital and Taipei Municipal Hoping Hospital in Taiwan. HLA-A, B and DRB1 allele typing using PCR-SSOP method was performed on these cases. The HLA data of 190 healthy unrelated Taiwanese in our data bank was also used in this study as control B. HLA alleles typing of 37 probable SARS cases are shown in table 1." ],
+        [ pmc:annotations [ pmc:id "143" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "4"^^xsd:int ;
+                            pmc:offset "5861"^^xsd:int ] ;
+                    pmc:text "DRB1" ],
+                [ pmc:id "142" ;
+                    pmc:infons [ pmc:identifier "3105;3106" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "5851"^^xsd:int ] ;
+                    pmc:text "HLA-A, B" ] ;
+            pmc:infons [ pmc:file "T1.xml" ;
+                    pmc:id "T1" ;
+                    pmc:section "Methods" ;
+                    pmc:section_type "TABLE" ;
+                    pmc:type "table_caption" ] ;
+            pmc:offset "5851"^^xsd:int ;
+            pmc:text "HLA-A, B, DRB1 allele typing of 37 probable SARS patients" ],
+        [ pmc:annotations [ pmc:id "507" ;
+                    pmc:infons [ pmc:identifier "MESH:D045169" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "26"^^xsd:int ;
+                            pmc:offset "25905"^^xsd:int ] ;
+                    pmc:text "acute respiratory syndrome" ] ;
+            pmc:infons [ pmc:fpage "1977" ;
+                    pmc:lpage "1985" ;
+                    pmc:name_0 "surname:Tsang;given-names:KW" ;
+                    pmc:name_1 "surname:Ho;given-names:PL" ;
+                    pmc:name_2 "surname:Ooi;given-names:GC" ;
+                    pmc:name_3 "surname:Yee;given-names:W" ;
+                    pmc:name_4 "surname:Wang;given-names:T" ;
+                    pmc:name_5 "surname:Chan-Yeung;given-names:M" ;
+                    pmc:name_6 "surname:Lam;given-names:WK" ;
+                    pmc:name_7 "surname:Seto;given-names:WH" ;
+                    pmc:name_8 "surname:Yam;given-names:L" ;
+                    pmc:name_9 "surname:Cheung;given-names:TM" ;
+                    pmc:pub-id_doi "10.1056/NEJMoa030666" ;
+                    pmc:pub-id_pmid "12671062" ;
+                    pmc:section "Pre-publication history" ;
+                    pmc:section_type "REF" ;
+                    pmc:source "N Engl J Med" ;
+                    pmc:type "ref" ;
+                    pmc:volume "348" ;
+                    pmc:year "2003" ] ;
+            pmc:offset "25876"^^xsd:int ;
+            pmc:text "A cluster of cases of severe acute respiratory syndrome in Hong Kong" ],
+        [ pmc:annotations [ pmc:id "505" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "25827"^^xsd:int ] ;
+                    pmc:text "HLA" ] ;
+            pmc:infons [ pmc:fpage "1065" ;
+                    pmc:lpage "1220" ;
+                    pmc:name_0 "surname:Imanishi;given-names:T" ;
+                    pmc:name_1 "surname:Akaza;given-names:T" ;
+                    pmc:name_2 "surname:Kimura;given-names:A" ;
+                    pmc:name_3 "surname:Tokunaga;given-names:K" ;
+                    pmc:name_4 "surname:Gojobori;given-names:T" ;
+                    pmc:name_5 "surname:Tsuji K, Aizawa M, Sasazuki T" ;
+                    pmc:section "Pre-publication history" ;
+                    pmc:section_type "REF" ;
+                    pmc:source "In HLA 1991 Proceedings of the 11th International Histocompatibility Workshop and Conference" ;
+                    pmc:type "ref" ;
+                    pmc:volume "1" ;
+                    pmc:year "1992" ] ;
+            pmc:offset "25790"^^xsd:int ;
+            pmc:text "Allele and haplotype frequencies for HLA and complement loci in various ethnic groups" ],
+        [ pmc:infons [ pmc:fpage "251" ;
+                    pmc:lpage "253" ;
+                    pmc:name_0 "surname:Woolf;given-names:B" ;
+                    pmc:pub-id_pmid "14388528" ;
+                    pmc:section "Pre-publication history" ;
+                    pmc:section_type "REF" ;
+                    pmc:source "Ann Hum Genet" ;
+                    pmc:type "ref" ;
+                    pmc:volume "19" ;
+                    pmc:year "1955" ] ;
+            pmc:offset "24687"^^xsd:int ;
+            pmc:text "On estimating the relation between blood group and disease" ],
+        [ pmc:annotations [ pmc:id "477" ;
+                    pmc:infons [ pmc:identifier "MESH:D045169" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "26"^^xsd:int ;
+                            pmc:offset "24425"^^xsd:int ] ;
+                    pmc:text "acute respiratory syndrome" ] ;
+            pmc:infons [ pmc:comment "Accessed June 2, 2003" ;
+                    pmc:section "Pre-publication history" ;
+                    pmc:section_type "REF" ;
+                    pmc:source "Geneva: World Health Organization" ;
+                    pmc:type "ref" ] ;
+            pmc:offset "24382"^^xsd:int ;
+            pmc:text "Case definition for surveillance of severe acute respiratory syndrome (SARS)" ],
+        [ pmc:annotations [ pmc:id "221" ;
+                    pmc:infons [ pmc:identifier "MESH:D012131" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "19"^^xsd:int ;
+                            pmc:offset "11300"^^xsd:int ] ;
+                    pmc:text "respiratory failure" ],
+                [ pmc:id "220" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "11643"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "219" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "11516"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "218" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "11421"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "217" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "11279"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "216" ;
+                    pmc:infons [ pmc:identifier "6301" ;
+                            pmc:ncbi_homologene "4751" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "11750"^^xsd:int ] ;
+                    pmc:text "SARS\"" ] ;
+            pmc:infons [ pmc:section "Methods" ;
+                    pmc:section_type "METHODS" ;
+                    pmc:type "paragraph" ] ;
+            pmc:offset "11159"^^xsd:int ;
+            pmc:text "All 37 probable cases revealed history of close or indirect contact with another suspected probable case of SARS. Three patients with severe respiratory failure airways had been intubated and mechanical ventilation was applied during hospitalization. Later, two patients died and one survived. Finally, among the 35 probable SARS cases of our hospital four patients died during hospitalization, giving an 11% mortality rate. Except for two rapid severe/fatal cases most probable SARS patients were admitted to the SARS wards for periods longer than two weeks. A final diagnosis of \"probable SARS\" was declared upon exclusion of all other possible causes." ],
+        [ pmc:annotations [ pmc:id "173" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "9255"^^xsd:int ] ;
+                    pmc:text "HLA-B" ] ;
+            pmc:infons [ pmc:file "T4.xml" ;
+                    pmc:id "T4" ;
+                    pmc:section "Methods" ;
+                    pmc:section_type "TABLE" ;
+                    pmc:type "table_caption" ] ;
+            pmc:offset "9245"^^xsd:int ;
+            pmc:text "Effect of HLA-B* 4601 allele on severity of SARS patients" ],
+        [ pmc:infons [ pmc:section "Discussion" ;
+                    pmc:section_type "DISCUSS" ;
+                    pmc:type "title_1" ] ;
+            pmc:offset "17656"^^xsd:int ;
+            pmc:text "Discussion" ],
+        [ pmc:annotations [ pmc:id "139" ;
+                    pmc:infons [ pmc:identifier "MESH:D012131" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "19"^^xsd:int ;
+                            pmc:offset "5678"^^xsd:int ] ;
+                    pmc:text "respiratory failure" ],
+                [ pmc:id "138" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "5808"^^xsd:int ] ;
+                    pmc:text "patient" ],
+                [ pmc:id "137" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "5698"^^xsd:int ] ;
+                    pmc:text "patient" ] ;
+            pmc:infons [ pmc:section "Methods" ;
+                    pmc:section_type "TABLE" ;
+                    pmc:type "table" ] ;
+            pmc:offset "5547"^^xsd:int ;
+            pmc:text "Cases 31 and 32; cases 33 and 34 are mother- daughter pairs. Case 35 is the father of cases 36 and 37 * Fatal cases and one severe respiratory failure patient who survived after intubation (case 33).   Individuals most likely infected by the same probable SARS patient who died 24 hrs after admission." ],
+        [ pmc:infons [ pmc:comment "Available at " ;
+                    pmc:fpage "388" ;
+                    pmc:lpage "390" ;
+                    pmc:pub-id_pmid "12765203" ;
+                    pmc:section "Pre-publication history" ;
+                    pmc:section_type "REF" ;
+                    pmc:source "MMWR" ;
+                    pmc:type "ref" ;
+                    pmc:volume "52" ;
+                    pmc:year "2003" ] ;
+            pmc:offset "25721"^^xsd:int ;
+            pmc:text "Update: Severe Acute Respiratory Syndrome -- United States, 2003" ],
+        [ pmc:infons [ pmc:section "Pre-publication history" ;
+                    pmc:section_type "SUPPL" ;
+                    pmc:type "paragraph" ] ;
+            pmc:offset "24317"^^xsd:int ;
+            pmc:text "The pre-publication history for this paper can be accessed here:" ],
+        [ pmc:annotations [ pmc:id "243" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "13233"^^xsd:int ] ;
+                    pmc:text "HLA-DRB1" ],
+                [ pmc:id "242" ;
+                    pmc:infons [ pmc:identifier "3105" ;
+                            pmc:ncbi_homologene "128352" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "13166"^^xsd:int ] ;
+                    pmc:text "HLA-A" ],
+                [ pmc:id "241" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "4"^^xsd:int ;
+                            pmc:offset "13022"^^xsd:int ] ;
+                    pmc:text "DRB1" ],
+                [ pmc:id "240" ;
+                    pmc:infons [ pmc:identifier "3105;3106" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "13009"^^xsd:int ] ;
+                    pmc:text "HLA-A, B" ] ;
+            pmc:infons [ pmc:section "Methods" ;
+                    pmc:section_type "METHODS" ;
+                    pmc:type "paragraph" ] ;
+            pmc:offset "13009"^^xsd:int ;
+            pmc:text "HLA-A, B and DRB1 typing of 190 normal healthy, unrelated Taiwanese was obtained from data collected in our laboratory and used as control B. For control B, HLA-A, B class I typing was performed by serological methods only. HLA-DRB1 typing was performed by allele typing as described below for the other groups." ],
+        [ pmc:infons [ pmc:section "Background" ;
+                    pmc:section_type "INTRO" ;
+                    pmc:type "title_1" ] ;
+            pmc:offset "2462"^^xsd:int ;
+            pmc:text "Background" ],
+        [ pmc:infons [ pmc:section "Abstract" ;
+                    pmc:section_type "ABSTRACT" ;
+                    pmc:type "abstract_title_1" ] ;
+            pmc:offset "88"^^xsd:int ;
+            pmc:text "Background" ],
+        [ pmc:infons [ pmc:fpage "309" ;
+                    pmc:lpage "311" ;
+                    pmc:name_0 "surname:Haldane;given-names:JBS" ;
+                    pmc:pub-id_pmid "13314400" ;
+                    pmc:section "Pre-publication history" ;
+                    pmc:section_type "REF" ;
+                    pmc:source "Ann Hum Genet" ;
+                    pmc:type "ref" ;
+                    pmc:volume "20" ;
+                    pmc:year "1956" ] ;
+            pmc:offset "24612"^^xsd:int ;
+            pmc:text "The estimation and significance of the logarithm of a ratio of frequencies" ],
+        [ pmc:annotations [ pmc:id "418" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "20315"^^xsd:int ] ;
+                    pmc:text "peoples" ],
+                [ pmc:id "421" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "21375"^^xsd:int ] ;
+                    pmc:text "peoples" ],
+                [ pmc:id "419" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "6"^^xsd:int ;
+                            pmc:offset "20413"^^xsd:int ] ;
+                    pmc:text "people" ],
+                [ pmc:id "422" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "21434"^^xsd:int ] ;
+                    pmc:text "peoples" ],
+                [ pmc:id "420" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "21141"^^xsd:int ] ;
+                    pmc:text "peoples" ],
+                [ pmc:id "425" ;
+                    pmc:infons [ pmc:identifier "MESH:D018352" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "26"^^xsd:int ;
+                            pmc:offset "20951"^^xsd:int ] ;
+                    pmc:text "SARS coronavirus infection" ],
+                [ pmc:id "424" ;
+                    pmc:infons [ pmc:identifier "MESH:D007239" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "9"^^xsd:int ;
+                            pmc:offset "21524"^^xsd:int ] ;
+                    pmc:text "infection" ],
+                [ pmc:id "423" ;
+                    pmc:infons [ pmc:identifier "MESH:D045169" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "14"^^xsd:int ;
+                            pmc:offset "21355"^^xsd:int ] ;
+                    pmc:text "SARS infection" ] ;
+            pmc:infons [ pmc:section "Discussion" ;
+                    pmc:section_type "DISCUSS" ;
+                    pmc:type "paragraph" ] ;
+            pmc:offset "20144"^^xsd:int ;
+            pmc:text "Taiwan population is heterogeneous and comprises 91% Taiwanese, 7.5% Chinese who arrived from many different provinces of China after World War II, and 1.5% of indigenous peoples established there since several millenniums. The Taiwanese comprised the Minnan and Hakka people groups, and are the descendants of early settlers from the southeast coast of China (Fujian and Guangdong Provinces) during the last few centuries. The genetic profile of the Taiwanese shows many affinities to southern Asian populations and share the same origin with Singapore Chinese and Thai Chinese who also originated from the southeast coast of China. According to archeological evidences, the populations in the delta of the Hong River in northern Vietnam are also likely related to these populations. After the outbreak of SARS coronavirus infection in the Guangdong Province of China, it was surprising to observe that the spreading of the disease was mostly confined among southern Asian populations (Hong-Kong peoples, Vietnamese, Singaporeans and Taiwanese). Density of populations possibly favored the growth of the epidemic. The question aroused as to whether affected southern Asian populations were more susceptible to SARS infection than peoples of northern China (Beijing), Japan, or Korea. Many peoples in Beijing generally considered as northern Chinese, were also infected, however, infection in Beijing could be attributed to heterogeneity of populations following important recent migration of southern Chinese and population resettlement during the Cultural Revolution." ],
+        [ pmc:annotations [ pmc:id "489" ;
+                    pmc:infons [ pmc:identifier "MESH:D003141" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "18"^^xsd:int ;
+                            pmc:offset "25054"^^xsd:int ] ;
+                    pmc:text "infectious disease" ],
+                [ pmc:id "488" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "25048"^^xsd:int ] ;
+                    pmc:text "human" ] ;
+            pmc:infons [ pmc:fpage "593" ;
+                    pmc:lpage "617" ;
+                    pmc:name_0 "surname:Hill;given-names:AVS" ;
+                    pmc:pub-id_doi "10.1146/annurev.immunol.16.1.593" ;
+                    pmc:pub-id_pmid "9597143" ;
+                    pmc:section "Pre-publication history" ;
+                    pmc:section_type "REF" ;
+                    pmc:source "Annu Rev Immunol" ;
+                    pmc:type "ref" ;
+                    pmc:volume "16" ;
+                    pmc:year "1998" ] ;
+            pmc:offset "25026"^^xsd:int ;
+            pmc:text "The immunogenetics of human infectious disease" ],
+        [ pmc:infons [ pmc:section "Abstract" ;
+                    pmc:section_type "ABSTRACT" ;
+                    pmc:type "abstract_title_1" ] ;
+            pmc:offset "969"^^xsd:int ;
+            pmc:text "Results" ],
+        [ pmc:annotations [ pmc:id "481" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "24602"^^xsd:int ] ;
+                    pmc:text "HLA" ] ;
+            pmc:infons [ pmc:fpage "192" ;
+                    pmc:lpage "199" ;
+                    pmc:name_0 "surname:Lin;given-names:M" ;
+                    pmc:name_1 "surname:Chu;given-names:C-C" ;
+                    pmc:name_2 "surname:Chang;given-names:S-L" ;
+                    pmc:name_3 "surname:Lee;given-names:H-L" ;
+                    pmc:name_4 "surname:Loo;given-names:J-H" ;
+                    pmc:name_5 "surname:Akaza;given-names:T" ;
+                    pmc:name_6 "surname:Juji;given-names:T" ;
+                    pmc:name_7 "surname:Ohashi;given-names:J" ;
+                    pmc:name_8 "surname:Tokunaga;given-names:K" ;
+                    pmc:pub-id_doi "10.1034/j.1399-0039.2001.057003192.x" ;
+                    pmc:pub-id_pmid "11285126" ;
+                    pmc:section "Pre-publication history" ;
+                    pmc:section_type "REF" ;
+                    pmc:source "Tissue Antigens" ;
+                    pmc:type "ref" ;
+                    pmc:volume "57" ;
+                    pmc:year "2001" ] ;
+            pmc:offset "24531"^^xsd:int ;
+            pmc:text "The origin of Minnan and Hakka, the so-called \"Taiwanese\", inferred by HLA study" ],
+        [ pmc:annotations [ pmc:id "386" ;
+                    pmc:infons [ pmc:identifier "31631" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "22"^^xsd:int ;
+                            pmc:offset "18260"^^xsd:int ] ;
+                    pmc:text "human coronavirus OC43" ],
+                [ pmc:id "383" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "17897"^^xsd:int ] ;
+                    pmc:text "HLA" ],
+                [ pmc:id "408" ;
+                    pmc:infons [ pmc:identifier "MESH:D008288" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "17965"^^xsd:int ] ;
+                    pmc:text "malaria" ],
+                [ pmc:id "393" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "19619"^^xsd:int ] ;
+                    pmc:text "HLA" ],
+                [ pmc:id "391" ;
+                    pmc:infons [ pmc:identifier "4698" ;
+                            pmc:ncbi_homologene "3664" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "19623"^^xsd:int ] ;
+                    pmc:text "B13" ],
+                [ pmc:id "392" ;
+                    pmc:infons [ pmc:identifier "4698" ;
+                            pmc:ncbi_homologene "3664" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "19461"^^xsd:int ] ;
+                    pmc:text "B13" ],
+                [ pmc:id "384" ;
+                    pmc:infons [ pmc:identifier "4698" ;
+                            pmc:ncbi_homologene "3664" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "19819"^^xsd:int ] ;
+                    pmc:text "B13" ],
+                [ pmc:id "380" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "19537"^^xsd:int ] ;
+                    pmc:text "HLA-B" ],
+                [ pmc:id "400" ;
+                    pmc:infons [ pmc:identifier "MESH:D014376" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "12"^^xsd:int ;
+                            pmc:offset "17974"^^xsd:int ] ;
+                    pmc:text "tuberculosis" ],
+                [ pmc:id "403" ;
+                    pmc:infons [ pmc:identifier "MESH:D018352" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "21"^^xsd:int ;
+                            pmc:offset "20117"^^xsd:int ] ;
+                    pmc:text "coronavirus infection" ],
+                [ pmc:id "404" ;
+                    pmc:infons [ pmc:identifier "MESH:D018352" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "26"^^xsd:int ;
+                            pmc:offset "18490"^^xsd:int ] ;
+                    pmc:text "SARS coronavirus infection" ],
+                [ pmc:id "402" ;
+                    pmc:infons [ pmc:identifier "MESH:D005334" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "19002"^^xsd:int ] ;
+                    pmc:text "fever" ],
+                [ pmc:id "401" ;
+                    pmc:infons [ pmc:identifier "MESH:D007239" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "9"^^xsd:int ;
+                            pmc:offset "17744"^^xsd:int ] ;
+                    pmc:text "infection" ],
+                [ pmc:id "397" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "18300"^^xsd:int ] ;
+                    pmc:text "HLA" ],
+                [ pmc:id "394" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "19457"^^xsd:int ] ;
+                    pmc:text "HLA" ],
+                [ pmc:id "390" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "19861"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "389" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "19208"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "395" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "18592"^^xsd:int ] ;
+                    pmc:text "HLA" ],
+                [ pmc:id "374" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "17667"^^xsd:int ] ;
+                    pmc:text "HLA-B" ],
+                [ pmc:id "406" ;
+                    pmc:infons [ pmc:identifier "MESH:D018352" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "26"^^xsd:int ;
+                            pmc:offset "18616"^^xsd:int ] ;
+                    pmc:text "SARS coronavirus infection" ],
+                [ pmc:id "409" ;
+                    pmc:infons [ pmc:identifier "MESH:D007918" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "17988"^^xsd:int ] ;
+                    pmc:text "leprosy" ],
+                [ pmc:id "407" ;
+                    pmc:infons [ pmc:identifier "MESH:D015004" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "20"^^xsd:int ;
+                            pmc:offset "17819"^^xsd:int ] ;
+                    pmc:text "Century yellow fever" ],
+                [ pmc:id "399" ;
+                    pmc:infons [ pmc:identifier "MESH:D007239" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "9"^^xsd:int ;
+                            pmc:offset "19324"^^xsd:int ] ;
+                    pmc:text "infection" ],
+                [ pmc:id "396" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "18453"^^xsd:int ] ;
+                    pmc:text "HLA" ],
+                [ pmc:id "378" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "19149"^^xsd:int ] ;
+                    pmc:text "HLA-B" ],
+                [ pmc:id "382" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "20086"^^xsd:int ] ;
+                    pmc:text "HLA-B" ],
+                [ pmc:id "388" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "19008"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "375" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "11"^^xsd:int ;
+                            pmc:offset "18050"^^xsd:int ] ;
+                    pmc:text "HLA-A and B" ],
+                [ pmc:id "387" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "18708"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "379" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "19290"^^xsd:int ] ;
+                    pmc:text "HLA-B" ],
+                [ pmc:id "381" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "19807"^^xsd:int ] ;
+                    pmc:text "HLA-B" ],
+                [ pmc:id "376" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "18662"^^xsd:int ] ;
+                    pmc:text "HLA-B" ],
+                [ pmc:id "398" ;
+                    pmc:infons [ pmc:identifier "MESH:D007239" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "9"^^xsd:int ;
+                            pmc:offset "18355"^^xsd:int ] ;
+                    pmc:text "infection" ],
+                [ pmc:id "405" ;
+                    pmc:infons [ pmc:identifier "MESH:D056486" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "23"^^xsd:int ;
+                            pmc:offset "17997"^^xsd:int ] ;
+                    pmc:text "HIV and hepatitis virus" ],
+                [ pmc:id "385" ;
+                    pmc:infons [ pmc:identifier "12637" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "12"^^xsd:int ;
+                            pmc:offset "18160"^^xsd:int ] ;
+                    pmc:text "dengue virus" ],
+                [ pmc:id "377" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "18899"^^xsd:int ] ;
+                    pmc:text "HLA-B" ] ;
+            pmc:infons [ pmc:section "Discussion" ;
+                    pmc:section_type "DISCUSS" ;
+                    pmc:type "paragraph" ] ;
+            pmc:offset "17667"^^xsd:int ;
+            pmc:text "HLA-B gene was found to be associated with susceptibility or protection from infection when analyzing descendants of Dutch colonists' survivors of 19th Century yellow fever and typhoid epidemics. Other studies also indicated that HLA variations were associated with susceptibility or resistance to malaria, tuberculosis, leprosy, HIV and hepatitis virus persistence. In ethnic Thai, HLA-A and B alleles were confirmed to be associated with disease severity and clinical outcome of exposure to dengue virus in previously exposed immunologically primed individuals. Moreover, direct evidence of human coronavirus OC43 interaction with HLA class I molecules at the cell surface to establish infection was also described. Consequently we carried out a study to analyze the relation between HLA class I and class II alleles, in SARS coronavirus infection, and/or the severity of the disease. In this study, no association between HLA class II allele and SARS coronavirus infection was seen. Although HLA-B* 4601 frequency in the 33 probable SARS patients (table 2) was only slightly higher than the frequencies seen in control A or control B (P = 0.04, Pc = n.s. and P = 0.06, Pc = n.s., respectively). On the contrary, the frequency of HLA-B* 4601 in the five severe cases (table 4) was slightly increased when compared to the 28 excluded fever patients (P = 0.007, Pc = ns), but the difference was clearly significant when compared to control A (P = 0.0008, Pc = 0.03). This increased HLA-B* 4601 difference was unique to the five severe cases patients and may indicate association with the severity of SARS. A susceptibly of HLA-B* 5401/B54 or B* 3901/B39 to infection rather than to the severity of the disease (table 2) could not be concluded upon (Pc = n.s.) and requires further studies. HLA-B13 is widely distributed throughout Asia where it is mostly represented by HLA-B* 1301 (4-30%) and rarely by B* 1302 (0-2%) [Unpublished data]. Furthermore, HLA-B13 is seen with frequencies greater than 16% among most indigenous tribes of the central mountain area in Taiwan and in the Taiwanese (9.1%). In this study, we found that presence of HLA-B* 1301/B13 was decreased in the 33 probable SARS patients when compared with the two control groups A (OR = 0.16, P = 0.03, Pc = n.s.) or B (OR = 0.16, P = 0.02, Pc = n.s.). However, only the analysis of a larger case-control data set would confirm or refute association of HLA-B* 1301 with resistance to coronavirus infection." ],
+        [ pmc:annotations [ pmc:id "263" ;
+                    pmc:infons [ pmc:type "Chemical" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "14176"^^xsd:int ] ;
+                    pmc:text "Haldane" ],
+                [ pmc:id "262" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "13985"^^xsd:int ] ;
+                    pmc:text "HLA" ],
+                [ pmc:id "261" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "7"^^xsd:int ;
+                            pmc:offset "14764"^^xsd:int ] ;
+                    pmc:text "patient" ] ;
+            pmc:infons [ pmc:section "Methods" ;
+                    pmc:section_type "METHODS" ;
+                    pmc:type "paragraph" ] ;
+            pmc:offset "13985"^^xsd:int ;
+            pmc:text "HLA class I and class II allele frequencies were estimated by direct counting assuming that there was no blanks. Odds ratios (OR) were obtained from standard contingency table analysis using Haldane's modification of Woolf's method. Statistical significance was performed by a two tails Fisher's exact test. Since small size samples were used in the analysis, the risk of introducing a bias in estimating the probability (P-value) and wrongly accepting association (type I error) was corrected using the method of Edwards (7). In this method the P-value is multiplied by the number of independent comparisons at every locus, thereby giving a more powerful corrected P-value (Pc-value) that may be interpreted with confidence. Lastly, when analyzing serological data, data in the patient group were converted to serology typing using the World Health Organization nomenclature (WHO) table of correspondence." ],
+        [ pmc:infons [ pmc:section "Methods" ;
+                    pmc:section_type "METHODS" ;
+                    pmc:type "title_3" ] ;
+            pmc:offset "12041"^^xsd:int ;
+            pmc:text "Control A" ],
+        [ pmc:annotations [ pmc:id "3" ;
+                    pmc:infons [ pmc:identifier "MESH:D018352" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "42"^^xsd:int ;
+                            pmc:offset "45"^^xsd:int ] ;
+                    pmc:text "respiratory syndrome coronavirus infection" ],
+                [ pmc:id "2" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "15"^^xsd:int ] ;
+                    pmc:text "HLA" ] ;
+            pmc:infons [ pmc:article-id_doi "10.1186/1471-2350-4-9" ;
+                    pmc:article-id_pmc "212558" ;
+                    pmc:article-id_pmid "12969506" ;
+                    pmc:article-id_publisher-id "1471-2350-4-9" ;
+                    pmc:authors "Lin M, Tseng HK, Trejaut JA, Lee HL, Loo JH, Chu CC, Chen PJ, Su YW, Lim KH, Tsai ZU, Lin RY, Lin RS, Huang CH" ;
+                    pmc:fpage "9" ;
+                    pmc:journal "BMC Med. Genet.; 2003 Sep 12; 49" ;
+                    pmc:journal-title "BMC Medical Genetics" ;
+                    pmc:lpage "9" ;
+                    pmc:name_0 "surname:Lin;given-names:Marie" ;
+                    pmc:name_1 "surname:Tseng;given-names:Hsiang-Kuang" ;
+                    pmc:name_10 "surname:Lin;given-names:Ruey-Yi" ;
+                    pmc:name_11 "surname:Lin;given-names:Ruey-Shiung" ;
+                    pmc:name_12 "surname:Huang;given-names:Chun-Hsiung" ;
+                    pmc:name_2 "surname:Trejaut;given-names:Jean A" ;
+                    pmc:name_3 "surname:Lee;given-names:Hui-Lin" ;
+                    pmc:name_4 "surname:Loo;given-names:Jun-Hun" ;
+                    pmc:name_5 "surname:Chu;given-names:Chen-Chung" ;
+                    pmc:name_6 "surname:Chen;given-names:Pei-Jan" ;
+                    pmc:name_7 "surname:Su;given-names:Ying-Wen" ;
+                    pmc:name_8 "surname:Lim;given-names:Ken Hong" ;
+                    pmc:name_9 "surname:Tsai;given-names:Zen-Uong" ;
+                    pmc:section "Title" ;
+                    pmc:section_type "TITLE" ;
+                    pmc:type "front" ;
+                    pmc:volume "4" ;
+                    pmc:year "2003" ] ;
+            pmc:offset "0"^^xsd:int ;
+            pmc:text "Association of HLA class I with severe acute respiratory syndrome coronavirus infection" ],
+        [ pmc:infons [ pmc:section "Abstract" ;
+                    pmc:section_type "ABSTRACT" ;
+                    pmc:type "abstract_title_1" ] ;
+            pmc:offset "1718"^^xsd:int ;
+            pmc:text "Conclusions" ],
+        [ pmc:annotations [ pmc:id "479" ;
+                    pmc:infons [ pmc:identifier "MESH:D045169" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "26"^^xsd:int ;
+                            pmc:offset "24487"^^xsd:int ] ;
+                    pmc:text "acute respiratory syndrome" ] ;
+            pmc:infons [ pmc:fpage "718" ;
+                    pmc:lpage "720" ;
+                    pmc:name_0 "surname:Twu;given-names:S-J" ;
+                    pmc:name_1 "surname:Chen;given-names:T-J" ;
+                    pmc:name_2 "surname:Chen;given-names:C-J" ;
+                    pmc:name_3 "surname:Olsen;given-names:S-J" ;
+                    pmc:name_4 "surname:Lee;given-names:L-T" ;
+                    pmc:name_5 "surname:Fisk;given-names:T" ;
+                    pmc:name_6 "surname:Hsu;given-names:K-H" ;
+                    pmc:name_7 "surname:Chang;given-names:S-L" ;
+                    pmc:name_8 "surname:Chen;given-names:K-T" ;
+                    pmc:name_9 "surname:Chiang;given-names:I-H" ;
+                    pmc:pub-id_pmid "12781013" ;
+                    pmc:section "Pre-publication history" ;
+                    pmc:section_type "REF" ;
+                    pmc:source "Emerg Infect Dis" ;
+                    pmc:type "ref" ;
+                    pmc:volume "9" ;
+                    pmc:year "2003" ] ;
+            pmc:offset "24459"^^xsd:int ;
+            pmc:text "Control measures for severe acute respiratory syndrome (SARS) in Taiwan" ],
+        [ pmc:infons [ pmc:section "Methods" ;
+                    pmc:section_type "METHODS" ;
+                    pmc:type "title_3" ] ;
+            pmc:offset "12999"^^xsd:int ;
+            pmc:text "Control B" ],
+        [ pmc:annotations [ pmc:id "501" ;
+                    pmc:infons [ pmc:identifier "MESH:D007239" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "9"^^xsd:int ;
+                            pmc:offset "25533"^^xsd:int ] ;
+                    pmc:text "infection" ],
+                [ pmc:id "500" ;
+                    pmc:infons [ pmc:identifier "31631" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "22"^^xsd:int ;
+                            pmc:offset "25411"^^xsd:int ] ;
+                    pmc:text "Human coronavirus OC43" ] ;
+            pmc:infons [ pmc:fpage "313" ;
+                    pmc:lpage "321" ;
+                    pmc:name_0 "surname:Collins;given-names:AR" ;
+                    pmc:pub-id_pmid "7959963" ;
+                    pmc:section "Pre-publication history" ;
+                    pmc:section_type "REF" ;
+                    pmc:source "Immunol Invest" ;
+                    pmc:type "ref" ;
+                    pmc:volume "23" ;
+                    pmc:year "1994" ] ;
+            pmc:offset "25411"^^xsd:int ;
+            pmc:text "Human coronavirus OC43 interacts with major histocompatibility complex class I molecules at the cell surface to establish infection" ],
+        [ pmc:annotations [ pmc:id "149" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "5917"^^xsd:int ] ;
+                    pmc:text "HLA" ],
+                [ pmc:id "148" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "5923"^^xsd:int ] ;
+                    pmc:text "HLA" ],
+                [ pmc:id "147" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "5929"^^xsd:int ] ;
+                    pmc:text "HLA-DRB1" ] ;
+            pmc:infons [ pmc:File "T1.xml" ;
+                    pmc:id "T1" ;
+                    pmc:section "Methods" ;
+                    pmc:section_type "TABLE" ;
+                    pmc:type "table" ] ;
+            pmc:offset "5909"^^xsd:int ;
+            pmc:text "Case no HLA-A HLA-B HLA-DRB1 1* 2402 3303 4601 5801 0301 0901 2* 0201/07 2402 1525 4601 0901 1202 3* 0201/07 2402 1513 4601 0403/06 1202 4* 1101/02 1101/02 4001 4601 0901 1401/07 5 1101/02 3303 4601 5801 0403/06 0901 6 0201/07 1101/02 4601 5502 0901 0901 7  1101/02 1101/02 4601 5401 1101/04 1501/02 8 0201/07 2402 4601 1501/12/19 0901 1501/02 9 0201/07 3303 4601 5801 0803 1301/02 10 0203 2402 4601 5201 1001 1602 11 0201/07 3303 4601 4601 0901 1101/04 12 0201/07 1101/02 5201 5401 0405/10 1001 13  0201/07 2402 5401 5801 0301 0405/10 14 1101/02 2402 1502 5401 0405/10 1401/07 15 0201/07 1101/02 4001 1502 1202 1501/02 16 1101/02 2402 5502 4001 0405/10 0901 17 0203 2402 2704 4001 0403/06 1602 18  3303 3303 4001 5801 0301 0901 19  0201/07 1101/02 1511 4001 0901 1602 20 2402 2402 4001 5801 0301 1201 21  1101/02 1101/02 3901 4001 0403/06 1401/07 22*   1101/02 2402 4001 8101 0901 1312 23 1101/02 3303 4001 4001 0803 0901 24 2402 3303 3901 5801 0901 1501/02 25 1101/02 1101/02 3901 4803 0803 1405 26  2402 3303 3901 5801 0301 0901 27  0203 1101/02 3802 3901 1101/04 1602 28 1101/02 3303 5102 5801 0301 1202 29 1101/02 2402 1502 1502 1202 1202 30 0201/07 1101/02 1301 4001 1401/07 1501/02 31  0201/07 0301 0702 4601 1101/04 1501/02 32 0301 2402 0702 5502 1401/07 1501/02 33* 0201/07 0201/07 4601 4601 0901 1405 34 0201/07 1101/02 4601 4001 0901 1501/02 35 0201/07 1101/02 5401 1502 0405/10 1401/07 36 0201/07 1101/02 5401 4001 0405/10 1401/07 37 1101/02 1101/02 4001 1502 1401/07 1405 " ],
+        [ pmc:infons [ pmc:section "Methods" ;
+                    pmc:section_type "METHODS" ;
+                    pmc:type "title_1" ] ;
+            pmc:offset "4016"^^xsd:int ;
+            pmc:text "Methods" ],
+        [ pmc:annotations [ pmc:id "171" ;
+                    pmc:infons [ pmc:identifier "MESH:D051436" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "27"^^xsd:int ;
+                            pmc:offset "8905"^^xsd:int ] ;
+                    pmc:text "Chronic renal insufficiency" ],
+                [ pmc:id "170" ;
+                    pmc:infons [ pmc:identifier "MESH:D010437" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "12"^^xsd:int ;
+                            pmc:offset "8934"^^xsd:int ] ;
+                    pmc:text "peptic ulcer" ],
+                [ pmc:id "169" ;
+                    pmc:infons [ pmc:identifier "MESH:D003327" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "22"^^xsd:int ;
+                            pmc:offset "8948"^^xsd:int ] ;
+                    pmc:text "coronary heart disease" ],
+                [ pmc:id "168" ;
+                    pmc:infons [ pmc:identifier "3106" ;
+                            pmc:ncbi_homologene "134029" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "8649"^^xsd:int ] ;
+                    pmc:text "HLA-B" ] ;
+            pmc:infons [ pmc:File "T3.xml" ;
+                    pmc:id "T3" ;
+                    pmc:section "Methods" ;
+                    pmc:section_type "TABLE" ;
+                    pmc:type "table" ] ;
+            pmc:offset "8630"^^xsd:int ;
+            pmc:text "Case no Gender Age HLA-B allele Associated clinical conditions Outcome 1 F 47 B* 4601, B* 5801 None Intubated, died 2 F 26 B* 1525, B* 4601 Pregnancy (3rd trimester) Intubated, died 3 M 53 B* 1513, B* 4601 None Died 4 F 43 B* 4001, B* 4601 None Died 22 M 91 B* 4001, B* 8101 Chronic renal insufficiency, peptic ulcer, coronary heart disease Died 33 F 50 B* 4601, B* 4601 None Intubated, survived " ],
+        [ pmc:annotations [ pmc:id "25" ;
+                    pmc:infons [ pmc:identifier "MESH:D005334" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "723"^^xsd:int ] ;
+                    pmc:text "fever" ],
+                [ pmc:id "24" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "631"^^xsd:int ] ;
+                    pmc:text "HLA" ],
+                [ pmc:id "23" ;
+                    pmc:infons [ pmc:identifier "227859" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "16"^^xsd:int ;
+                            pmc:offset "852"^^xsd:int ] ;
+                    pmc:text "SARS coronavirus" ],
+                [ pmc:id "22" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "729"^^xsd:int ] ;
+                    pmc:text "patients" ] ;
+            pmc:infons [ pmc:section "Abstract" ;
+                    pmc:section_type "ABSTRACT" ;
+                    pmc:type "abstract" ] ;
+            pmc:offset "631"^^xsd:int ;
+            pmc:text "HLA-class I and II allele typing by PCR-SSOP was performed on 37 cases of probable SARS, 28 fever patients excluded later as probable SARS, and 101 non-infected health care workers who were exposed or possibly exposed to SARS coronavirus. An additional control set of 190 normal healthy unrelated Taiwanese was also used in the analysis." ],
+        [ pmc:annotations [ pmc:id "227" ;
+                    pmc:infons [ pmc:identifier "MESH:D005334" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "11878"^^xsd:int ] ;
+                    pmc:text "fever" ],
+                [ pmc:id "226" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "11884"^^xsd:int ] ;
+                    pmc:text "patients" ],
+                [ pmc:id "225" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "8"^^xsd:int ;
+                            pmc:offset "11851"^^xsd:int ] ;
+                    pmc:text "patients" ] ;
+            pmc:infons [ pmc:section "Methods" ;
+                    pmc:section_type "METHODS" ;
+                    pmc:type "paragraph" ] ;
+            pmc:offset "11814"^^xsd:int ;
+            pmc:text "In brief, 33 cases of \"probable SARS patients\" and 28 \"Excluded fever patients\" were retained for the analysis. This study was performed with approval of the ethics committee of the Mackay Memorial Hospital in Taipei." ],
+        [ pmc:annotations [ pmc:id "245" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "13321"^^xsd:int ] ;
+                    pmc:text "HLA" ] ;
+            pmc:infons [ pmc:section "Methods" ;
+                    pmc:section_type "METHODS" ;
+                    pmc:type "title_2" ] ;
+            pmc:offset "13321"^^xsd:int ;
+            pmc:text "HLA allele typing" ],
+        [ pmc:infons [ pmc:section "Methods" ;
+                    pmc:section_type "TABLE" ;
+                    pmc:type "table" ] ;
+            pmc:offset "9027"^^xsd:int ;
+            pmc:text "n= count of alleles; P = P-value; n.s. = not significant.   The correction factor (number of different alleles or number of comparisons) is shown within parenthesis; Pc-value = P x Correction factor (Edward, 1974)." ],
+        [ pmc:annotations [ pmc:id "11" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "128"^^xsd:int ] ;
+                    pmc:text "HLA" ],
+                [ pmc:id "13" ;
+                    pmc:infons [ pmc:identifier "3123" ;
+                            pmc:ncbi_homologene "136635" ;
+                            pmc:type "Gene" ] ;
+                    pmc:locations [ pmc:length "3"^^xsd:int ;
+                            pmc:offset "451"^^xsd:int ] ;
+                    pmc:text "HLA" ],
+                [ pmc:id "12" ;
+                    pmc:infons [ pmc:identifier "9606" ;
+                            pmc:type "Species" ] ;
+                    pmc:locations [ pmc:length "5"^^xsd:int ;
+                            pmc:offset "103"^^xsd:int ] ;
+                    pmc:text "human" ],
+                [ pmc:id "17" ;
+                    pmc:infons [ pmc:identifier "MESH:D018352" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "26"^^xsd:int ;
+                            pmc:offset "595"^^xsd:int ] ;
+                    pmc:text "SARS coronavirus infection" ],
+                [ pmc:id "14" ;
+                    pmc:infons [ pmc:identifier "MESH:D001327" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "20"^^xsd:int ;
+                            pmc:offset "227"^^xsd:int ] ;
+                    pmc:text "autoimmune disorders" ],
+                [ pmc:id "15" ;
+                    pmc:infons [ pmc:identifier "MESH:D003141" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "19"^^xsd:int ;
+                            pmc:offset "203"^^xsd:int ] ;
+                    pmc:text "infectious diseases" ],
+                [ pmc:id "16" ;
+                    pmc:infons [ pmc:identifier "MESH:D045169" ;
+                            pmc:type "Disease" ] ;
+                    pmc:locations [ pmc:length "26"^^xsd:int ;
+                            pmc:offset "286"^^xsd:int ] ;
+                    pmc:text "acute respiratory syndrome" ] ;
+            pmc:infons [ pmc:section "Abstract" ;
+                    pmc:section_type "ABSTRACT" ;
+                    pmc:type "abstract" ] ;
+            pmc:offset "99"^^xsd:int ;
+            pmc:text "The human leukocyte antigen (HLA) system is widely used as a strategy in the search for the etiology of infectious diseases and autoimmune disorders. During the Taiwan epidemic of severe acute respiratory syndrome (SARS), many health care workers were infected. In an effort to establish a screening program for high risk personal, the distribution of HLA class I and II alleles in case and control groups was examined for the presence of an association to a genetic susceptibly or resistance to SARS coronavirus infection." ] ;
+    pmc:pmcid "PMC212558" ;
+    pmc:pmid "12969506"^^xsd:int ;
+    pmc:sha "0104f6ceccf92ae8567a0102f89cbb976969a774" ;
+    pmc:year "2003"^^xsd:int .
+

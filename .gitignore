@@ -109,11 +109,8 @@ venv.bak/
 # Mac
 **/.DS_Store
 
-# Datasets
-**/biorxiv_medrxiv/
-**/comm_use_subset/
-**/noncomm_use_subset/
-**/pmc_custom_license/
+# Source
+source/
 
 # Metadata
 **/datasets/metadata/
