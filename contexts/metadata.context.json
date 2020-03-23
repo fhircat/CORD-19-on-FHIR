@@ -11,7 +11,7 @@
     "id": "@id",
     "title": "dc:title",
     "fhir_link": {
-      "@id": "http://hl7.org/fhir/link/",
+      "@id": "http://hl7.org/fhir/link",
       "@type": "@id",
       "@context" : {
         "@base": "https://fhircat.org/cord-19/fhir/"
