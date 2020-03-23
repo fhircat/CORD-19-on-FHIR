@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ac6097b708fe63ab3c3cbf69e8668edeebf564dce6266c174f8020e66c0acafb"
+            "sha256": "a7ae00051dd601713995f879217bb1d82457c4903cd62878f26a7100f2db6c71"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -44,11 +44,6 @@
             ],
             "version": "==0.6.0"
         },
-        "json-ld-1-1": {
-            "editable": true,
-            "git": "https://github.com/RDFLib/rdflib-jsonld.git",
-            "ref": "5d15d2d4f0b93ff87b60dda9f8d3af42eb1cce66"
-        },
         "jsonasobj": {
             "hashes": [
                 "sha256:1ef4ee4752f2cbda6f166949d5ed75547e2a16acf007370898f42c37e6f048fa"
@@ -71,6 +66,11 @@
             "index": "pypi",
             "version": "==4.2.2"
         },
+        "rdflib-jsonld": {
+            "editable": true,
+            "git": "https://github.com/RDFLib/rdflib-jsonld.git",
+            "ref": "5d15d2d4f0b93ff87b60dda9f8d3af42eb1cce66"
+        },
         "requests": {
             "hashes": [
                 "sha256:43999036bfa82904b6af1d99e4882b560e5e2c68e5c4b0aa03b655f3d7d73fee",
@@ -85,13 +85,6 @@
                 "sha256:8f3cd2e254d8f793e7f3d6d9df77b92252b52637291d0f0da013c76ea2724b6c"
             ],
             "version": "==1.14.0"
-        },
-        "sources": {
-            "hashes": [
-                "sha256:b4e785b82c1e82392b895ebf84d78d57674f98a67c50b36fa76301ff90a1df5b"
-            ],
-            "index": "pypi",
-            "version": "==1.1.0"
         },
         "urllib3": {
             "hashes": [

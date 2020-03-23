@@ -5,16 +5,24 @@
     "ncit": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#",
     "sso": "http://semanticscholar.org/cv-research/",
     "whocv": "http://semanticscholar.org/cv-research/WHO#",
+    "fhir": "http://hl7.org/fhir/",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
 
     "@vocab": "http://semanticscholar.org/cv-research/",
     "id": "@id",
     "title": "dc:title",
     "fhir_link": {
-      "@id": "http://hl7.org/fhir/link",
+      "@id": "fhir:link",
       "@type": "@id",
       "@context" : {
         "@base": "https://fhircat.org/cord-19/fhir/"
+      }
+    },
+    "pubtator": {
+      "@id": "sso:pubtator",
+      "@type": "@id",
+      "@context": {
+        "@base": "https://www.ncbi.nlm.nih.gov/pmc/articles#"
       }
     },
     "doi": {
@@ -28,7 +36,7 @@
       "@id": "dc:identifier",
       "@type": "@id",
       "@context": {
-        "@base": "https://www.ncbi.nlm.nih.gov/pmc/articles/"
+        "@base": "https://www.ncbi.nlm.nih.gov/pmc/articles#"
       }
     },
     "pubmed_id": {

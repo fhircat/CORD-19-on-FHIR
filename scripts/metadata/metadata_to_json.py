@@ -6,12 +6,12 @@ import string
 from csv import DictReader
 from pathlib import Path
 from typing import Optional, Set, Dict, List, Tuple
-from urllib.parse import urlencode, quote
+from urllib.parse import quote
 
 from jsonasobj import as_json, JsonObj
 from rdflib import Namespace
 
-from scripts.metadata import prefixes, DATASETS_DIR, SOURCE_DIR, METADATA_DIR
+from scripts.metadata import prefixes, SOURCE_DIR, METADATA_DIR
 
 # METADATA_FILE = 'all_sources_metadata_2020-03-13.csv'   # 03-13 drop
 METADATA_FILE = 'metadata.csv'                          # 03-20 drop
@@ -54,6 +54,14 @@ def generate_identifier(entry: JsonObj) -> None:
         else:
             assert(True, "Record has no identifier - at a loss")
 
+
+def generate_pubtator(entry: JsonObj) -> None:
+    """
+    Generate a puptator link if this has a PMC id
+    :param entry: metadata entry
+    """
+    if hasattr(entry, 'pmcid'):
+        entry.pubtator = entry.pmcid
 
 def normalize_namespaces(entry: JsonObj) -> None:
     """ Some of the identifiers are actual multiple occurrences.  Instead of representing this as a list, the
@@ -106,6 +114,7 @@ with open(os.path.join(SOURCE_DIR, METADATA_FILE)) as f:
             row_j.doi = quote(row_j.doi)
         generate_identifier(row_j)
         normalize_namespaces(row_j)
+        generate_pubtator(row_j)
 
         if hasattr(row_j, "sha"):
             row_j.fhir_link = []
