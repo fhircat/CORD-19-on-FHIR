@@ -8,8 +8,7 @@ verify_ssl = true
 [packages]
 jsonasobj = "*"
 rdflib = "*"
-fe7407a = {editable = true,path = "/Users/solbrig/git/rdflib/rdflib-jsonld"}
-sources = "*"
+rdflib-jsonld = {editable = true,git = "https://github.com/RDFLib/rdflib-jsonld.git",ref = "feature/json-ld-1.1"}
 requests = "*"
 
 [requires]
