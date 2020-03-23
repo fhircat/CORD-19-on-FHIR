@@ -9,24 +9,27 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://doi.org/10.4269/ajtmh.17-0032> dc:abstract "In tropical and subtropical settings, the epidemiology of viral acute respiratory tract infections varies widely between countries. We determined the etiology, seasonality, and clinical presentation of viral acute respiratory tract infections among outpatients in southern Sri Lanka. From March 2013 to January 2015, we enrolled outpatients presenting with influenza-like illness (ILI). Nasal/nasopharyngeal samples were tested in duplicate using antigen-based rapid influenza testing and multiplex polymerase chain reaction (PCR) for respiratory viruses. Monthly proportion positive was calculated for each virus. Bivariable and multivariable logistic regression were used to identify associations between sociodemographic/clinical information and viral detection. Of 571 subjects, most (470, 82.3%) were ≥ 5 years of age and 53.1% were male. A respiratory virus was detected by PCR in 63.6% (N = 363). Common viral etiologies included influenza (223, 39%), human enterovirus/rhinovirus (HEV/HRV, 14.5%), respiratory syncytial virus (RSV, 4.2%), and human metapneumovirus (hMPV, 3.9%). Both ILI and influenza showed clear seasonal variation, with peaks from March to June each year. RSV and hMPV activity peaked from May to July, whereas HEV/HRV was seen year-round. Patients with respiratory viruses detected were more likely to report pain with breathing (odds ratio [OR] = 2.60, P = 0.003), anorexia (OR = 2.29, P < 0.001), and fatigue (OR = 2.00, P = 0.002) compared with patients with no respiratory viruses detected. ILI showed clear seasonal variation in southern Sri Lanka, with most activity during March to June; peak activity was largely due to influenza. Targeted infection prevention activities such as influenza vaccination in January–February may have a large public health impact in this region." ;
-    dc:creator "Bodinayake, Champica K.",
-        "De Silva, Aruna Dharshan",
-        "Devasiri, Vasantha",
-        "Hsiang, Jeremy",
-        "Kurukulasooriya, Ruvini",
-        "Nagahawatte, Ajith",
-        "Nicholson, Bradley",
-        "Reller, Megan E.",
-        "Shapiro, David",
-        "Tillekeratne, L. Gayani",
-        "Woods, Christopher W.",
-        "Østbye, Truls" ;
-    dc:identifier <https://doi.org/10.4269/ajtmh.17-0032>,
-        <https://www.ncbi.nlm.nih.gov/pmc/PMC5508919> ;
-    dc:license "unk" ;
-    dc:title "Burden and Seasonality of Viral Acute Respiratory Tract Infections among Outpatients in Southern Sri Lanka" ;
-    sso:has_full_text "False" ;
-    sso:pubtator <https://www.ncbi.nlm.nih.gov/pmc/PMC5508919> ;
+<https://doi.org/10.1371/journal.pone.0126092> fhir:link <https://fhircat.org/cord-19/fhir/Commercial/Composition/d4718ccc1c08a82371c1d7525aae8cc567ff2424>,
+        <https://fhircat.org/cord-19/fhir/Commercial/Composition/f7d4270a51caf2ea8758476bad0e0537f2d47075> ;
+    dc:abstract "This study aimed to identify what information triggered social media users’ responses regarding infectious diseases. Chinese microblogs in 2012 regarding 42 infectious diseases were obtained through a keyword search in the Weiboscope database. Qualitative content analysis was performed for the posts pertinent to each keyword of the day of the year with the highest daily count. Similar posts were grouped and coded. We identified five categories of information that increased microblog traffic pertaining to infectious diseases: news of an outbreak or a case; health education / information; alternative health information / Traditional Chinese Medicine; commercial advertisement / entertainment; and social issues. News unrelated to the specified infectious diseases also led to elevated microblog traffic. Our study showcases the diverse contexts from which increased social media traffic occur. Our results will facilitate better health communication as causes underlying increased social media traffic are revealed." ;
+    dc:creator "Cai, Jingxian",
+        "Fu, King-Wa",
+        "Fung, Isaac Chun-Hai",
+        "Hao, Yi",
+        "Schaible, Braydon James",
+        "Tse, Zion Tsz Ho",
+        "Ying, Yuchen",
+        "Yu, Cynthia Mengxi" ;
+    dc:identifier <https://doi.org/10.1371/journal.pone.0126092>,
+        <https://www.ncbi.nlm.nih.gov/pmc/PMC4422708>,
+        <https://www.ncbi.nlm.nih.gov/pubmed/25946020> ;
+    dc:issued "2015-01-01"^^xsd:date ;
+    dc:license "cc-by" ;
+    dc:title "Chinese Social Media Reaction to Information about 42 Notifiable Infectious Diseases" ;
+    sso:full_text_file "comm_use_subset" ;
+    sso:has_full_text "True" ;
+    sso:journal "PLoS One" ;
+    sso:pubtator <https://www.ncbi.nlm.nih.gov/pmc/PMC4422708> ;
+    sso:sha "f7d4270a51caf2ea8758476bad0e0537f2d47075; d4718ccc1c08a82371c1d7525aae8cc567ff2424" ;
     sso:source_x "PMC" .
 

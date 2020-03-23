@@ -1,25 +1,30 @@
 {
+   "sha": "f7d4270a51caf2ea8758476bad0e0537f2d47075; d4718ccc1c08a82371c1d7525aae8cc567ff2424",
    "source_x": "PMC",
-   "title": "Burden and Seasonality of Viral Acute Respiratory Tract Infections among Outpatients in Southern Sri Lanka",
-   "doi": "10.4269/ajtmh.17-0032",
-   "pmcid": "PMC5508919",
-   "license": "unk",
-   "abstract": "In tropical and subtropical settings, the epidemiology of viral acute respiratory tract infections varies widely between countries. We determined the etiology, seasonality, and clinical presentation of viral acute respiratory tract infections among outpatients in southern Sri Lanka. From March 2013 to January 2015, we enrolled outpatients presenting with influenza-like illness (ILI). Nasal/nasopharyngeal samples were tested in duplicate using antigen-based rapid influenza testing and multiplex polymerase chain reaction (PCR) for respiratory viruses. Monthly proportion positive was calculated for each virus. Bivariable and multivariable logistic regression were used to identify associations between sociodemographic/clinical information and viral detection. Of 571 subjects, most (470, 82.3%) were \u2265 5 years of age and 53.1% were male. A respiratory virus was detected by PCR in 63.6% (N = 363). Common viral etiologies included influenza (223, 39%), human enterovirus/rhinovirus (HEV/HRV, 14.5%), respiratory syncytial virus (RSV, 4.2%), and human metapneumovirus (hMPV, 3.9%). Both ILI and influenza showed clear seasonal variation, with peaks from March to June each year. RSV and hMPV activity peaked from May to July, whereas HEV/HRV was seen year-round. Patients with respiratory viruses detected were more likely to report pain with breathing (odds ratio [OR] = 2.60, P = 0.003), anorexia (OR = 2.29, P < 0.001), and fatigue (OR = 2.00, P = 0.002) compared with patients with no respiratory viruses detected. ILI showed clear seasonal variation in southern Sri Lanka, with most activity during March to June; peak activity was largely due to influenza. Targeted infection prevention activities such as influenza vaccination in January\u2013February may have a large public health impact in this region.",
+   "title": "Chinese Social Media Reaction to Information about 42 Notifiable Infectious Diseases",
+   "doi": "10.1371/journal.pone.0126092",
+   "pmcid": "PMC4422708",
+   "pubmed_id": "25946020",
+   "license": "cc-by",
+   "abstract": "This study aimed to identify what information triggered social media users\u2019 responses regarding infectious diseases. Chinese microblogs in 2012 regarding 42 infectious diseases were obtained through a keyword search in the Weiboscope database. Qualitative content analysis was performed for the posts pertinent to each keyword of the day of the year with the highest daily count. Similar posts were grouped and coded. We identified five categories of information that increased microblog traffic pertaining to infectious diseases: news of an outbreak or a case; health education / information; alternative health information / Traditional Chinese Medicine; commercial advertisement / entertainment; and social issues. News unrelated to the specified infectious diseases also led to elevated microblog traffic. Our study showcases the diverse contexts from which increased social media traffic occur. Our results will facilitate better health communication as causes underlying increased social media traffic are revealed.",
+   "publish_time": "2015 May 6",
    "authors": [
-      "Shapiro, David",
-      "Bodinayake, Champica K.",
-      "Nagahawatte, Ajith",
-      "Devasiri, Vasantha",
-      "Kurukulasooriya, Ruvini",
-      "Hsiang, Jeremy",
-      "Nicholson, Bradley",
-      "De Silva, Aruna Dharshan",
-      "\u00d8stbye, Truls",
-      "Reller, Megan E.",
-      "Woods, Christopher W.",
-      "Tillekeratne, L. Gayani"
+      "Fung, Isaac Chun-Hai",
+      "Hao, Yi",
+      "Cai, Jingxian",
+      "Ying, Yuchen",
+      "Schaible, Braydon James",
+      "Yu, Cynthia Mengxi",
+      "Tse, Zion Tsz Ho",
+      "Fu, King-Wa"
    ],
-   "has_full_text": "False",
-   "id": "https://doi.org/10.4269/ajtmh.17-0032",
-   "pubtator": "PMC5508919"
+   "journal": "PLoS One",
+   "has_full_text": "True",
+   "full_text_file": "comm_use_subset",
+   "id": "https://doi.org/10.1371/journal.pone.0126092",
+   "pubtator": "PMC4422708",
+   "fhir_link": [
+      "Commercial/Composition/f7d4270a51caf2ea8758476bad0e0537f2d47075",
+      "Commercial/Composition/d4718ccc1c08a82371c1d7525aae8cc567ff2424"
+   ]
 }
