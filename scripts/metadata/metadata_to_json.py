@@ -11,10 +11,13 @@ from rdflib import Namespace
 
 from scripts.metadata import prefixes, DATASETS_DIR, SOURCE_DIR, METADATA_DIR
 
+# METADATA_FILE = 'all_sources_metadata_2020-03-13.csv'   # 03-13 drop
+METADATA_FILE = 'metadata.csv'                          # 03-20 drop
+
 MISSING_FILE = 'MISSING'
 
 # Root of datasets
-data_subdirs = [e for e in os.listdir(DATASETS_DIR) if e != 'metadata' and '.' not in e]
+data_subdirs = [e for e in os.listdir(SOURCE_DIR) if e != 'metadata' and '.' not in e]
 subdir_contents: Dict[str, Set[str]] = dict()
 
 # TODO: Can we find WHO Covidence?
@@ -28,9 +31,11 @@ IDENTIFIERS: List[Tuple[str, Namespace]] = [
 SUBDIR_MAP: Dict[str, str] = {
     "biorxiv_medrxiv": "bioRxiv-medRxiv",
     "comm_use_subset": "Commercial",
-    "pmc_custom_license": "PMC",
+    "pmcustom_license": "PMC",          # 03-13 drop
+    "custom_license": "PMC",            # 03-20 drop
     "noncomm_use_subset": "Non-comercial"
 }
+
 
 def generate_identifier(entry: JsonObj) -> None:
     """
@@ -58,7 +63,7 @@ def normalize_namespaces(entry: JsonObj) -> None:
 
 # Generate a list of all the files we know about
 for subdir in data_subdirs:
-    for fname in os.listdir(os.path.join(DATASETS_DIR, subdir)):
+    for fname in os.listdir(os.path.join(SOURCE_DIR, subdir)):
         if fname[0] in string.hexdigits and fname.endswith(".json"):
             subdir_contents.setdefault(subdir, set()).add(fname)
 subdir_contents[MISSING_FILE] = set()
@@ -81,7 +86,7 @@ for subdir in data_subdirs:
 print()
 
 # This loads the metadata file as a Python dictionary and then emits the first row in JSON
-with open(os.path.join(SOURCE_DIR, 'all_sources_metadata_2020-03-13.csv')) as f:
+with open(os.path.join(SOURCE_DIR, METADATA_FILE)) as f:
     reader = DictReader(f)
 
     known_sources = dict()
