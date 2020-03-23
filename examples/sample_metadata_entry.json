@@ -1,22 +1,25 @@
 {
-   "sha": "c630ebcdf30652f0422c3ec12a00b50241dc9bd9",
-   "source_x": "CZI",
-   "title": "Angiotensin-converting enzyme 2 (ACE2) as a SARS-CoV-2 receptor: molecular mechanisms and potential therapeutic target",
-   "doi": "10.1007/s00134-020-05985-9",
-   "pubmed_id": "32125455",
-   "license": "cc-by-nc",
-   "publish_time": "2020",
+   "source_x": "PMC",
+   "title": "Burden and Seasonality of Viral Acute Respiratory Tract Infections among Outpatients in Southern Sri Lanka",
+   "doi": "10.4269/ajtmh.17-0032",
+   "pmcid": "PMC5508919",
+   "license": "unk",
+   "abstract": "In tropical and subtropical settings, the epidemiology of viral acute respiratory tract infections varies widely between countries. We determined the etiology, seasonality, and clinical presentation of viral acute respiratory tract infections among outpatients in southern Sri Lanka. From March 2013 to January 2015, we enrolled outpatients presenting with influenza-like illness (ILI). Nasal/nasopharyngeal samples were tested in duplicate using antigen-based rapid influenza testing and multiplex polymerase chain reaction (PCR) for respiratory viruses. Monthly proportion positive was calculated for each virus. Bivariable and multivariable logistic regression were used to identify associations between sociodemographic/clinical information and viral detection. Of 571 subjects, most (470, 82.3%) were \u2265 5 years of age and 53.1% were male. A respiratory virus was detected by PCR in 63.6% (N = 363). Common viral etiologies included influenza (223, 39%), human enterovirus/rhinovirus (HEV/HRV, 14.5%), respiratory syncytial virus (RSV, 4.2%), and human metapneumovirus (hMPV, 3.9%). Both ILI and influenza showed clear seasonal variation, with peaks from March to June each year. RSV and hMPV activity peaked from May to July, whereas HEV/HRV was seen year-round. Patients with respiratory viruses detected were more likely to report pain with breathing (odds ratio [OR] = 2.60, P = 0.003), anorexia (OR = 2.29, P < 0.001), and fatigue (OR = 2.00, P = 0.002) compared with patients with no respiratory viruses detected. ILI showed clear seasonal variation in southern Sri Lanka, with most activity during March to June; peak activity was largely due to influenza. Targeted infection prevention activities such as influenza vaccination in January\u2013February may have a large public health impact in this region.",
    "authors": [
-      "Zhang, Haibo",
-      "Penninger, Josef M.",
-      "Li, Yimin",
-      "Zhong, Nanshan",
-      "Slutsky, Arthur S."
+      "Shapiro, David",
+      "Bodinayake, Champica K.",
+      "Nagahawatte, Ajith",
+      "Devasiri, Vasantha",
+      "Kurukulasooriya, Ruvini",
+      "Hsiang, Jeremy",
+      "Nicholson, Bradley",
+      "De Silva, Aruna Dharshan",
+      "\u00d8stbye, Truls",
+      "Reller, Megan E.",
+      "Woods, Christopher W.",
+      "Tillekeratne, L. Gayani"
    ],
-   "journal": "Intensive Care Med",
-   "Microsoft Academic Paper ID": "2002765492",
-   "WHO #Covidence": "#3252",
-   "has_full_text": "True",
-   "id": "c630ebcdf30652f0422c3ec12a00b50241dc9bd9",
-   "fhir_link": "Non-comercial/Composition/c630ebcdf30652f0422c3ec12a00b50241dc9bd9.json"
+   "has_full_text": "False",
+   "id": "https://doi.org/10.4269/ajtmh.17-0032",
+   "pubtator": "PMC5508919"
 }

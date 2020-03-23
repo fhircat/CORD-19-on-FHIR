@@ -1,6 +1,6 @@
 @prefix : <http://semanticscholar.org/cv-research/> .
 @prefix dc: <http://purl.org/dc/terms/> .
-@prefix fhir_link: <http://hl7.org/fhir/link/> .
+@prefix fhir: <http://hl7.org/fhir/> .
 @prefix ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,21 +9,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://fhircat.org/cord-19/metadata/c630ebcdf30652f0422c3ec12a00b50241dc9bd9> fhir_link: <https://fhircat.org/cord-19/fhir/Non-comercial/Composition/c630ebcdf30652f0422c3ec12a00b50241dc9bd9.json> ;
-    dc:creator "Li, Yimin",
-        "Penninger, Josef M.",
-        "Slutsky, Arthur S.",
-        "Zhang, Haibo",
-        "Zhong, Nanshan" ;
-    dc:identifier <https://academic.microsoft.com/paper/2002765492>,
-        <https://doi.org/10.1007/s00134-020-05985-9>,
-        <https://www.ncbi.nlm.nih.gov/pubmed/32125455> ;
-    dc:issued "2020-01-01"^^xsd:date ;
-    dc:license "cc-by-nc" ;
-    dc:title "Angiotensin-converting enzyme 2 (ACE2) as a SARS-CoV-2 receptor: molecular mechanisms and potential therapeutic target" ;
-    sso:WHO "#3252" ;
-    sso:has_full_text "True" ;
-    sso:journal "Intensive Care Med" ;
-    sso:sha "c630ebcdf30652f0422c3ec12a00b50241dc9bd9" ;
-    sso:source_x "CZI" .
+<https://doi.org/10.4269/ajtmh.17-0032> dc:abstract "In tropical and subtropical settings, the epidemiology of viral acute respiratory tract infections varies widely between countries. We determined the etiology, seasonality, and clinical presentation of viral acute respiratory tract infections among outpatients in southern Sri Lanka. From March 2013 to January 2015, we enrolled outpatients presenting with influenza-like illness (ILI). Nasal/nasopharyngeal samples were tested in duplicate using antigen-based rapid influenza testing and multiplex polymerase chain reaction (PCR) for respiratory viruses. Monthly proportion positive was calculated for each virus. Bivariable and multivariable logistic regression were used to identify associations between sociodemographic/clinical information and viral detection. Of 571 subjects, most (470, 82.3%) were ≥ 5 years of age and 53.1% were male. A respiratory virus was detected by PCR in 63.6% (N = 363). Common viral etiologies included influenza (223, 39%), human enterovirus/rhinovirus (HEV/HRV, 14.5%), respiratory syncytial virus (RSV, 4.2%), and human metapneumovirus (hMPV, 3.9%). Both ILI and influenza showed clear seasonal variation, with peaks from March to June each year. RSV and hMPV activity peaked from May to July, whereas HEV/HRV was seen year-round. Patients with respiratory viruses detected were more likely to report pain with breathing (odds ratio [OR] = 2.60, P = 0.003), anorexia (OR = 2.29, P < 0.001), and fatigue (OR = 2.00, P = 0.002) compared with patients with no respiratory viruses detected. ILI showed clear seasonal variation in southern Sri Lanka, with most activity during March to June; peak activity was largely due to influenza. Targeted infection prevention activities such as influenza vaccination in January–February may have a large public health impact in this region." ;
+    dc:creator "Bodinayake, Champica K.",
+        "De Silva, Aruna Dharshan",
+        "Devasiri, Vasantha",
+        "Hsiang, Jeremy",
+        "Kurukulasooriya, Ruvini",
+        "Nagahawatte, Ajith",
+        "Nicholson, Bradley",
+        "Reller, Megan E.",
+        "Shapiro, David",
+        "Tillekeratne, L. Gayani",
+        "Woods, Christopher W.",
+        "Østbye, Truls" ;
+    dc:identifier <https://doi.org/10.4269/ajtmh.17-0032>,
+        <https://www.ncbi.nlm.nih.gov/pmc/PMC5508919> ;
+    dc:license "unk" ;
+    dc:title "Burden and Seasonality of Viral Acute Respiratory Tract Infections among Outpatients in Southern Sri Lanka" ;
+    sso:has_full_text "False" ;
+    sso:pubtator <https://www.ncbi.nlm.nih.gov/pmc/PMC5508919> ;
+    sso:source_x "PMC" .
 
