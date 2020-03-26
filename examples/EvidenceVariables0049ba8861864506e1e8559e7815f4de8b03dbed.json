@@ -1,0 +1,772 @@
+{
+  "resourceType": "Bundle",
+  "entry": [ {
+    "resource": {
+      "resourceType": "Composition",
+      "id": "0049ba8861864506e1e8559e7815f4de8b03dbed.json",
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:80bdc5db-4e70-3bbd-8cdf-a51f97a68040"
+      },
+      "status": "final",
+      "confidentiality": "N",
+      "section": [ {
+        "code": {
+          "coding": [ {
+            "system": "http://hl7.org/fhir/ValueSet/doc-section-codes",
+            "code": "61150-9"
+          } ]
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">TITLE: GPI-anchored single chain Fv -an effective way to capture transiently-exposed neutralization epitopes on HIV-1 envelope spike \n</div>"
+        },
+        "mode": "working",
+        "entry": [ {
+          "reference": "EvidenceVariable/ab74841d-a1b9-38c3-8c58-b205d14d92b0"
+        } ]
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://hl7.org/fhir/ValueSet/doc-section-codes",
+            "code": "61150-9"
+          } ]
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">ABSTRACT: Background: Identification of broad neutralization epitopes in HIV-1 envelope spikes is paramount for HIV-1 vaccine development. A few broad neutralization epitopes identified so far are present on the surface of native HIV-1 envelope spikes whose recognition by antibodies does not depend on conformational changes of the envelope spikes. However, HIV-1 envelope spikes also contain transiently-exposed neutralization epitopes, which are more difficult to identify. Results: In this study, we constructed single chain Fvs (scFvs) derived from seven human monoclonal antibodies and genetically linked them with or without a glycosyl-phosphatidylinositol (GPI) attachment signal. We show that with a GPI attachment signal the scFvs are targeted to lipid rafts of plasma membranes. In addition, we demonstrate that four of the GPI-anchored scFvs, but not their secreted counterparts, neutralize HIV-1 with various degrees of breadth and potency. Among them, GPI-anchored scFv (X5) exhibits extremely potent and broad neutralization activity against multiple clades of HIV-1 strains tested. Moreover, we show that GPI-anchored scFv (4E10) also exhibited more potent neutralization activity than its secretory counterpart. Finally, we demonstrate that expression of GPI-anchored scFv (X5) in the lipid raft of plasma membrane of human CD4 + T cells confers longterm resistance to HIV-1 infection, HIV-1 envelope-mediated cell-cell fusion, and the infection of HIV-1 captured and transferred by human DCs.\nConclusions: Thus GPI-anchored scFv could be used as a general and effective way to identify antibodies that react with transiently-exposed neutralization epitopes in envelope proteins of HIV-1 and other enveloped viruses. The GPI-anchored scFv (X5), because of its breadth and potency, should have a great potential to be developed into anti-viral agent for HIV-1 prevention and therapy.\n</div>"
+        },
+        "mode": "working",
+        "entry": [ {
+          "reference": "EvidenceVariable/19ff00e3-babe-3ce0-8df3-d862021feacc"
+        }, {
+          "reference": "EvidenceVariable/87142ab0-6ea3-38f5-aee6-d2711d42060e"
+        }, {
+          "reference": "EvidenceVariable/31178e87-50d0-385c-aa76-18f334df2791"
+        }, {
+          "reference": "EvidenceVariable/a20f4d8d-5fee-34b3-a72c-beabdd08eac2"
+        }, {
+          "reference": "EvidenceVariable/d22e3af6-45d3-3673-8027-5dba70bbf7c8"
+        }, {
+          "reference": "EvidenceVariable/ae1e7cfa-9b57-3b6d-b111-2302ee5c2ea8"
+        }, {
+          "reference": "EvidenceVariable/7ac0846b-291f-351c-a9b7-6d4907f5be32"
+        }, {
+          "reference": "EvidenceVariable/c49c8f44-2e5c-32d2-8cb5-136949698e0e"
+        }, {
+          "reference": "EvidenceVariable/ef750dd0-2748-34cf-8d6e-1411a7a0067a"
+        }, {
+          "reference": "EvidenceVariable/86c4c4e1-6608-33be-ab67-9658be91f84b"
+        }, {
+          "reference": "EvidenceVariable/a4edf461-e763-33ea-828a-3efd9de0993f"
+        }, {
+          "reference": "EvidenceVariable/7c4ce137-645f-36b0-aede-57dc673c1887"
+        }, {
+          "reference": "EvidenceVariable/a423fcfe-1ee6-36d0-a5b7-445bc710103f"
+        }, {
+          "reference": "EvidenceVariable/bfc64f24-8b42-3762-a68a-502cb8f76de6"
+        }, {
+          "reference": "EvidenceVariable/f190401c-f0ee-37ae-b5bf-96b4465ecdda"
+        }, {
+          "reference": "EvidenceVariable/0cfe62c8-1ad3-3203-87b0-6e722d7294cb"
+        }, {
+          "reference": "EvidenceVariable/645d87c6-c4ba-3a94-939c-4c9941888364"
+        }, {
+          "reference": "EvidenceVariable/4ce778fc-eeab-3055-a41d-796bdd9929a8"
+        }, {
+          "reference": "EvidenceVariable/d2390e86-981a-307d-85aa-50c4e501dd5c"
+        }, {
+          "reference": "EvidenceVariable/0616c336-3a76-3bb5-bbba-491a40d22516"
+        }, {
+          "reference": "EvidenceVariable/5429801a-300b-3ffb-96cc-62be309681c6"
+        }, {
+          "reference": "EvidenceVariable/d0226fc0-485e-3d70-b523-ce090a257b6e"
+        }, {
+          "reference": "EvidenceVariable/0ed53322-a36c-3592-908c-549a63d15b71"
+        }, {
+          "reference": "EvidenceVariable/30c066d0-afa6-3245-b045-6f09b0ff9062"
+        } ]
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Condition",
+      "id": "0616c336-3a76-3bb5-bbba-491a40d22516",
+      "identifier": [ {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:0616c336-3a76-3bb5-bbba-491a40d22516"
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "19604005"
+        } ],
+        "text": "DCs"
+      },
+      "abatementString": "positive"
+    }
+  }, {
+    "resource": {
+      "resourceType": "EvidenceVariable",
+      "id": "0616c336-3a76-3bb5-bbba-491a40d22516",
+      "characteristic": [ {
+        "definitionReference": {
+          "reference": "Condition/0616c336-3a76-3bb5-bbba-491a40d22516"
+        },
+        "exclude": false
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Condition",
+      "id": "19ff00e3-babe-3ce0-8df3-d862021feacc",
+      "identifier": [ {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:19ff00e3-babe-3ce0-8df3-d862021feacc"
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "86406008"
+        } ],
+        "text": "HIV"
+      },
+      "abatementString": "positive"
+    }
+  }, {
+    "resource": {
+      "resourceType": "EvidenceVariable",
+      "id": "19ff00e3-babe-3ce0-8df3-d862021feacc",
+      "characteristic": [ {
+        "definitionReference": {
+          "reference": "Condition/19ff00e3-babe-3ce0-8df3-d862021feacc"
+        },
+        "exclude": false
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Condition",
+      "id": "31178e87-50d0-385c-aa76-18f334df2791",
+      "identifier": [ {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:31178e87-50d0-385c-aa76-18f334df2791"
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "86406008"
+        } ],
+        "text": "HIV"
+      },
+      "abatementString": "positive"
+    }
+  }, {
+    "resource": {
+      "resourceType": "EvidenceVariable",
+      "id": "31178e87-50d0-385c-aa76-18f334df2791",
+      "characteristic": [ {
+        "definitionReference": {
+          "reference": "Condition/31178e87-50d0-385c-aa76-18f334df2791"
+        },
+        "exclude": false
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Condition",
+      "id": "4ce778fc-eeab-3055-a41d-796bdd9929a8",
+      "identifier": [ {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:4ce778fc-eeab-3055-a41d-796bdd9929a8"
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "40733004"
+        } ],
+        "text": "infection"
+      },
+      "abatementString": "positive"
+    }
+  }, {
+    "resource": {
+      "resourceType": "EvidenceVariable",
+      "id": "4ce778fc-eeab-3055-a41d-796bdd9929a8",
+      "characteristic": [ {
+        "definitionReference": {
+          "reference": "Condition/4ce778fc-eeab-3055-a41d-796bdd9929a8"
+        },
+        "exclude": false
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Condition",
+      "id": "5429801a-300b-3ffb-96cc-62be309681c6",
+      "identifier": [ {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:5429801a-300b-3ffb-96cc-62be309681c6"
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "86406008"
+        } ],
+        "text": "HIV"
+      },
+      "abatementString": "positive"
+    }
+  }, {
+    "resource": {
+      "resourceType": "EvidenceVariable",
+      "id": "5429801a-300b-3ffb-96cc-62be309681c6",
+      "characteristic": [ {
+        "definitionReference": {
+          "reference": "Condition/5429801a-300b-3ffb-96cc-62be309681c6"
+        },
+        "exclude": false
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Condition",
+      "id": "86c4c4e1-6608-33be-ab67-9658be91f84b",
+      "identifier": [ {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:86c4c4e1-6608-33be-ab67-9658be91f84b"
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "86406008"
+        } ],
+        "text": "HIV"
+      },
+      "abatementString": "positive"
+    }
+  }, {
+    "resource": {
+      "resourceType": "EvidenceVariable",
+      "id": "86c4c4e1-6608-33be-ab67-9658be91f84b",
+      "characteristic": [ {
+        "definitionReference": {
+          "reference": "Condition/86c4c4e1-6608-33be-ab67-9658be91f84b"
+        },
+        "exclude": false
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Condition",
+      "id": "87142ab0-6ea3-38f5-aee6-d2711d42060e",
+      "identifier": [ {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:87142ab0-6ea3-38f5-aee6-d2711d42060e"
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "86406008"
+        } ],
+        "text": "HIV"
+      },
+      "abatementString": "positive"
+    }
+  }, {
+    "resource": {
+      "resourceType": "EvidenceVariable",
+      "id": "87142ab0-6ea3-38f5-aee6-d2711d42060e",
+      "characteristic": [ {
+        "definitionReference": {
+          "reference": "Condition/87142ab0-6ea3-38f5-aee6-d2711d42060e"
+        },
+        "exclude": false
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Condition",
+      "id": "a20f4d8d-5fee-34b3-a72c-beabdd08eac2",
+      "identifier": [ {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:a20f4d8d-5fee-34b3-a72c-beabdd08eac2"
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "86406008"
+        } ],
+        "text": "HIV"
+      },
+      "abatementString": "positive"
+    }
+  }, {
+    "resource": {
+      "resourceType": "EvidenceVariable",
+      "id": "a20f4d8d-5fee-34b3-a72c-beabdd08eac2",
+      "characteristic": [ {
+        "definitionReference": {
+          "reference": "Condition/a20f4d8d-5fee-34b3-a72c-beabdd08eac2"
+        },
+        "exclude": false
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Condition",
+      "id": "a423fcfe-1ee6-36d0-a5b7-445bc710103f",
+      "identifier": [ {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:a423fcfe-1ee6-36d0-a5b7-445bc710103f"
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "86406008"
+        } ],
+        "text": "HIV"
+      },
+      "abatementString": "positive"
+    }
+  }, {
+    "resource": {
+      "resourceType": "EvidenceVariable",
+      "id": "a423fcfe-1ee6-36d0-a5b7-445bc710103f",
+      "characteristic": [ {
+        "definitionReference": {
+          "reference": "Condition/a423fcfe-1ee6-36d0-a5b7-445bc710103f"
+        },
+        "exclude": false
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Condition",
+      "id": "a4edf461-e763-33ea-828a-3efd9de0993f",
+      "identifier": [ {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:a4edf461-e763-33ea-828a-3efd9de0993f"
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "48532005"
+        } ],
+        "text": "strains"
+      },
+      "abatementString": "positive"
+    }
+  }, {
+    "resource": {
+      "resourceType": "EvidenceVariable",
+      "id": "a4edf461-e763-33ea-828a-3efd9de0993f",
+      "characteristic": [ {
+        "definitionReference": {
+          "reference": "Condition/a4edf461-e763-33ea-828a-3efd9de0993f"
+        },
+        "exclude": false
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Condition",
+      "id": "ab74841d-a1b9-38c3-8c58-b205d14d92b0",
+      "identifier": [ {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:ab74841d-a1b9-38c3-8c58-b205d14d92b0"
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "86406008"
+        } ],
+        "text": "HIV"
+      },
+      "abatementString": "positive"
+    }
+  }, {
+    "resource": {
+      "resourceType": "EvidenceVariable",
+      "id": "ab74841d-a1b9-38c3-8c58-b205d14d92b0",
+      "characteristic": [ {
+        "definitionReference": {
+          "reference": "Condition/ab74841d-a1b9-38c3-8c58-b205d14d92b0"
+        },
+        "exclude": false
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Condition",
+      "id": "bfc64f24-8b42-3762-a68a-502cb8f76de6",
+      "identifier": [ {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:bfc64f24-8b42-3762-a68a-502cb8f76de6"
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "40733004"
+        } ],
+        "text": "infection"
+      },
+      "abatementString": "positive"
+    }
+  }, {
+    "resource": {
+      "resourceType": "EvidenceVariable",
+      "id": "bfc64f24-8b42-3762-a68a-502cb8f76de6",
+      "characteristic": [ {
+        "definitionReference": {
+          "reference": "Condition/bfc64f24-8b42-3762-a68a-502cb8f76de6"
+        },
+        "exclude": false
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Condition",
+      "id": "d0226fc0-485e-3d70-b523-ce090a257b6e",
+      "identifier": [ {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:d0226fc0-485e-3d70-b523-ce090a257b6e"
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "86406008"
+        } ],
+        "text": "HIV"
+      },
+      "abatementString": "positive"
+    }
+  }, {
+    "resource": {
+      "resourceType": "EvidenceVariable",
+      "id": "d0226fc0-485e-3d70-b523-ce090a257b6e",
+      "characteristic": [ {
+        "definitionReference": {
+          "reference": "Condition/d0226fc0-485e-3d70-b523-ce090a257b6e"
+        },
+        "exclude": false
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Condition",
+      "id": "d22e3af6-45d3-3673-8027-5dba70bbf7c8",
+      "identifier": [ {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:d22e3af6-45d3-3673-8027-5dba70bbf7c8"
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "17231009"
+        } ],
+        "text": "Fvs"
+      },
+      "abatementString": "positive"
+    }
+  }, {
+    "resource": {
+      "resourceType": "EvidenceVariable",
+      "id": "d22e3af6-45d3-3673-8027-5dba70bbf7c8",
+      "characteristic": [ {
+        "definitionReference": {
+          "reference": "Condition/d22e3af6-45d3-3673-8027-5dba70bbf7c8"
+        },
+        "exclude": false
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Condition",
+      "id": "d2390e86-981a-307d-85aa-50c4e501dd5c",
+      "identifier": [ {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:d2390e86-981a-307d-85aa-50c4e501dd5c"
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "86406008"
+        } ],
+        "text": "HIV"
+      },
+      "abatementString": "positive"
+    }
+  }, {
+    "resource": {
+      "resourceType": "EvidenceVariable",
+      "id": "d2390e86-981a-307d-85aa-50c4e501dd5c",
+      "characteristic": [ {
+        "definitionReference": {
+          "reference": "Condition/d2390e86-981a-307d-85aa-50c4e501dd5c"
+        },
+        "exclude": false
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Condition",
+      "id": "ef750dd0-2748-34cf-8d6e-1411a7a0067a",
+      "identifier": [ {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:ef750dd0-2748-34cf-8d6e-1411a7a0067a"
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "86406008"
+        } ],
+        "text": "HIV"
+      },
+      "abatementString": "positive"
+    }
+  }, {
+    "resource": {
+      "resourceType": "EvidenceVariable",
+      "id": "ef750dd0-2748-34cf-8d6e-1411a7a0067a",
+      "characteristic": [ {
+        "definitionReference": {
+          "reference": "Condition/ef750dd0-2748-34cf-8d6e-1411a7a0067a"
+        },
+        "exclude": false
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Condition",
+      "id": "f190401c-f0ee-37ae-b5bf-96b4465ecdda",
+      "identifier": [ {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:f190401c-f0ee-37ae-b5bf-96b4465ecdda"
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "86406008"
+        } ],
+        "text": "HIV"
+      },
+      "abatementString": "positive"
+    }
+  }, {
+    "resource": {
+      "resourceType": "EvidenceVariable",
+      "id": "f190401c-f0ee-37ae-b5bf-96b4465ecdda",
+      "characteristic": [ {
+        "definitionReference": {
+          "reference": "Condition/f190401c-f0ee-37ae-b5bf-96b4465ecdda"
+        },
+        "exclude": false
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Medication",
+      "id": "ae1e7cfa-9b57-3b6d-b111-2302ee5c2ea8",
+      "code": {
+        "coding": [ {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "8217"
+        } ],
+        "text": "Phosphatidylinositols"
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "EvidenceVariable",
+      "id": "ae1e7cfa-9b57-3b6d-b111-2302ee5c2ea8",
+      "characteristic": [ {
+        "definitionReference": {
+          "reference": "Medication/ae1e7cfa-9b57-3b6d-b111-2302ee5c2ea8"
+        }
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Procedure",
+      "id": "0cfe62c8-1ad3-3203-87b0-6e722d7294cb",
+      "identifier": [ {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:0cfe62c8-1ad3-3203-87b0-6e722d7294cb"
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "5190000"
+        } ],
+        "text": "cell fusion"
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "EvidenceVariable",
+      "id": "0cfe62c8-1ad3-3203-87b0-6e722d7294cb",
+      "characteristic": [ {
+        "definitionReference": {
+          "reference": "Procedure/0cfe62c8-1ad3-3203-87b0-6e722d7294cb"
+        }
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Procedure",
+      "id": "0ed53322-a36c-3592-908c-549a63d15b71",
+      "identifier": [ {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:0ed53322-a36c-3592-908c-549a63d15b71"
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "169443000"
+        } ],
+        "text": "prevention"
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "EvidenceVariable",
+      "id": "0ed53322-a36c-3592-908c-549a63d15b71",
+      "characteristic": [ {
+        "definitionReference": {
+          "reference": "Procedure/0ed53322-a36c-3592-908c-549a63d15b71"
+        }
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Procedure",
+      "id": "30c066d0-afa6-3245-b045-6f09b0ff9062",
+      "identifier": [ {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:30c066d0-afa6-3245-b045-6f09b0ff9062"
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "277132007"
+        } ],
+        "text": "therapy"
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "EvidenceVariable",
+      "id": "30c066d0-afa6-3245-b045-6f09b0ff9062",
+      "characteristic": [ {
+        "definitionReference": {
+          "reference": "Procedure/30c066d0-afa6-3245-b045-6f09b0ff9062"
+        }
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Procedure",
+      "id": "645d87c6-c4ba-3a94-939c-4c9941888364",
+      "identifier": [ {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:645d87c6-c4ba-3a94-939c-4c9941888364"
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "122501008"
+        } ],
+        "text": "fusion"
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "EvidenceVariable",
+      "id": "645d87c6-c4ba-3a94-939c-4c9941888364",
+      "characteristic": [ {
+        "definitionReference": {
+          "reference": "Procedure/645d87c6-c4ba-3a94-939c-4c9941888364"
+        }
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Procedure",
+      "id": "7ac0846b-291f-351c-a9b7-6d4907f5be32",
+      "identifier": [ {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:7ac0846b-291f-351c-a9b7-6d4907f5be32"
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "1431002"
+        } ],
+        "text": "attachment"
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "EvidenceVariable",
+      "id": "7ac0846b-291f-351c-a9b7-6d4907f5be32",
+      "characteristic": [ {
+        "definitionReference": {
+          "reference": "Procedure/7ac0846b-291f-351c-a9b7-6d4907f5be32"
+        }
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Procedure",
+      "id": "7c4ce137-645f-36b0-aede-57dc673c1887",
+      "identifier": [ {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:7c4ce137-645f-36b0-aede-57dc673c1887"
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "10012005"
+        } ],
+        "text": "expression"
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "EvidenceVariable",
+      "id": "7c4ce137-645f-36b0-aede-57dc673c1887",
+      "characteristic": [ {
+        "definitionReference": {
+          "reference": "Procedure/7c4ce137-645f-36b0-aede-57dc673c1887"
+        }
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Procedure",
+      "id": "c49c8f44-2e5c-32d2-8cb5-136949698e0e",
+      "identifier": [ {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:c49c8f44-2e5c-32d2-8cb5-136949698e0e"
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "1431002"
+        } ],
+        "text": "attachment"
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "EvidenceVariable",
+      "id": "c49c8f44-2e5c-32d2-8cb5-136949698e0e",
+      "characteristic": [ {
+        "definitionReference": {
+          "reference": "Procedure/c49c8f44-2e5c-32d2-8cb5-136949698e0e"
+        }
+      } ]
+    }
+  } ]
+}
