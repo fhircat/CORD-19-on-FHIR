@@ -21,6 +21,10 @@ We plan to parse the full text articles soon, for those that we can access.
 If you can generate other semantic linkages, please let us know.  Collaboration is invited.  Please issue a pull request or contact Guoqian Jiang <jiang.guoqian@mayo.edu> and Harold Solbrig <solbrig@jhu.edu>.
 
 
+## Pubtator annotations
+
+We have also added another set of annotations from [Pubtator](https://www.ncbi.nlm.nih.gov/research/pubtator/).  These are pulled from the Pubtator API via pmcid (PubMed Central id) from metadata file (see below).  Not all PMC ids yielded annotations.  These annotations have been converted from the source JSON into RDF Turtle format.
+
 ## License
 
 This dataset was derived from the CORD-19 dataset, and therefore consists of two subsets, having different licenses, that are intermingled in the CORD-19-on-FHIR dataset:
