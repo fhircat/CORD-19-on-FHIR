@@ -39,8 +39,6 @@ We have also added another set of annotations from [Pubtator](https://www.ncbi.n
 - [COVID-19 Knowledge Accelerator](https://www.gps.health/covid19_knowledge_accelerator.html)
 - [EBMonFHIR](https://confluence.hl7.org/display/CDS/EBMonFHIR)
 - [Coronavirus Infectious Disease Ontology](http://bioportal.bioontology.org/ontologies/CIDO)
-- [NCATS Transltor Project](https://github.com/NCATS-Tangerine)
-- [NCATS CD2H Project](https://ctsa.ncats.nih.gov/cd2h/)
 - [OntoText and GraphDB](https://www.ontotext.com/)
 
 ## License
