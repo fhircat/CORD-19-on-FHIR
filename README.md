@@ -12,9 +12,9 @@ https://github.com/fhircat/CORD-19-on-FHIR/wiki
 
 So far, CORD-19-on-FHIR adds the following semantic annotations to the CORD-19 dataset, based only on parsing the titles and abstracts:
 
-- Condition: 182231 instances
-- Medication: 32069 instances
-- Procedure: 100260 instances
+- Condition: 182,231 instances
+- Medication: 32,069 instances
+- Procedure: 100,260 instances
 
 We plan to parse the full text articles soon, for those that we can access.  
 
@@ -25,13 +25,13 @@ If you can generate other semantic linkages, please let us know.  Collaboration 
 
 We have also added another set of annotations from [Pubtator](https://www.ncbi.nlm.nih.gov/research/pubtator/).  These are pulled from the Pubtator API via pmcid (PubMed Central id) from metadata file (see below).  Not all PMC ids yielded annotations.  These annotations have been converted from the source JSON into RDF Turtle format.
 
-- Species:       2030458 instances
-- Gene:          1235829 instances
-- Disease:       1036954 instances
-- Chemical:      778872 instances
-- CellLine:      76816 instances
-- Mutation:      33413 instances
-- Strain:        26573 instances
+- Species:       2,030,458 instances
+- Gene:          1,235,829 instances
+- Disease:       1,036,954 instances
+- Chemical:      778,872 instances
+- CellLine:      76,816 instances
+- Mutation:      33,413 instances
+- Strain:        26,573 instances
 
 ## Collaborators
 
