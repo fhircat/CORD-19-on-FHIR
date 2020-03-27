@@ -33,6 +33,16 @@ We have also added another set of annotations from [Pubtator](https://www.ncbi.n
 - Mutation:      33413 instances
 - Strain:        26573 instances
 
+## Collaborators
+
+- COVID-19 Knowledge Accelerator (https://www.gps.health/covid19_knowledge_accelerator.html)
+- EBMonFHIR (https://confluence.hl7.org/display/CDS/EBMonFHIR)
+- Coronavirus Infectious Disease Ontology (http://bioportal.bioontology.org/ontologies/CIDO)
+- NCATS Transltor Project (https://github.com/NCATS-Tangerine)
+- NCATS CD2H Project (https://ctsa.ncats.nih.gov/cd2h/)
+- OntoText and GraphDB (https://www.ontotext.com/)
+
+
 ## License
 
 This dataset was derived from the CORD-19 dataset, and therefore consists of two subsets, having different licenses, that are intermingled in the CORD-19-on-FHIR dataset:
