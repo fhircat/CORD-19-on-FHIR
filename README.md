@@ -10,7 +10,7 @@ https://github.com/fhircat/CORD-19-on-FHIR/wiki
 
 ## Semantic annotations
 
-So far, CORD-19-on-FHIR adds the following semantic annotations to the CORD-19 dataset, based only on parsing the titles and abstracts:
+So far, CORD-19-on-FHIR adds the following semantic annotations to the CORD-19 dataset, based only on parsing the titles and abstracts.A number of sparql queries to identify the instances of different data types are aviable at [here](https://github.com/fhircat/CORD-19-on-FHIR/wiki/SPARQL-Queries). 
 
 - Condition: 182,231 instances
 - Medication: 32,069 instances
@@ -23,7 +23,7 @@ If you can generate other semantic linkages, please let us know.  Collaboration 
 
 ## Pubtator annotations
 
-We have also added another set of annotations from [Pubtator](https://www.ncbi.nlm.nih.gov/research/pubtator/).  These are pulled from the Pubtator API via pmcid (PubMed Central id) from metadata file (see below).  Not all PMC ids yielded annotations.  These annotations have been converted from the source JSON into RDF Turtle format.
+We have also added another set of annotations from [Pubtator](https://www.ncbi.nlm.nih.gov/research/pubtator/).  These are pulled from the Pubtator API via pmcid (PubMed Central id) from metadata file (see below).  Not all PMC ids yielded annotations.  These annotations have been converted from the source JSON into RDF Turtle format [see example] (https://github.com/fhircat/CORD-19-on-FHIR/blob/master/examples/PMC212558_t.ttl). A number of sparql queries to identify the instances of different data types are aviable at [here](https://github.com/fhircat/CORD-19-on-FHIR/wiki/PubTator-Dataset).
 
 - Species:       2,030,458 instances
 - Gene:          1,235,829 instances
