@@ -38,8 +38,10 @@ We have also added another set of annotations from [Pubtator](https://www.ncbi.n
 - [COVID-19 Open Research Dataset (CORD-19)](https://pages.semanticscholar.org/coronavirus-research)
 - [COVID-19 Knowledge Accelerator](https://www.gps.health/covid19_knowledge_accelerator.html)
 - [EBMonFHIR](https://confluence.hl7.org/display/CDS/EBMonFHIR)
-- [Coronavirus Infectious Disease Ontology](http://bioportal.bioontology.org/ontologies/CIDO)
 - [Pubtator](https://www.ncbi.nlm.nih.gov/research/pubtator/)
+- [Coronavirus Infectious Disease Ontology](http://bioportal.bioontology.org/ontologies/CIDO)
+- [NCATS CTSA Program National Center for Data to Health (CD2H)](https://cd2h.org/fhir)
+- [NCATS Biomedical Data Translator](https://ncats.nih.gov/translator)
 - [OntoText and GraphDB](https://www.ontotext.com/)
 
 ## License
