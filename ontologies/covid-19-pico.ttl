@@ -1,0 +1,5084 @@
+@prefix cpico: <http://edu.mayo.informatics/cpico/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> . 
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix pico: <http://data.cochrane.org/ontologies/pico/> .
+@prefix mesh: <https://id.nlm.nih.gov/mesh/> .
+@prefix rxnorm: <http://www.nlm.nih.gov/research/umls/rxnorm> .
+@prefix sct: <http://snomed.info/sct/> .
+@base <http://edu.mayo.informatics/cpico/> .
+ 
+
+<http://edu.mayo.informatics/cpico/>
+rdf:type owl:Ontology ;
+dc:creator "FHIRCat Project"^^xsd:string ;
+owl:imports <http://data.cochrane.org/ontologies/pico/> ;
+owl:versionInfo "1.0"^^xsd:string ;
+skos:definition "An extension of PICO for supporting COVID-19 evidence extraction."^^xsd:string ;
+skos:prefLabel "COVID-19 PICO (CPICO)"^^xsd:string ;
+. 
+
+cpico:COVID-19_Population rdf:type owl:Class ;
+	rdfs:subClassOf pico:Population ;
+	rdfs:label "COVID-19 Population"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_pregnancy
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with preganancy"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_of_asymptomatic_carriers
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients of asymptomatic carriers"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_smoking_history
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with smoking history"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_of_current_smoker
+	rdfs:subClassOf cpico:COVID-19_Patients_with_smoking_history ;
+	rdfs:label "COVID-19 Patients of current smoker"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_of_non_smoker
+	rdfs:subClassOf cpico:COVID-19_Patients_with_smoking_history ;
+	rdfs:label "COVID-19 Patients of non smoker"^^xsd:string;
+. 
+
+mesh:D000544
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "Alzheimer's disease"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_Alzheimer_s_disease
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with Alzheimer's disease"^^xsd:string;
+. 
+
+mesh:D001008
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "anxiety"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_anxiety
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with anxiety"^^xsd:string;
+. 
+
+mesh:D001168
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "arthritis"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_arthritis
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with arthritis"^^xsd:string;
+. 
+
+mesh:D001327
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "autoimmunity"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_autoimmunity
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with autoimmunity"^^xsd:string;
+. 
+
+mesh:D001327
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "autoimmune diseases"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_autoimmune_diseases
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with autoimmune diseases"^^xsd:string;
+. 
+
+mesh:D001943
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "breast cancer"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_breast_cancer
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with breast cancer"^^xsd:string;
+. 
+
+mesh:D001988
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "bronchiolitis"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_bronchiolitis
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with bronchiolitis"^^xsd:string;
+. 
+
+mesh:D001991
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "bronchitis"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_bronchitis
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with bronchitis"^^xsd:string;
+. 
+
+mesh:D003371
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "cough"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_cough
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with cough"^^xsd:string;
+. 
+
+mesh:D003550
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "cystic fibrosis"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_cystic_fibrosis
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with cystic fibrosis"^^xsd:string;
+. 
+
+mesh:D003643
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "death"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_death
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with death"^^xsd:string;
+. 
+
+mesh:D003711
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "demyelination"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_demyelination
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with demyelination"^^xsd:string;
+. 
+
+mesh:D003866
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "depression"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_depression
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with depression"^^xsd:string;
+. 
+
+mesh:D003920
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "diabetes"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_diabetes
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with diabetes"^^xsd:string;
+. 
+
+mesh:D003967
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "diarrhea"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_diarrhea
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with diarrhea"^^xsd:string;
+. 
+
+mesh:D004660
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "encephalitis"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_encephalitis
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with encephalitis"^^xsd:string;
+. 
+
+mesh:D005334
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "fever"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_fever
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with fever"^^xsd:string;
+. 
+
+mesh:D005355
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "fibrosis"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_fibrosis
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with fibrosis"^^xsd:string;
+. 
+
+mesh:D005759
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "gastroenteritis"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_gastroenteritis
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with gastroenteritis"^^xsd:string;
+. 
+
+mesh:D006261
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "headache"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_headache
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with headache"^^xsd:string;
+. 
+
+mesh:D006480
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "hemorrhagic fever"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_hemorrhagic_fever
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with hemorrhagic fever"^^xsd:string;
+. 
+
+mesh:D006509
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "hepatitis B"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_hepatitis_B
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with hepatitis B"^^xsd:string;
+. 
+
+mesh:D006526
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "HCV infection"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_HCV_infection
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with HCV infection"^^xsd:string;
+. 
+
+mesh:D006973
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "hypertension"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_hypertension
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with hypertension"^^xsd:string;
+. 
+
+mesh:D007153
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "immunodeficiency"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_immunodeficiency
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with immunodeficiency"^^xsd:string;
+. 
+
+mesh:D007251
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "influenza virus infection"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_influenza_virus_infection
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with influenza virus infection"^^xsd:string;
+. 
+
+mesh:D008175
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "lung cancer"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_lung_cancer
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with lung cancer"^^xsd:string;
+. 
+
+mesh:D008288
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "malaria"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_malaria
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with malaria"^^xsd:string;
+. 
+
+mesh:D008545
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "melanoma"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_melanoma
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with melanoma"^^xsd:string;
+. 
+
+mesh:D009103
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "multiple sclerosis"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_multiple_sclerosis
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with multiple sclerosis"^^xsd:string;
+. 
+
+mesh:D009336
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "necrosis"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_necrosis
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with necrosis"^^xsd:string;
+. 
+
+mesh:D009369
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "cancer"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_cancer
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with cancer"^^xsd:string;
+. 
+
+mesh:D009765
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "obesity"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_obesity
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with obesity"^^xsd:string;
+. 
+
+mesh:D010146
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "pain"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_pain
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with pain"^^xsd:string;
+. 
+
+mesh:D011014
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "pneumonia"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_pneumonia
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with pneumonia"^^xsd:string;
+. 
+
+mesh:D011471
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "prostate cancer"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_prostate_cancer
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with prostate cancer"^^xsd:string;
+. 
+
+mesh:D012128
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "acute respiratory distress syndrome"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_acute_respiratory_distress_syndrome
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with acute respiratory distress syndrome"^^xsd:string;
+. 
+
+mesh:D012131
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "respiratory disease"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_respiratory_disease
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with respiratory disease"^^xsd:string;
+. 
+
+mesh:D012141
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "respiratory tract infection"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_respiratory_tract_infection
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with respiratory tract infection"^^xsd:string;
+. 
+
+mesh:D012559
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "schizophrenia"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_schizophrenia
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with schizophrenia"^^xsd:string;
+. 
+
+mesh:D014376
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "tuberculosis"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_tuberculosis
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with tuberculosis"^^xsd:string;
+. 
+
+mesh:D014766
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "viremia"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_viremia
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with viremia"^^xsd:string;
+. 
+
+mesh:D014839
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "vomiting"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_vomiting
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with vomiting"^^xsd:string;
+. 
+
+mesh:D015431
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "weight loss"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_weight_loss
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with weight loss"^^xsd:string;
+. 
+
+mesh:D015658
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "HIV infection"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_HIV_infection
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with HIV infection"^^xsd:string;
+. 
+
+mesh:D018352
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "MERS-CoV infection"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_MERS-CoV_infection
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with MERS-CoV infection"^^xsd:string;
+. 
+
+mesh:D018357
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "respiratory syncytial virus infection"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_respiratory_syncytial_virus_infection
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with respiratory syncytial virus infection"^^xsd:string;
+. 
+
+mesh:D018805
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "sepsis"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_sepsis
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with sepsis"^^xsd:string;
+. 
+
+mesh:D019142
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "Ebola virus disease"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_Ebola_virus_disease
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with Ebola virus disease"^^xsd:string;
+. 
+
+mesh:D020521
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "stroke"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_stroke
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with stroke"^^xsd:string;
+. 
+
+mesh:D029424
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "chronic obstructive pulmonary disease"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_chronic_obstructive_pulmonary_disease
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with chronic obstructive pulmonary disease"^^xsd:string;
+. 
+
+mesh:D045169
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "acute respiratory syndrome"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_acute_respiratory_syndrome
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with acute respiratory syndrome"^^xsd:string;
+. 
+
+mesh:D045169
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "SARS-CoV infection"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_SARS-CoV_infection
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with SARS-CoV infection"^^xsd:string;
+. 
+
+mesh:D055370
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "lung injury"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_lung_injury
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with lung injury"^^xsd:string;
+. 
+
+mesh:D055371
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "acute lung injury"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_acute_lung_injury
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with acute lung injury"^^xsd:string;
+. 
+
+mesh:D056486
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "hepatitis"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_hepatitis
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with hepatitis"^^xsd:string;
+. 
+
+mesh:D064420
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "toxicity"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_toxicity
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with toxicity"^^xsd:string;
+. 
+
+mesh:D001172
+	rdf:type owl:Class ;
+	rdfs:subClassOf pico:Condition ;
+	rdfs:label "rheumatoid arthritis"^^xsd:string;
+. 
+
+cpico:COVID-19_Patients_with_rheumatoid_arthritis
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Population ;
+	rdfs:label "COVID-19 Patients with rheumatoid arthritis"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention rdf:type owl:Class ;
+	rdfs:subClassOf pico:Intervention ;
+	rdfs:label "COVID-19 Intervention"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Medication rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention ;
+	rdfs:label "COVID-19 Intervention with Medication"^^xsd:string;
+. 
+
+rxnorm:6308
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Leucine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Leucine
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Leucine"^^xsd:string;
+. 
+
+rxnorm:69722
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Zanamivir"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Zanamivir
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Zanamivir"^^xsd:string;
+. 
+
+rxnorm:4919
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Glycine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Glycine
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Glycine"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Azithromycin"^^xsd:string;
+. 
+
+rxnorm:11124
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Vancomycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Vancomycin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Vancomycin"^^xsd:string;
+. 
+
+rxnorm:281
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Acyclovir"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Acyclovir
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Acyclovir"^^xsd:string;
+. 
+
+rxnorm:221182
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "yellow-fever virus"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_yellow-fever_virus
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with yellow-fever virus"^^xsd:string;
+. 
+
+rxnorm:1622
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Bleomycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Bleomycin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Bleomycin"^^xsd:string;
+. 
+
+rxnorm:10109
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Streptomycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Streptomycin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Streptomycin"^^xsd:string;
+. 
+
+rxnorm:21212
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Clarithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Clarithromycin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Clarithromycin"^^xsd:string;
+. 
+
+rxnorm:5781
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Indomethacin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Indomethacin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Indomethacin"^^xsd:string;
+. 
+
+rxnorm:4053
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Erythromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Erythromycin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Erythromycin"^^xsd:string;
+. 
+
+rxnorm:154394
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Rotavirus Vaccines"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Rotavirus_Vaccines
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Rotavirus Vaccines"^^xsd:string;
+. 
+
+rxnorm:284640
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "lopinavir / Ritonavir"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_lopinavir___Ritonavir
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with lopinavir / Ritonavir"^^xsd:string;
+. 
+
+rxnorm:2551
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Ciprofloxacin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Ciprofloxacin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Ciprofloxacin"^^xsd:string;
+. 
+
+rxnorm:662411
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Gentamicins"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Gentamicins
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Gentamicins"^^xsd:string;
+. 
+
+rxnorm:134527
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Nelfinavir"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Nelfinavir
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Nelfinavir"^^xsd:string;
+. 
+
+rxnorm:3639
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Doxorubicin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Doxorubicin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Doxorubicin"^^xsd:string;
+. 
+
+rxnorm:82122
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Levofloxacin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Levofloxacin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Levofloxacin"^^xsd:string;
+. 
+
+rxnorm:2582
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Clindamycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Clindamycin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Clindamycin"^^xsd:string;
+. 
+
+rxnorm:6669
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Measles Vaccine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Measles_Vaccine
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Measles Vaccine"^^xsd:string;
+. 
+
+rxnorm:83171
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Cidofovir"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Cidofovir
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Cidofovir"^^xsd:string;
+. 
+
+rxnorm:732
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Amphotericin B"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Amphotericin_B
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Amphotericin B"^^xsd:string;
+. 
+
+rxnorm:106467
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Pneumococcal vaccine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Pneumococcal_vaccine
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Pneumococcal vaccine"^^xsd:string;
+. 
+
+rxnorm:195088
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "lopinavir"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_lopinavir
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with lopinavir"^^xsd:string;
+. 
+
+rxnorm:139896
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "enfuvirtide"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_enfuvirtide
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with enfuvirtide"^^xsd:string;
+. 
+
+rxnorm:6033
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Isoleucine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Isoleucine
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Isoleucine"^^xsd:string;
+. 
+
+rxnorm:85762
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Ritonavir"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Ritonavir
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Ritonavir"^^xsd:string;
+. 
+
+rxnorm:9097
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Rabies Vaccines"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Rabies_Vaccines
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Rabies Vaccines"^^xsd:string;
+. 
+
+rxnorm:9835
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Smallpox Vaccine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Smallpox_Vaccine
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Smallpox Vaccine"^^xsd:string;
+. 
+
+rxnorm:24192
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "enrofloxacin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_enrofloxacin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with enrofloxacin"^^xsd:string;
+. 
+
+rxnorm:3100
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Dactinomycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Dactinomycin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Dactinomycin"^^xsd:string;
+. 
+
+rxnorm:22299
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Daptomycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Daptomycin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Daptomycin"^^xsd:string;
+. 
+
+rxnorm:641
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Amikacin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Amikacin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Amikacin"^^xsd:string;
+. 
+
+rxnorm:2037
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Carbon Monoxide"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Carbon_Monoxide
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Carbon Monoxide"^^xsd:string;
+. 
+
+rxnorm:658
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Amino Acids"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Amino_Acids
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Amino Acids"^^xsd:string;
+. 
+
+rxnorm:8031
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Endopeptidases"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Endopeptidases
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Endopeptidases"^^xsd:string;
+. 
+
+rxnorm:3390
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Diethylstilbestrol"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Diethylstilbestrol
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Diethylstilbestrol"^^xsd:string;
+. 
+
+rxnorm:350202
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Escherichia coli"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Escherichia_coli
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Escherichia coli"^^xsd:string;
+. 
+
+rxnorm:5666
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Immunoglobulin G"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Immunoglobulin_G
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Immunoglobulin G"^^xsd:string;
+. 
+
+rxnorm:8028
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Peptide Hydrolases"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Peptide_Hydrolases
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Peptide Hydrolases"^^xsd:string;
+. 
+
+rxnorm:9394
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "RNA"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_RNA
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with RNA"^^xsd:string;
+. 
+
+rxnorm:973880
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "fig allergenic extract"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_fig_allergenic_extract
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with fig allergenic extract"^^xsd:string;
+. 
+
+rxnorm:220678
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Urban tradename"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Urban_tradename
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Urban tradename"^^xsd:string;
+. 
+
+rxnorm:89886
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "rabies immune globulin, human"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_rabies_immune_globulin__human
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with rabies immune globulin, human"^^xsd:string;
+. 
+
+rxnorm:8556
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Polysaccharides"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Polysaccharides
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Polysaccharides"^^xsd:string;
+. 
+
+rxnorm:5720
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Immunoglobulins"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Immunoglobulins
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Immunoglobulins"^^xsd:string;
+. 
+
+rxnorm:9344
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Ribavirin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Ribavirin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Ribavirin"^^xsd:string;
+. 
+
+rxnorm:8375
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "placebo"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_placebo
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with placebo"^^xsd:string;
+. 
+
+rxnorm:3024
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Cysteine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Cysteine
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Cysteine"^^xsd:string;
+. 
+
+rxnorm:9671
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Serine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Serine
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Serine"^^xsd:string;
+. 
+
+rxnorm:5806
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Influenza virus vaccine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Influenza_virus_vaccine
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Influenza virus vaccine"^^xsd:string;
+. 
+
+rxnorm:813859
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "rabbit allergenic extract"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_rabbit_allergenic_extract
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with rabbit allergenic extract"^^xsd:string;
+. 
+
+rxnorm:1014108
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Precise"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Precise
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Precise"^^xsd:string;
+. 
+
+rxnorm:11416
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Zinc"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Zinc
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Zinc"^^xsd:string;
+. 
+
+rxnorm:8208
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "inorganic phosphate"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_inorganic_phosphate
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with inorganic phosphate"^^xsd:string;
+. 
+
+rxnorm:217105
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Ferret brand of ferrous fumarate"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Ferret_brand_of_ferrous_fumarate
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Ferret brand of ferrous fumarate"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Chloroquine"^^xsd:string;
+. 
+
+rxnorm:10890
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "TRYPSIN"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_TRYPSIN
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with TRYPSIN"^^xsd:string;
+. 
+
+rxnorm:7442
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Nitric Oxide"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Nitric_Oxide
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Nitric Oxide"^^xsd:string;
+. 
+
+rxnorm:763067
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Leader"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Leader
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Leader"^^xsd:string;
+. 
+
+rxnorm:6633
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Mannose"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Mannose
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Mannose"^^xsd:string;
+. 
+
+rxnorm:7892
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Papain"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Papain
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Papain"^^xsd:string;
+. 
+
+rxnorm:318
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Adenosine Triphosphate"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Adenosine_Triphosphate
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Adenosine Triphosphate"^^xsd:string;
+. 
+
+rxnorm:9853
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Sodium"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Sodium
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Sodium"^^xsd:string;
+. 
+
+rxnorm:26143
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Glycyrrhizic Acid"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Glycyrrhizic_Acid
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Glycyrrhizic Acid"^^xsd:string;
+. 
+
+rxnorm:114202
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Lactate"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Lactate
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Lactate"^^xsd:string;
+. 
+
+rxnorm:9060
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Quercetin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Quercetin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Quercetin"^^xsd:string;
+. 
+
+rxnorm:972037
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "duck allergenic extract"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_duck_allergenic_extract
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with duck allergenic extract"^^xsd:string;
+. 
+
+rxnorm:9863
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Sodium Chloride"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Sodium_Chloride
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Sodium Chloride"^^xsd:string;
+. 
+
+rxnorm:260101
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Oseltamivir"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Oseltamivir
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Oseltamivir"^^xsd:string;
+. 
+
+rxnorm:1895
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Calcium"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Calcium
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Calcium"^^xsd:string;
+. 
+
+rxnorm:8588
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Potassium"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Potassium
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Potassium"^^xsd:string;
+. 
+
+rxnorm:892599
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "beef allergenic extract"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_beef_allergenic_extract
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with beef allergenic extract"^^xsd:string;
+. 
+
+rxnorm:10962
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Tyrosine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Tyrosine
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Tyrosine"^^xsd:string;
+. 
+
+rxnorm:426
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Alanine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Alanine
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Alanine"^^xsd:string;
+. 
+
+rxnorm:448
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Ethanol"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Ethanol
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Ethanol"^^xsd:string;
+. 
+
+rxnorm:938
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Antifungal Agents"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Antifungal_Agents
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Antifungal Agents"^^xsd:string;
+. 
+
+rxnorm:5497
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Hydrogen"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Hydrogen
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Hydrogen"^^xsd:string;
+. 
+
+rxnorm:5885
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Interferon Type II"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Interferon_Type_II
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Interferon Type II"^^xsd:string;
+. 
+
+rxnorm:2714
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Collagen"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Collagen
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Collagen"^^xsd:string;
+. 
+
+rxnorm:7402
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Niclosamide"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Niclosamide
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Niclosamide"^^xsd:string;
+. 
+
+rxnorm:7076
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Mucins"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Mucins
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Mucins"^^xsd:string;
+. 
+
+rxnorm:1091
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Arginine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Arginine
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Arginine"^^xsd:string;
+. 
+
+rxnorm:7806
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Oxygen"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Oxygen
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Oxygen"^^xsd:string;
+. 
+
+rxnorm:10485
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Thioguanine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Thioguanine
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Medication ;
+	rdfs:label "COVID-19 Intervention with Thioguanine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Procedure rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention ;
+	rdfs:label "COVID-19 Intervention with Procedure"^^xsd:string;
+. 
+
+sct:714797009
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "histology"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_histology
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with histology"^^xsd:string;
+. 
+
+sct:427314002
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "antiviral therapy"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_antiviral_therapy
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with antiviral therapy"^^xsd:string;
+. 
+
+sct:413815006
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "chest imaging"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_chest_imaging
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with chest imaging"^^xsd:string;
+. 
+
+sct:413433006
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "active monitoring"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_active_monitoring
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with active monitoring"^^xsd:string;
+. 
+
+sct:409582008
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "isolation precautions"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_isolation_precautions
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with isolation precautions"^^xsd:string;
+. 
+
+sct:409530006
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "decontamination"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_decontamination
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with decontamination"^^xsd:string;
+. 
+
+sct:406172003
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "intranasal administration"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_intranasal_administration
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with intranasal administration"^^xsd:string;
+. 
+
+sct:405824009
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "genetic testing"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_genetic_testing
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with genetic testing"^^xsd:string;
+. 
+
+sct:399208008
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "chest X-ray"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_chest_X-ray
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with chest X-ray"^^xsd:string;
+. 
+
+sct:395114000
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "Chinese herbal medicine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chinese_herbal_medicine
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with Chinese herbal medicine"^^xsd:string;
+. 
+
+sct:395058002
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "virus load"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_virus_load
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with virus load"^^xsd:string;
+. 
+
+sct:394642008
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "drug screening"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_drug_screening
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with drug screening"^^xsd:string;
+. 
+
+sct:394613000
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "gene therapy"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_gene_therapy
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with gene therapy"^^xsd:string;
+. 
+
+sct:387651008
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "probing"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_probing
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with probing"^^xsd:string;
+. 
+
+sct:386359008
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "Oral administration"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Oral_administration
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with Oral administration"^^xsd:string;
+. 
+
+sct:373205008
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "scanning"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_scanning
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with scanning"^^xsd:string;
+. 
+
+sct:371573008
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "ultrasound"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_ultrasound
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with ultrasound"^^xsd:string;
+. 
+
+sct:363679005
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "imaging"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_imaging
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with imaging"^^xsd:string;
+. 
+
+sct:314937005
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "presence of virus"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_presence_of_virus
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with presence of virus"^^xsd:string;
+. 
+
+sct:313039003
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "solid organ transplant"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_solid_organ_transplant
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with solid organ transplant"^^xsd:string;
+. 
+
+sct:285570007
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "swab"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_swab
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with swab"^^xsd:string;
+. 
+
+sct:281789004
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "antibiotic therapy"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_antibiotic_therapy
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with antibiotic therapy"^^xsd:string;
+. 
+
+sct:250507002
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "antibody titers"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_antibody_titers
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with antibody titers"^^xsd:string;
+. 
+
+sct:234336002
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "hematopoietic stem cell transplantation"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_hematopoietic_stem_cell_transplantation
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with hematopoietic stem cell transplantation"^^xsd:string;
+. 
+
+sct:233573008
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "extracorporeal membrane oxygenation"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_extracorporeal_membrane_oxygenation
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with extracorporeal membrane oxygenation"^^xsd:string;
+. 
+
+sct:229554006
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "combination therapy"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_combination_therapy
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with combination therapy"^^xsd:string;
+. 
+
+sct:225390008
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "triage"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_triage
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with triage"^^xsd:string;
+. 
+
+sct:182831000
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "chemotherapy"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_chemotherapy
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with chemotherapy"^^xsd:string;
+. 
+
+sct:182687005
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "positive pressure ventilation"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_positive_pressure_ventilation
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with positive pressure ventilation"^^xsd:string;
+. 
+
+sct:170497006
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "quarantine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_quarantine
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with quarantine"^^xsd:string;
+. 
+
+sct:169069000
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "chest CT"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_chest_CT
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with chest CT"^^xsd:string;
+. 
+
+sct:168537006
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "X-ray"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_X-ray
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with X-ray"^^xsd:string;
+. 
+
+sct:168537006
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "x-ray"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_x-ray
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with x-ray"^^xsd:string;
+. 
+
+sct:166164009
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "antibody test"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_antibody_test
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with antibody test"^^xsd:string;
+. 
+
+sct:165515000
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "neutrophil count"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_neutrophil_count
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with neutrophil count"^^xsd:string;
+. 
+
+sct:122442008
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "virus detection"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_virus_detection
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with virus detection"^^xsd:string;
+. 
+
+sct:121276004
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "antigen detection"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_antigen_detection
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with antigen detection"^^xsd:string;
+. 
+
+sct:117617002
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "immunohistochemistry"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_immunohistochemistry
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with immunohistochemistry"^^xsd:string;
+. 
+
+sct:116859006
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "transfusion"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_transfusion
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with transfusion"^^xsd:string;
+. 
+
+sct:115979005
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "stabilization"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_stabilization
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with stabilization"^^xsd:string;
+. 
+
+sct:113091000
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "MRI"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_MRI
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with MRI"^^xsd:string;
+. 
+
+sct:112798008
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "endotracheal intubation"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_endotracheal_intubation
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with endotracheal intubation"^^xsd:string;
+. 
+
+sct:108241001
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "dialysis"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_dialysis
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with dialysis"^^xsd:string;
+. 
+
+sct:104178000
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "bacterial culture"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_bacterial_culture
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with bacterial culture"^^xsd:string;
+. 
+
+sct:89666000
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "cardiopulmonary resuscitation"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_cardiopulmonary_resuscitation
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with cardiopulmonary resuscitation"^^xsd:string;
+. 
+
+sct:88039007
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "lung transplantation"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_lung_transplantation
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with lung transplantation"^^xsd:string;
+. 
+
+sct:86553008
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "immunosuppression"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_immunosuppression
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with immunosuppression"^^xsd:string;
+. 
+
+sct:86273004
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "biopsy"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_biopsy
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with biopsy"^^xsd:string;
+. 
+
+sct:86198006
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "influenza vaccination"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_influenza_vaccination
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with influenza vaccination"^^xsd:string;
+. 
+
+sct:85215005
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "cytotoxicity assay"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_cytotoxicity_assay
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with cytotoxicity assay"^^xsd:string;
+. 
+
+sct:82918005
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "PET"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_PET
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with PET"^^xsd:string;
+. 
+
+sct:78823007
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "life support"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_life_support
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with life support"^^xsd:string;
+. 
+
+sct:78603008
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "lung biopsy"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_lung_biopsy
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with lung biopsy"^^xsd:string;
+. 
+
+sct:77465005
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "transplantation"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_transplantation
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with transplantation"^^xsd:string;
+. 
+
+sct:76978006
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "enzyme-linked immunosorbent assays"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_enzyme-linked_immunosorbent_assays
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with enzyme-linked immunosorbent assays"^^xsd:string;
+. 
+
+sct:76334006
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "immunotherapy"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_immunotherapy
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with immunotherapy"^^xsd:string;
+. 
+
+sct:70536003
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "renal transplant"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_renal_transplant
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with renal transplant"^^xsd:string;
+. 
+
+sct:69363007
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "nucleic acid amplification"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_nucleic_acid_amplification
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with nucleic acid amplification"^^xsd:string;
+. 
+
+sct:68793005
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "serology"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_serology
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with serology"^^xsd:string;
+. 
+
+sct:67889009
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "lavage"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_lavage
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with lavage"^^xsd:string;
+. 
+
+sct:67516001
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "detoxification"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_detoxification
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with detoxification"^^xsd:string;
+. 
+
+sct:64732008
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "bronchoalveolar lavage"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_bronchoalveolar_lavage
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with bronchoalveolar lavage"^^xsd:string;
+. 
+
+sct:64597002
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "ablation"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_ablation
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with ablation"^^xsd:string;
+. 
+
+sct:63697000
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "cardiopulmonary bypass"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_cardiopulmonary_bypass
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with cardiopulmonary bypass"^^xsd:string;
+. 
+
+sct:59108006
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "injection"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_injection
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with injection"^^xsd:string;
+. 
+
+sct:57485005
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "oxygen therapy"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_oxygen_therapy
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with oxygen therapy"^^xsd:string;
+. 
+
+sct:55235003
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "CRP"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_CRP
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with CRP"^^xsd:string;
+. 
+
+sct:53438000
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "radiation"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_radiation
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with radiation"^^xsd:string;
+. 
+
+sct:52765003
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "intubation"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_intubation
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with intubation"^^xsd:string;
+. 
+
+sct:52052004
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "rehabilitation"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_rehabilitation
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with rehabilitation"^^xsd:string;
+. 
+
+sct:51144003
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "liquid chromatography"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_liquid_chromatography
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with liquid chromatography"^^xsd:string;
+. 
+
+sct:46249006
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "aid"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_aid
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with aid"^^xsd:string;
+. 
+
+sct:40617009
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "mechanical ventilation"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_mechanical_ventilation
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with mechanical ventilation"^^xsd:string;
+. 
+
+sct:40538005
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "thermography"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_thermography
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with thermography"^^xsd:string;
+. 
+
+sct:36004004
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "tomography"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_tomography
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with tomography"^^xsd:string;
+. 
+
+sct:34733005
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "hemagglutination inhibition"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_hemagglutination_inhibition
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with hemagglutination inhibition"^^xsd:string;
+. 
+
+sct:33879002
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "vaccination"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_vaccination
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with vaccination"^^xsd:string;
+. 
+
+sct:33747003
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "blood glucose"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_blood_glucose
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with blood glucose"^^xsd:string;
+. 
+
+sct:32623009
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "immunodiffusion"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_immunodiffusion
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with immunodiffusion"^^xsd:string;
+. 
+
+sct:30088009
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "blood culture"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_blood_culture
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with blood culture"^^xsd:string;
+. 
+
+sct:29303009
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "ECG"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_ECG
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with ECG"^^xsd:string;
+. 
+
+sct:29240004
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "necropsy"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_necropsy
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with necropsy"^^xsd:string;
+. 
+
+sct:29240004
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "autopsy"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_autopsy
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with autopsy"^^xsd:string;
+. 
+
+sct:27171005
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "urinalysis"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_urinalysis
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with urinalysis"^^xsd:string;
+. 
+
+sct:19851009
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "microbiology"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_microbiology
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with microbiology"^^xsd:string;
+. 
+
+sct:18027006
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "liver transplantation"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_liver_transplantation
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with liver transplantation"^^xsd:string;
+. 
+
+sct:14766002
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "aspiration"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_aspiration
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with aspiration"^^xsd:string;
+. 
+
+sct:12866006
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "pneumococcal vaccination"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_pneumococcal_vaccination
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with pneumococcal vaccination"^^xsd:string;
+. 
+
+sct:12717000
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "virus culture"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_virus_culture
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with virus culture"^^xsd:string;
+. 
+
+sct:10847001
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "bronchoscopy"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_bronchoscopy
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with bronchoscopy"^^xsd:string;
+. 
+
+sct:9718006
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Procedure ;
+	rdfs:label "PCR analysis"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_PCR_analysis
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Procedure ;
+	rdfs:label "COVID-19 Intervention with PCR analysis"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Concomitant_Medications rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention ;
+	rdfs:label "COVID-19 Intervention with Concomitant Medications"^^xsd:string;
+. 
+
+rxnorm:4053
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Erythromycin"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Erythromycin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Erythromycin"^^xsd:string;
+. 
+
+rxnorm:733
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Ampicillin"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Ampicillin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Ampicillin"^^xsd:string;
+. 
+
+rxnorm:7806
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Oxygen"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Oxygen
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Oxygen"^^xsd:string;
+. 
+
+rxnorm:8375
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "placebo"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_placebo
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and placebo"^^xsd:string;
+. 
+
+rxnorm:11124
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Vancomycin"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Vancomycin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Vancomycin"^^xsd:string;
+. 
+
+rxnorm:29561
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "meropenem"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_meropenem
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and meropenem"^^xsd:string;
+. 
+
+rxnorm:190376
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "linezolid"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_linezolid
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and linezolid"^^xsd:string;
+. 
+
+rxnorm:20481
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "cefepime"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_cefepime
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and cefepime"^^xsd:string;
+. 
+
+rxnorm:89886
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "rabies immune globulin, human"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_rabies_immune_globulin__human
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and rabies_immune_globulin__human"^^xsd:string;
+. 
+
+rxnorm:8246
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Phospholipids"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Phospholipids
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Phospholipids"^^xsd:string;
+. 
+
+rxnorm:2037
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Carbon Monoxide"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Carbon_Monoxide
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Carbon_Monoxide"^^xsd:string;
+. 
+
+rxnorm:9771
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Silicon Dioxide"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Silicon_Dioxide
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Silicon_Dioxide"^^xsd:string;
+. 
+
+rxnorm:747212
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "bayer"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_bayer
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and bayer"^^xsd:string;
+. 
+
+rxnorm:216061
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Cilium brand of psyllium"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Cilium_brand_of_psyllium
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Cilium_brand_of_psyllium"^^xsd:string;
+. 
+
+rxnorm:662411
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Gentamicins"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Gentamicins
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Gentamicins"^^xsd:string;
+. 
+
+rxnorm:24192
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "enrofloxacin"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_enrofloxacin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and enrofloxacin"^^xsd:string;
+. 
+
+rxnorm:2186
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Cefotaxime"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Cefotaxime
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Cefotaxime"^^xsd:string;
+. 
+
+rxnorm:350202
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Escherichia coli"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Escherichia_coli
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Escherichia_coli"^^xsd:string;
+. 
+
+rxnorm:10395
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Tetracycline"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Tetracycline
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Tetracycline"^^xsd:string;
+. 
+
+rxnorm:8556
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Polysaccharides"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Polysaccharides
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Polysaccharides"^^xsd:string;
+. 
+
+rxnorm:2193
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Ceftriaxone"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Ceftriaxone
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Ceftriaxone"^^xsd:string;
+. 
+
+rxnorm:42386
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Immunoglobulins, Intravenous"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Immunoglobulins__Intravenous
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Immunoglobulins__Intravenous"^^xsd:string;
+. 
+
+rxnorm:121191
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "rituximab"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_rituximab
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and rituximab"^^xsd:string;
+. 
+
+rxnorm:5666
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Immunoglobulin G"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Immunoglobulin_G
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Immunoglobulin_G"^^xsd:string;
+. 
+
+rxnorm:5640
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Ibuprofen"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Ibuprofen
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Ibuprofen"^^xsd:string;
+. 
+
+rxnorm:5720
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Immunoglobulins"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Immunoglobulins
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Immunoglobulins"^^xsd:string;
+. 
+
+rxnorm:70618
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Penicillin"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Penicillin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Penicillin"^^xsd:string;
+. 
+
+rxnorm:19711
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Amoxicillin / Clavulanate"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Amoxicillin___Clavulanate
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Amoxicillin___Clavulanate"^^xsd:string;
+. 
+
+rxnorm:2194
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Cefuroxime"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Cefuroxime
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Cefuroxime"^^xsd:string;
+. 
+
+rxnorm:74169
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Piperacillin / tazobactam"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Piperacillin___tazobactam
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Piperacillin___tazobactam"^^xsd:string;
+. 
+
+rxnorm:260101
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Oseltamivir"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Oseltamivir
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Oseltamivir"^^xsd:string;
+. 
+
+rxnorm:20492
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "ceftibuten"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_ceftibuten
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and ceftibuten"^^xsd:string;
+. 
+
+rxnorm:723
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Amoxicillin"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Amoxicillin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Amoxicillin"^^xsd:string;
+. 
+
+rxnorm:25033
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Cefixime"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Cefixime
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Cefixime"^^xsd:string;
+. 
+
+rxnorm:10167
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Sulbactam"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Sulbactam
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Sulbactam"^^xsd:string;
+. 
+
+rxnorm:6980
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Minocycline"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Minocycline
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Minocycline"^^xsd:string;
+. 
+
+rxnorm:228041
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Echinacea Preparation"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Echinacea_Preparation
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Echinacea_Preparation"^^xsd:string;
+. 
+
+rxnorm:121047
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Propionate"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Propionate
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Propionate"^^xsd:string;
+. 
+
+rxnorm:164
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Acetate"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Acetate
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Acetate"^^xsd:string;
+. 
+
+rxnorm:6633
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Mannose"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Mannose
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Mannose"^^xsd:string;
+. 
+
+rxnorm:6902
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Methylprednisolone"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Methylprednisolone
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Methylprednisolone"^^xsd:string;
+. 
+
+rxnorm:42386
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Immunoglobulins, Intravenous::Immunoglobulins, Intravenous"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Azithromycin_and_Immunoglobulins__Intravenous::Immunoglobulins__Intravenous
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Azithromycin and Immunoglobulins__Intravenous::Immunoglobulins__Intravenous"^^xsd:string;
+. 
+
+rxnorm:7442
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Nitric Oxide"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Nitric_Oxide
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Nitric_Oxide"^^xsd:string;
+. 
+
+rxnorm:6633
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Mannose"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Mannose
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Mannose"^^xsd:string;
+. 
+
+rxnorm:938
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Antifungal Agents"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Antifungal_Agents
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Antifungal_Agents"^^xsd:string;
+. 
+
+rxnorm:938
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Antifungal Agents"^^xsd:string;
+. 
+
+rxnorm:5521
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Hydroxychloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Hydroxychloroquine_and_Antifungal_Agents
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Hydroxychloroquine and Antifungal_Agents"^^xsd:string;
+. 
+
+rxnorm:2837
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Copper"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Copper
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Copper"^^xsd:string;
+. 
+
+rxnorm:2837
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Copper"^^xsd:string;
+. 
+
+rxnorm:5521
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Hydroxychloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Hydroxychloroquine_and_Copper
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Hydroxychloroquine and Copper"^^xsd:string;
+. 
+
+rxnorm:318
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Adenosine Triphosphate"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Adenosine_Triphosphate
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Adenosine_Triphosphate"^^xsd:string;
+. 
+
+rxnorm:318
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Adenosine Triphosphate"^^xsd:string;
+. 
+
+rxnorm:5521
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Hydroxychloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Hydroxychloroquine_and_Adenosine_Triphosphate
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Hydroxychloroquine and Adenosine_Triphosphate"^^xsd:string;
+. 
+
+rxnorm:3390
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Diethylstilbestrol"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Diethylstilbestrol
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Diethylstilbestrol"^^xsd:string;
+. 
+
+rxnorm:233698
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "dronedarone"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_dronedarone
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and dronedarone"^^xsd:string;
+. 
+
+rxnorm:703
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Amiodarone"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Amiodarone
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Amiodarone"^^xsd:string;
+. 
+
+rxnorm:9853
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Sodium"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Sodium
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Sodium"^^xsd:string;
+. 
+
+rxnorm:720
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Amodiaquine"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Amodiaquine
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Amodiaquine"^^xsd:string;
+. 
+
+rxnorm:38404
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "topiramate"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_topiramate
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and topiramate"^^xsd:string;
+. 
+
+rxnorm:1050068
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Delos"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Delos
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Delos"^^xsd:string;
+. 
+
+rxnorm:2037
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Carbon Monoxide"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Carbon_Monoxide
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Carbon_Monoxide"^^xsd:string;
+. 
+
+rxnorm:235824
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azelastine hydrochloride"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Azelastine_hydrochloride
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Azelastine_hydrochloride"^^xsd:string;
+. 
+
+rxnorm:11170
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Verapamil"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Verapamil
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Verapamil"^^xsd:string;
+. 
+
+rxnorm:4100
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Estrogens"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Estrogens
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Estrogens"^^xsd:string;
+. 
+
+rxnorm:753197
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "ll"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_ll
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and ll"^^xsd:string;
+. 
+
+rxnorm:114202
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Lactate"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Lactate
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Lactate"^^xsd:string;
+. 
+
+rxnorm:114202
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Lactate"^^xsd:string;
+. 
+
+rxnorm:20863
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "chloroquine phosphate"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_chloroquine_phosphate_and_Lactate
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with chloroquine_phosphate and Lactate"^^xsd:string;
+. 
+
+rxnorm:2403
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chlorpromazine"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Chlorpromazine
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Chlorpromazine"^^xsd:string;
+. 
+
+rxnorm:712
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Ammonium Chloride"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Ammonium_Chloride
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Ammonium_Chloride"^^xsd:string;
+. 
+
+rxnorm:8217
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Phosphatidylinositols"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Phosphatidylinositols
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Phosphatidylinositols"^^xsd:string;
+. 
+
+rxnorm:1011
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Lymphocyte Immune Globulin, Anti-Thymocyte Globulin"^^xsd:string;
+. 
+
+rxnorm:5521
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Hydroxychloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Hydroxychloroquine_and_Lymphocyte_Immune_Globulin__Anti-Thymocyte_Globulin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Hydroxychloroquine and Lymphocyte_Immune_Globulin__Anti-Thymocyte_Globulin"^^xsd:string;
+. 
+
+rxnorm:1011
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Lymphocyte Immune Globulin, Anti-Thymocyte Globulin"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Lymphocyte_Immune_Globulin__Anti-Thymocyte_Globulin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Lymphocyte_Immune_Globulin__Anti-Thymocyte_Globulin"^^xsd:string;
+. 
+
+rxnorm:658
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Amino Acids"^^xsd:string;
+. 
+
+rxnorm:5521
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Hydroxychloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Hydroxychloroquine_and_Amino_Acids
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Hydroxychloroquine and Amino_Acids"^^xsd:string;
+. 
+
+rxnorm:658
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Amino Acids"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Amino_Acids
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Amino_Acids"^^xsd:string;
+. 
+
+rxnorm:2955
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Curcumin"^^xsd:string;
+. 
+
+rxnorm:5521
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Hydroxychloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Hydroxychloroquine_and_Curcumin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Hydroxychloroquine and Curcumin"^^xsd:string;
+. 
+
+rxnorm:2955
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Curcumin"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Curcumin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Curcumin"^^xsd:string;
+. 
+
+rxnorm:6809
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Metformin"^^xsd:string;
+. 
+
+rxnorm:5521
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Hydroxychloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Hydroxychloroquine_and_Metformin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Hydroxychloroquine and Metformin"^^xsd:string;
+. 
+
+rxnorm:6809
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Metformin"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Metformin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Metformin"^^xsd:string;
+. 
+
+rxnorm:10962
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Tyrosine"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Tyrosine
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Tyrosine"^^xsd:string;
+. 
+
+rxnorm:8375
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "placebo"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_placebo
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and placebo"^^xsd:string;
+. 
+
+rxnorm:7402
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Niclosamide"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Niclosamide
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Niclosamide"^^xsd:string;
+. 
+
+rxnorm:8471
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Poliovirus Vaccines"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Poliovirus_Vaccines
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Poliovirus_Vaccines"^^xsd:string;
+. 
+
+rxnorm:620
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Amantadine"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Amantadine
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Amantadine"^^xsd:string;
+. 
+
+rxnorm:8556
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Polysaccharides"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Polysaccharides
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Polysaccharides"^^xsd:string;
+. 
+
+rxnorm:5224
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Heparin"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Heparin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Heparin"^^xsd:string;
+. 
+
+rxnorm:10898
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Tryptophan"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Tryptophan
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Tryptophan"^^xsd:string;
+. 
+
+rxnorm:620216
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "maraviroc"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_maraviroc
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and maraviroc"^^xsd:string;
+. 
+
+rxnorm:18343
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "artemether"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_artemether
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and artemether"^^xsd:string;
+. 
+
+rxnorm:18346
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "artesunate"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_artesunate
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and artesunate"^^xsd:string;
+. 
+
+rxnorm:9071
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Quinine"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Quinine
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Quinine"^^xsd:string;
+. 
+
+rxnorm:9394
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "RNA"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_RNA
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and RNA"^^xsd:string;
+. 
+
+rxnorm:8028
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Peptide Hydrolases"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Peptide_Hydrolases
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Peptide_Hydrolases"^^xsd:string;
+. 
+
+rxnorm:9344
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Ribavirin"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Ribavirin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Ribavirin"^^xsd:string;
+. 
+
+rxnorm:1014108
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Precise"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Precise
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Precise"^^xsd:string;
+. 
+
+rxnorm:8031
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Endopeptidases"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Endopeptidases
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Endopeptidases"^^xsd:string;
+. 
+
+rxnorm:997602
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Citicoline"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Citicoline
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Citicoline"^^xsd:string;
+. 
+
+rxnorm:6694
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Mefloquine"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Mefloquine
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Mefloquine"^^xsd:string;
+. 
+
+rxnorm:284623
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Atovaquone / Proguanil"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Atovaquone___Proguanil
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Atovaquone___Proguanil"^^xsd:string;
+. 
+
+rxnorm:284623
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Atovaquone / Proguanil::Malarone"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Atovaquone___Proguanil::Malarone
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Atovaquone___Proguanil::Malarone"^^xsd:string;
+. 
+
+rxnorm:38409
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Toremifene"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Toremifene
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Toremifene"^^xsd:string;
+. 
+
+rxnorm:35302
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Sirolimus"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Sirolimus
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Sirolimus"^^xsd:string;
+. 
+
+rxnorm:350202
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Escherichia coli"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Escherichia_coli
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Escherichia_coli"^^xsd:string;
+. 
+
+rxnorm:1000492
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "resveratrol"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_resveratrol
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and resveratrol"^^xsd:string;
+. 
+
+rxnorm:10502
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Thioridazine"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Thioridazine
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Thioridazine"^^xsd:string;
+. 
+
+rxnorm:25696
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Genistein"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Genistein
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Genistein"^^xsd:string;
+. 
+
+rxnorm:7597
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Nystatin"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Nystatin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Nystatin"^^xsd:string;
+. 
+
+rxnorm:164
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Acetate"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Acetate
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Acetate"^^xsd:string;
+. 
+
+rxnorm:7145
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Mycophenolic Acid"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Mycophenolic_Acid
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Mycophenolic_Acid"^^xsd:string;
+. 
+
+rxnorm:426
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Alanine"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Alanine
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Alanine"^^xsd:string;
+. 
+
+rxnorm:8031
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Endopeptidases"^^xsd:string;
+. 
+
+rxnorm:689303
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine / Primaquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine___Primaquine_and_Endopeptidases
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine___Primaquine and Endopeptidases"^^xsd:string;
+. 
+
+rxnorm:720
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Amodiaquine"^^xsd:string;
+. 
+
+rxnorm:689303
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine / Primaquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine___Primaquine_and_Amodiaquine
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine___Primaquine and Amodiaquine"^^xsd:string;
+. 
+
+rxnorm:10603
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Tin"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Tin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Tin"^^xsd:string;
+. 
+
+rxnorm:27244
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "hydroxyethyl cellulose"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_hydroxyethyl_cellulose
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and hydroxyethyl_cellulose"^^xsd:string;
+. 
+
+rxnorm:9863
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Sodium Chloride"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Sodium_Chloride
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Sodium_Chloride"^^xsd:string;
+. 
+
+rxnorm:3640
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Doxycycline"^^xsd:string;
+. 
+
+rxnorm:5521
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Hydroxychloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Hydroxychloroquine_and_Doxycycline
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Hydroxychloroquine and Doxycycline"^^xsd:string;
+. 
+
+rxnorm:3640
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Doxycycline"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Doxycycline
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Doxycycline"^^xsd:string;
+. 
+
+rxnorm:720
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Amodiaquine"^^xsd:string;
+. 
+
+rxnorm:5521
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Hydroxychloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Hydroxychloroquine_and_Amodiaquine
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Hydroxychloroquine and Amodiaquine"^^xsd:string;
+. 
+
+rxnorm:8640
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Prednisone"^^xsd:string;
+. 
+
+rxnorm:20863
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "chloroquine phosphate"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_chloroquine_phosphate_and_Prednisone
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with chloroquine_phosphate and Prednisone"^^xsd:string;
+. 
+
+rxnorm:281
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Acyclovir"^^xsd:string;
+. 
+
+rxnorm:20863
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "chloroquine phosphate"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_chloroquine_phosphate_and_Acyclovir
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with chloroquine_phosphate and Acyclovir"^^xsd:string;
+. 
+
+rxnorm:9939
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Somatostatin"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Somatostatin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Somatostatin"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+rxnorm:2393
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Chloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Chloroquine_and_Azithromycin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Chloroquine and Azithromycin"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+rxnorm:5521
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Hydroxychloroquine"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_Hydroxychloroquine_and_Azithromycin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with Hydroxychloroquine and Azithromycin"^^xsd:string;
+. 
+
+rxnorm:18631
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "Azithromycin"^^xsd:string;
+. 
+
+rxnorm:20863
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:Medication ;
+	rdfs:label "chloroquine phosphate"^^xsd:string;
+. 
+
+cpico:COVID-19_Intervention_with_chloroquine_phosphate_and_Azithromycin
+	rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Intervention_with_Concomitant_Medications ;
+	rdfs:label "COVID-19 Intervention with chloroquine_phosphate and Azithromycin"^^xsd:string;
+. 
+
+cpico:COVID-19_Outcome rdf:type owl:Class ;
+	rdfs:subClassOf pico:Outcome ;
+	rdfs:label "COVID-19 Outcome"^^xsd:string;
+. 
+
+cpico:COVID-19_Outcome_disease_severity rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Outcome ;
+	rdfs:label "COVID-19 Outcome - disease severity "^^xsd:string;
+. 
+
+cpico:COVID-19_Outcome_need_for_mechanical_ventilation rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Outcome ;
+	rdfs:label "COVID-19 Outcome - need for mechanical ventilation "^^xsd:string;
+. 
+
+cpico:COVID-19_Outcome_need_for_icu_hospitalization rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Outcome ;
+	rdfs:label "COVID-19 Outcome - need for intensive care unit (ICU) hospitalization "^^xsd:string;
+. 
+
+cpico:COVID-19_Outcome_disease_progression rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Outcome ;
+	rdfs:label "COVID-19 Outcome - disease progression "^^xsd:string;
+. 
+
+cpico:COVID-19_Outcome_death rdf:type owl:Class ;
+	rdfs:subClassOf cpico:COVID-19_Outcome ;
+	rdfs:label "COVID-19 Outcome - death "^^xsd:string;
+. 
+
