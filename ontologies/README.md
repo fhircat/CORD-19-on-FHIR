@@ -14,7 +14,7 @@ The PICO model is widely used and taught in evidence-based health care as a stra
         What are the relevant outcomes (e.g. quality of life, change in clinical status, morbidity, adverse effects, complications)?
         
 
-The CPICO Ontology provides specific subtype definitions for the PICO classes of Population, Intervention, and Outcome. These subtypes came from two sources: 1) Semantic annotations mined from the CORD-19-on-FHIR datasets; and 2) Manual review of COVID-19 articles.
+The CPICO Ontology defines specific subtype definitions for the PICO classes of Population, Intervention, and Outcome. These subtypes came from two sources: 1) Semantic annotations mined from the CORD-19-on-FHIR datasets; and 2) Manual review of COVID-19 articles.
 
 ## Population Subtypes - COVID-19 Population
 These subtypes include COVID-19 Patients with comorbidities like diabetes and cancer, smoking history, pregnancy, and more.
