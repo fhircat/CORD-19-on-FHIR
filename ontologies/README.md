@@ -19,6 +19,9 @@ The CPICO Ontology provides specific subtype definitions for the PICO classes of
 ## Population Subtypes - COVID-19 Population
 These subtypes include COVID-19 Patients with comorbidities like diabetes and cancer, smoking history, pregnancy, and more.
 
+![COVID-19 Population](https://github.com/fhircat/CORD-19-on-FHIR/blob/master/ontologies/population_substypes.png "COVID-19 Population")
+
+
 
 ## Intervention Subtypes - COVID-19 Intervention
 These subtyeps include COVID-19 Intervention with Medication, Concomitant Medications, and Precedure.
