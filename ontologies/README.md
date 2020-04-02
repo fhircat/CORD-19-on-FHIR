@@ -26,7 +26,10 @@ These subtypes include COVID-19 Patients with comorbidities like diabetes and ca
 ## Intervention Subtypes - COVID-19 Intervention
 These subtyeps include COVID-19 Intervention with Medication, Concomitant Medications, and Precedure.
 
+![COVID-19 Population](https://github.com/fhircat/CORD-19-on-FHIR/blob/master/ontologies/intervension_subtypes_01.png "COVID-19 Intervention")
+
 ## Outcome Subtypes - COVID-19 Outcome
 These subtypes include disease serverity, disease progression, need for ICU hosptializaiton, need for mechanical ventilation, and mortality.
 
+![COVID-19 Outcome](https://github.com/fhircat/CORD-19-on-FHIR/blob/master/ontologies/outcome_subtypes.png "COVID-19 Outcome")
 
