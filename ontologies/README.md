@@ -33,3 +33,7 @@ These subtypes include disease serverity, disease progression, need for ICU hosp
 
 ![COVID-19 Outcome](https://github.com/fhircat/CORD-19-on-FHIR/blob/master/ontologies/outcome_subtypes.png "COVID-19 Outcome")
 
+## Evidence Annotations with CPICO Ontology
+
+![COVID-19 Annotations](https://github.com/fhircat/CORD-19-on-FHIR/blob/master/ontologies/cpico_evidence_annotations.png "CPICO Annotations")
+
