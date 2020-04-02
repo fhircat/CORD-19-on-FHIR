@@ -1,5 +1,5 @@
 ## COVID-19 PICO Ontology
-The COVID-19 PICO Ontology (CPICO) is an extension of [Cochrane PICO Ontology](https://linkeddata.cochrane.org/pico-ontology) for supporting COVID-19 evidence extraction and formulating COVID-19 research questions.
+The COVID-19 PICO Ontology (CPICO) is developed as an extension of [Cochrane PICO Ontology](https://linkeddata.cochrane.org/pico-ontology) for supporting COVID-19 evidence extraction and formulating COVID-19 research questions.
 
 The PICO model is widely used and taught in evidence-based health care as a strategy for formulating questions and search strategies and for characterizing clinical studies or meta-analyses . PICO stands for 4 different potential components of a clinical question:
 
