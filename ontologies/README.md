@@ -19,7 +19,7 @@ The CPICO Ontology defines specific subtypes for the PICO classes of Population,
 ## Population Subtypes - COVID-19 Population
 These subtypes include COVID-19 Patients with comorbidities like diabetes and cancer, smoking history, pregnancy, and more.
 
-![COVID-19 Population]https://github.com/fhircat/CORD-19-on-FHIR/blob/master/ontologies/population_subtypes.png "COVID-19 Population")
+![COVID-19 Population](https://github.com/fhircat/CORD-19-on-FHIR/blob/master/ontologies/population_subtypes.png "COVID-19 Population")
 
 
 
