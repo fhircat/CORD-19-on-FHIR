@@ -33,6 +33,11 @@ We have also added another set of annotations from [Pubtator](https://www.ncbi.n
 - Mutation:      33,413 instances
 - Strain:        26,573 instances
 
+
+## Ontologies
+
+We are developing the COVID-19 PICO Ontology (CPICO) that is an extension of Cochrane PICO Ontology for supporting COVID-19 evidence extraction and formulating COVID-19 research questions. The CPICO Ontology defines specific subtypes for the PICO classes of Population, Intervention, and Outcome. See details [here](https://github.com/fhircat/CORD-19-on-FHIR/tree/master/ontologies).
+
 ## Collaborators
 
 - [COVID-19 Open Research Dataset (CORD-19)](https://pages.semanticscholar.org/coronavirus-research)
