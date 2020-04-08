@@ -27,7 +27,7 @@ We have also added another set of annotations from [Pubtator](https://www.ncbi.n
 
 ### CORD-19 Dataset
 
-See an **RDF turtle** example [here](https://github.com/fhircat/CORD-19-on-FHIR/blob/master/examples/PMC212558_t.ttl). A number of **sparql queries** to identify the instances of different data types are aviable at [here](https://github.com/fhircat/CORD-19-on-FHIR/wiki/PubTator-Dataset).
+We have produced a linked version of the dataset. See an **RDF turtle** example [here](https://github.com/fhircat/CORD-19-on-FHIR/blob/master/examples/PMC212558_t.ttl). A number of **sparql queries** to identify the instances of different data types are aviable at [here](https://github.com/fhircat/CORD-19-on-FHIR/wiki/PubTator-Dataset).
 
 - Species:       2,030,458 instances
 - Gene:          1,235,829 instances
@@ -39,7 +39,7 @@ See an **RDF turtle** example [here](https://github.com/fhircat/CORD-19-on-FHIR/
 
 ### LitCovid Dataset
 
-[LitCovid](https://www.ncbi.nlm.nih.gov/research/coronavirus/) is a curated literature hub for tracking up-to-date scientific information about the 2019 novel Coronavirus. It is the most comprehensive resource on the subject, providing a central access to 3207 (and growing) relevant articles in PubMed. A number of **sparql queries** to identify the instances of different data types are aviable at [here](https://github.com/fhircat/CORD-19-on-FHIR/wiki/LitCovid-Dataset).
+[LitCovid](https://www.ncbi.nlm.nih.gov/research/coronavirus/) is a curated literature hub for tracking up-to-date scientific information about the 2019 novel Coronavirus. It is the most comprehensive resource on the subject, providing a central access to 3207 (and growing) relevant articles in PubMed. We have produced a linked version of the dataset. A number of **sparql queries** to identify the instances of different data types are aviable at [here](https://github.com/fhircat/CORD-19-on-FHIR/wiki/LitCovid-Dataset).
 
 - Species	34,945
 - Disease	29,106
