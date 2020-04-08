@@ -37,7 +37,7 @@ See an **RDF turtle** example [here](https://github.com/fhircat/CORD-19-on-FHIR/
 - Mutation:      33,413 instances
 - Strain:        26,573 instances
 
-### LiCovid Dataset
+### LitCovid Dataset
 
 [LitCovid](https://www.ncbi.nlm.nih.gov/research/coronavirus/) is a curated literature hub for tracking up-to-date scientific information about the 2019 novel Coronavirus. It is the most comprehensive resource on the subject, providing a central access to 3207 (and growing) relevant articles in PubMed. A number of **sparql queries** to identify the instances of different data types are aviable at [here](https://github.com/fhircat/CORD-19-on-FHIR/wiki/LitCovid-Dataset).
 
