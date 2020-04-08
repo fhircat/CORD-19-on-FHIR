@@ -23,7 +23,11 @@ If you can generate other semantic linkages, please let us know.  Collaboration 
 
 ## Pubtator annotations
 
-We have also added another set of annotations from [Pubtator](https://www.ncbi.nlm.nih.gov/research/pubtator/).  These are pulled from the Pubtator API via pmcid (PubMed Central id) from metadata file (see below).  Not all PMC ids yielded annotations.  These annotations have been converted from the source JSON into RDF Turtle format. See an **RDF turtle** example [here](https://github.com/fhircat/CORD-19-on-FHIR/blob/master/examples/PMC212558_t.ttl). A number of **sparql queries** to identify the instances of different data types are aviable at [here](https://github.com/fhircat/CORD-19-on-FHIR/wiki/PubTator-Dataset).
+We have also added another set of annotations from [Pubtator](https://www.ncbi.nlm.nih.gov/research/pubtator/).  These are pulled from the Pubtator API via pmcid (PubMed Central id) from metadata file (see below).  Not all PMC ids yielded annotations.  These annotations have been converted from the source JSON into RDF Turtle format. 
+
+### CORD-19 Dataset
+
+See an **RDF turtle** example [here](https://github.com/fhircat/CORD-19-on-FHIR/blob/master/examples/PMC212558_t.ttl). A number of **sparql queries** to identify the instances of different data types are aviable at [here](https://github.com/fhircat/CORD-19-on-FHIR/wiki/PubTator-Dataset).
 
 - Species:       2,030,458 instances
 - Gene:          1,235,829 instances
@@ -32,6 +36,17 @@ We have also added another set of annotations from [Pubtator](https://www.ncbi.n
 - CellLine:      76,816 instances
 - Mutation:      33,413 instances
 - Strain:        26,573 instances
+
+### LiCovid Dataset
+
+[LitCovid](https://www.ncbi.nlm.nih.gov/research/coronavirus/) is a curated literature hub for tracking up-to-date scientific information about the 2019 novel Coronavirus. It is the most comprehensive resource on the subject, providing a central access to 3207 (and growing) relevant articles in PubMed. A number of **sparql queries** to identify the instances of different data types are aviable at [here](https://github.com/fhircat/CORD-19-on-FHIR/wiki/LitCovid-Dataset).
+
+- Species	34,945
+- Disease	29,106
+- Chemical	4,718
+- Gene	43,82
+- CellLine	460
+- Mutation	117
 
 
 ## Ontologies
@@ -44,6 +59,7 @@ We are developing the COVID-19 PICO Ontology (CPICO) that is an extension of Coc
 - [COVID-19 Knowledge Accelerator](https://www.gps.health/covid19_knowledge_accelerator.html)
 - [EBMonFHIR](https://confluence.hl7.org/display/CDS/EBMonFHIR)
 - [NCBI Pubtator](https://www.ncbi.nlm.nih.gov/research/pubtator/)
+- [LitCovid](https://www.ncbi.nlm.nih.gov/research/coronavirus/)
 - [Coronavirus Infectious Disease Ontology](http://bioportal.bioontology.org/ontologies/CIDO)
 - [NCATS CTSA Program National Center for Data to Health (CD2H)](https://cd2h.org/fhir)
 - [NCATS Biomedical Data Translator](https://ncats.nih.gov/translator)
