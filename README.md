@@ -5,6 +5,8 @@ COVID-19 Open Research Dataset [(CORD-19)](https://pages.semanticscholar.org/cor
 in [FHIR RDF](https://www.hl7.org/fhir/rdf.html)
 and was produced by data mining the CORD-19 dataset and adding semantic annotations.  The purpose is to facilitate linkage with other biomedical datasets and enable answering research questions. 
 
+See also: [list of other CORD-19 semantic annotation projects](https://github.com/fhircat/CORD-19-on-FHIR/wiki/CORD-19-Semantic-Annotation-Projects)
+
 ## Wiki
 https://github.com/fhircat/CORD-19-on-FHIR/wiki
 
