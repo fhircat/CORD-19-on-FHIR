@@ -1,7 +1,7 @@
 Co-occurrence Network
 
 
-```cypher
+```sparql
 //load disease nodes
 WITH "https://raw.githubusercontent.com/fhircat/CORD-19-on-FHIR/master/cooccurrence/" AS base
 WITH base + "test-disease.csv" AS uri
