@@ -1210,7 +1210,7 @@ GENE_1991	elastase
 GENE_1992	Lei
 GENE_1993	hub
 GENE_1993	Hu B
-GENE_1993	hub"
+GENE_1993	hub
 GENE_1994	HUR
 GENE_1995	Hu C
 GENE_1995	Huc
@@ -2033,7 +2033,7 @@ GENE_3456	IFN-b
 GENE_3456	interferon beta 1
 GENE_3456	interferon beta-1
 GENE_3456	interferon- beta
-GENE_3456	If "f
+GENE_3456	If _f
 GENE_3456	Interferon-alpha and -beta
 GENE_3456	interferon-a
 GENE_3458	IFN-gamma
@@ -2123,13 +2123,13 @@ GENE_3552	interleukin-1 (IL-1
 GENE_3552	IL-1a
 GENE_3552	interleukin 1-alpha
 GENE_3552	Interleukin1
-GENE_3552	IL"-1 beta
+GENE_3552	IL_-1 beta
 GENE_3552	Interleukin-1(IL-1) receptor antagonist 5
 GENE_3552	interleukin (IL) 1beta
 GENE_3552	IL1 alpha
 GENE_3552	interleukin (IL) -1beta
 GENE_3552	interleukin (IL) -1alpha
-GENE_3552	IL1"
+GENE_3552	IL1_
 GENE_3552	interleukin- 1
 GENE_3552	interleukin-1alpha
 GENE_3552	interleukin (IL)-1alpha
@@ -2232,7 +2232,7 @@ GENE_3569	IL-6+
 GENE_3569	interleukin(IL)-6
 GENE_3569	BSF-2
 GENE_3569	(interleukin(IL)-6
-GENE_3569	IL6"
+GENE_3569	IL6_
 GENE_3569	Interleukin-6  IL-12
 GENE_3569	interleukin- 6
 GENE_3569	Interleukin -6
@@ -3130,7 +3130,7 @@ GENE_5295	phosphoinositide 3-kinase
 GENE_5298	PI4Kiiibeta
 GENE_5304	PIP
 GENE_5308	PTX2
-GENE_5308	PTX2"
+GENE_5308	PTX2_
 GENE_5308	Rieg
 GENE_5311	PKD2
 GENE_5313	PK1
@@ -3208,7 +3208,7 @@ GENE_5444	PON
 GENE_5444	paraoxonase 1
 GENE_5447	por
 GENE_5447	CPR
-GENE_5447	CPR"
+GENE_5447	CPR_
 GENE_5460	4-Oct
 GENE_5460	POU5F1
 GENE_5465	PPAR
@@ -3814,7 +3814,7 @@ GENE_6622	alpha-synuclein
 GENE_6622	synuclein alpha
 GENE_6625	U1-RNP
 GENE_6632	SmD1
-GENE_6635	SME"
+GENE_6635	SME_
 GENE_6641	interferon (beta1b
 GENE_6647	SOD
 GENE_6647	ALS
@@ -4615,7 +4615,7 @@ GENE_9376	OAT3
 GENE_9376	OAT 3
 GENE_9378	NRXN1
 GENE_9402	Grid
-GENE_9402	GRID"
+GENE_9402	GRID_
 GENE_9402	MONA
 GENE_9407	HAT
 GENE_9407	TMPRSS11D
@@ -6882,7 +6882,7 @@ GENE_84942	WD repeat domain 73
 GENE_84942	WDR73
 GENE_84958	SLP1
 GENE_84959	p 70
-GENE_84959	gauze masks" (p 70)
+GENE_84959	gauze masks_ (p 70)
 GENE_84959	IL-12 (p70)
 GENE_84962	Ju B
 GENE_85253	plasminogen
