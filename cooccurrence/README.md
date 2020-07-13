@@ -25,6 +25,18 @@ SELECT DISTINCT ?pmc_id0 ?text0 ?pmc_id1 ?text1 (COUNT(?pmc_id1) as ?count) WHER
 } GROUP BY ?pmc_id0 ?text0 ?pmc_id1 ?text1  ORDER BY DESC(?count)
 
 
+PREFIX mesh: <http://id.nlm.nih.gov/mesh/vocab#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+select ?id ?name where { 
+	?s a mesh:SCR_Chemical .
+    ?s mesh:identifier ?id0 .
+    ?s rdfs:label ?label .
+    BIND(CONCAT("MESH_", str(?id0)) as ?id)
+    BIND(str(?label) as ?name)
+   ## FILTER (contains (lcase(str(?label)), "covid"))
+} 
+
+
 //load test disease nodes
 WITH "https://raw.githubusercontent.com/fhircat/CORD-19-on-FHIR/master/cooccurrence/" AS base
 WITH base + "test-disease.csv" AS uri
