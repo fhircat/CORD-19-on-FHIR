@@ -25,22 +25,35 @@ SELECT DISTINCT ?pmc_id0 ?text0 ?pmc_id1 ?text1 (COUNT(?pmc_id1) as ?count) WHER
 } GROUP BY ?pmc_id0 ?text0 ?pmc_id1 ?text1  ORDER BY DESC(?count)
 
 
-//load disease nodes
+//load test disease nodes
 WITH "https://raw.githubusercontent.com/fhircat/CORD-19-on-FHIR/master/cooccurrence/" AS base
 WITH base + "test-disease.csv" AS uri
 LOAD CSV WITH HEADERS FROM uri AS row
 MERGE (d:Disease {id:row.pmc_id0})
 SET d.name = row.text0;
 
-//load gene nodes
+//load test gene nodes
 WITH "https://raw.githubusercontent.com/fhircat/CORD-19-on-FHIR/master/cooccurrence/" AS base
 WITH base + "test-gene.csv" AS uri
 LOAD CSV WITH HEADERS FROM uri AS row
 MERGE (g:Gene {id:row.pmc_id0})
 SET g.name = row.text0;
 
+//load gene nodes
+WITH "https://raw.githubusercontent.com/fhircat/CORD-19-on-FHIR/master/cooccurrence/" AS base
+WITH base + "gene_id_names.csv" AS uri
+LOAD CSV WITH HEADERS FROM uri AS row
+MERGE (g:Gene {id:row.id})
+SET g.name = row.name;
 
-//load cooccurence relationships
+//load mutation nodes
+WITH "https://raw.githubusercontent.com/fhircat/CORD-19-on-FHIR/master/cooccurrence/" AS base
+WITH base + "gene_id_names.csv" AS uri
+LOAD CSV WITH HEADERS FROM uri AS row
+MERGE (m:Mutation {id:row.id})
+SET m.name = row.name;
+
+//load test cooccurence relationships
 WITH "https://raw.githubusercontent.com/fhircat/CORD-19-on-FHIR/master/cooccurrence/" AS base
 WITH base + "test-count.csv" AS uri
 LOAD CSV WITH HEADERS FROM uri AS row
