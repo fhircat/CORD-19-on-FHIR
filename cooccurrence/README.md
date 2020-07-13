@@ -2,6 +2,29 @@ Co-occurrence Network
 
 
 ```sparql
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX fhir: <http://hl7.org/fhir/>
+PREFIX pmc: <https://www.ncbi.nlm.nih.gov/pmc/articles#>
+
+SELECT DISTINCT ?pmc_id0 ?text0 ?pmc_id1 ?text1 (COUNT(?pmc_id1) as ?count) WHERE {
+    ?pmc pmc:annotations[ 
+        pmc:id ?id0 ; pmc:text ?text0 ; pmc:infons[ 
+        pmc:type ?type0 ; pmc:identifier ?pmc_id0 ] ] .    
+
+    FILTER (?type0 = 'Disease' && ?pmc_id0 != "-" && ?pmc_id0 != ?pmc_id1).     
+    {             
+    SELECT * WHERE {
+    	?pmc pmc:annotations [ 
+                pmc:id ?id1 ; pmc:text ?text1 ; pmc:infons[ 
+                pmc:type ?type1 ; pmc:identifier ?pmc_id1 ] ] .             
+
+        FILTER (?type1= 'Disease' && ?pmc_id1 != "-" )   
+ 	    }    
+    }
+} GROUP BY ?pmc_id0 ?text0 ?pmc_id1 ?text1  ORDER BY DESC(?count)
+
+
 //load disease nodes
 WITH "https://raw.githubusercontent.com/fhircat/CORD-19-on-FHIR/master/cooccurrence/" AS base
 WITH base + "test-disease.csv" AS uri
