@@ -36,6 +36,20 @@ select ?id ?name where {
    ## FILTER (contains (lcase(str(?label)), "covid"))
 } 
 
+PREFIX mesh: <http://id.nlm.nih.gov/mesh/vocab#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+select DISTINCT ?id ?name where { 
+	?d a mesh:SCR_Disease .
+    ?d mesh:preferredMappedTo ?s .
+    ?s a mesh:Descriptor .
+    ?s mesh:identifier ?id0 .
+    ?s rdfs:label ?label .
+    BIND(CONCAT("MESH_", str(?id0)) as ?id)
+    BIND(str(?label) as ?name)
+   ## FILTER (contains (lcase(str(?label)), "covid"))
+} 
+
+
 
 //load test disease nodes
 WITH "https://raw.githubusercontent.com/fhircat/CORD-19-on-FHIR/master/cooccurrence/" AS base
