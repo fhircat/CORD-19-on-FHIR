@@ -106,4 +106,7 @@ MERGE (origin)-[:COOCCURRENCE {count: toInteger(row.count)}]-(destination);
 //query
 MATCH((d:Disease)-[c:COOCCURRENCE]-(g:Gene)) WHERE c.count>0  RETURN d, g;
 
+MATCH((d:Disease{name:'COVID-19'})-[c:COOCCURRENCE]-(g:Gene)) WHERE c.count>1000  RETURN d, g;
+
+
 ```
