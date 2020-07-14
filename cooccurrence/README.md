@@ -134,6 +134,20 @@ MATCH((d:Disease{name:'COVID-19'})-[c:COOCCURRENCE]-(g:Gene)) WHERE c.count>1000
 
 ## Data Analytics Using Graph Algorithms
 
+### Betweeness Centrality
+
+```sparql
+CALL gds.betweenness.stream({
+nodeProjection: "Disease",
+relationshipProjection: "COOCCURRENCE"
+})
+YIELD nodeId, score
+RETURN gds.util.asNode(nodeId).id AS id, gds.util.asNode(nodeId).name AS name,score
+ORDER BY score DESC;
+
+
+```
+
 ### PageRank
 
 ```sparql
