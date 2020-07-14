@@ -88,6 +88,13 @@ MATCH (destination:Gene {id: row.pmc_id1})
 MERGE (origin)-[:COOCCURRENCE {count: toInteger(row.count)}]-(destination);
 
 
+WITH "https://raw.githubusercontent.com/fhircat/CORD-19-on-FHIR/master/cooccurrence/" AS base
+WITH base + "query-result-disease-drug-count.csv" AS uri
+LOAD CSV WITH HEADERS FROM uri AS row
+MATCH (origin:Disease {id: row.stardId})
+MATCH (destination:Chemical {id: row.endId})
+MERGE (origin)-[:COOCCURRENCE {count: toInteger(row.count)}]-(destination);
+
 //query
 MATCH((d:Disease)-[c:COOCCURRENCE]-(g:Gene)) WHERE c.count>0  RETURN d, g;
 
