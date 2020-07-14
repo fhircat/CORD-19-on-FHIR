@@ -144,8 +144,7 @@ maxIterations: 20,
 dampingFactor: 0.85
 })
 YIELD nodeId, score
-RETURN gds.util.asNode(nodeId).name AS page, score
+RETURN gds.util.asNode(nodeId).id AS id, gds.util.asNode(nodeId).name AS name,score
 ORDER BY score DESC;
-
 
 ```
