@@ -79,6 +79,14 @@ LOAD CSV WITH HEADERS FROM uri AS row
 MERGE (m:Mutation {id:row.id})
 SET m.name = row.name;
 
+WITH "https://raw.githubusercontent.com/fhircat/CORD-19-on-FHIR/master/cooccurrence/" AS base
+WITH base + "mesh-scr-chemical-01.csv" AS uri
+LOAD CSV WITH HEADERS FROM uri AS row
+MERGE (g:Chemical {id:row.id})
+SET g.name = row.name;
+
+
+
 //load test cooccurence relationships
 WITH "https://raw.githubusercontent.com/fhircat/CORD-19-on-FHIR/master/cooccurrence/" AS base
 WITH base + "test-count.csv" AS uri
@@ -101,6 +109,7 @@ LOAD CSV WITH HEADERS FROM uri AS row
 MATCH (origin:Disease {id: row.stardId})
 MATCH (destination:Gene {id: row.endId})
 MERGE (origin)-[:COOCCURRENCE {count: toInteger(row.count)}]-(destination);
+
 
 
 //query
