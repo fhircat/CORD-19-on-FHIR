@@ -1,6 +1,6 @@
 Co-occurrence Network
 
-
+## Data Extraction
 ```sparql
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -50,7 +50,10 @@ select DISTINCT ?id ?name where {
 } 
 
 
+```
+## Data Loading
 
+```sparql
 //load test disease nodes
 WITH "https://raw.githubusercontent.com/fhircat/CORD-19-on-FHIR/master/cooccurrence/" AS base
 WITH base + "test-disease.csv" AS uri
@@ -112,10 +115,37 @@ MERGE (origin)-[:COOCCURRENCE {count: toInteger(row.count)}]-(destination);
 
 
 
+
+```
+
+
+## Cypher Queries
+
+```sparql
 //query
 MATCH((d:Disease)-[c:COOCCURRENCE]-(g:Gene)) WHERE c.count>0  RETURN d, g;
 
 MATCH((d:Disease{name:'COVID-19'})-[c:COOCCURRENCE]-(g:Gene)) WHERE c.count>1000  RETURN d, g;
+
+
+
+```
+
+
+## Data Analytics Using Graph Algorithms
+
+### PageRank
+
+```sparql
+CALL gds.pageRank.stream({
+nodeProjection: "Disease",
+relationshipProjection: "COOCCURRENCE",
+maxIterations: 20,
+dampingFactor: 0.85
+})
+YIELD nodeId, score
+RETURN gds.util.asNode(nodeId).name AS page, score
+ORDER BY score DESC;
 
 
 ```
