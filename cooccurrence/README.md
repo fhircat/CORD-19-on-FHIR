@@ -162,3 +162,23 @@ RETURN gds.util.asNode(nodeId).id AS id, gds.util.asNode(nodeId).name AS name,sc
 ORDER BY score DESC;
 
 ```
+### Triangle Algorithm
+
+```json
+CALL gds.alpha.triangles({
+nodeProjection: "Disease",
+relationshipProjection: {
+DEPENDS_ON: {
+type: "COOCCURRENCE",
+orientation: "UNDIRECTED"
+}
+}
+})
+YIELD nodeA, nodeB, nodeC
+RETURN gds.util.asNode(nodeA).name AS nodeA,
+gds.util.asNode(nodeB).name AS nodeB,
+gds.util.asNode(nodeC).name AS nodeC;
+
+
+
+```
