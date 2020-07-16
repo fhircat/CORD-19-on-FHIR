@@ -182,3 +182,22 @@ gds.util.asNode(nodeC).name AS nodeC;
 
 
 ```
+## Local Clustering Coefficient
+
+```sql
+
+CALL gds.localClusteringCoefficient.stream({
+nodeProjection: "Disease",
+relationshipProjection: {
+DEPENDS_ON: {
+type: "COOCCURRENCE",
+orientation: "UNDIRECTED"
+}
+}
+})
+YIELD nodeId, localClusteringCoefficient
+WHERE localClusteringCoefficient > 0
+RETURN gds.util.asNode(nodeId).name AS disease, localClusteringCoefficient
+ORDER BY localClusteringCoefficient DESC;
+
+```
