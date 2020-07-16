@@ -182,7 +182,7 @@ gds.util.asNode(nodeC).name AS nodeC;
 
 
 ```
-## Local Clustering Coefficient
+### Local Clustering Coefficient
 
 ```sql
 
@@ -199,5 +199,20 @@ YIELD nodeId, localClusteringCoefficient
 WHERE localClusteringCoefficient > 0
 RETURN gds.util.asNode(nodeId).name AS disease, localClusteringCoefficient
 ORDER BY localClusteringCoefficient DESC;
+
+```
+
+### Strongly Connected Component
+
+```sql
+
+CALL gds.alpha.scc.stream({
+nodeProjection: "Disease",
+relationshipProjection: "COOCCURRENCE"
+})
+YIELD nodeId, componentId
+RETURN componentId, collect(gds.util.asNode(nodeId).name) AS diseases
+ORDER BY size(diseases) DESC;
+
 
 ```
