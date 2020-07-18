@@ -230,4 +230,19 @@ collect(gds.util.asNode(nodeId).name) AS diseases
 ORDER BY size(diseases) DESC;
 
 
+CALL gds.labelPropagation.stream({
+nodeProjection: "Disease",
+relationshipProjection: {
+COOCCURRENCE: {
+type: "COOCCURRENCE",
+orientation: "UNDIRECTED"
+}
+},
+maxIterations: 100
+})
+YIELD nodeId, communityId
+RETURN communityId AS label,
+collect(gds.util.asNode(nodeId).name) AS diseases
+ORDER BY size(diseases) DESC;
+
 ```
