@@ -246,3 +246,17 @@ collect(gds.util.asNode(nodeId).name) AS diseases
 ORDER BY size(diseases) DESC;
 
 ```
+
+### Louvain Modularity
+
+```sql
+CALL gds.louvain.stream({
+nodeProjection: "Disease",
+relationshipProjection: "COOCCURRENCE",
+includeIntermediateCommunities: true
+})
+YIELD nodeId, communityId, intermediateCommunityIds
+RETURN gds.util.asNode(nodeId).name AS libraries,
+communityId, intermediateCommunityIds;
+
+```
