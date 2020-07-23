@@ -260,3 +260,23 @@ RETURN gds.util.asNode(nodeId).name AS libraries,
 communityId, intermediateCommunityIds;
 
 ```
+### Link Prediction
+
+```sql
+MATCH (d1:Disease {name: 'COVID-19'})
+MATCH (d2:Disease {name: 'Hypertension'})
+RETURN gds.alpha.linkprediction.commonNeighbors(d1, d2) AS score
+
+
+score: 721.0
+
+```
+
+
+```sql
+MATCH (d1:Disease {name: 'COVID-19'})
+MATCH (d2:Disease {name: 'Hypertension'})
+RETURN gds.alpha.linkprediction.totalNeighbors(d1, d2) AS score
+
+score:2023.0
+```
