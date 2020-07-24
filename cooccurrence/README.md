@@ -102,14 +102,14 @@ MERGE (origin)-[:COOCCURRENCE {count: toInteger(row.count)}]-(destination);
 WITH "https://raw.githubusercontent.com/fhircat/CORD-19-on-FHIR/master/cooccurrence/" AS base
 WITH base + "query-result-disease-drug-count.csv" AS uri
 LOAD CSV WITH HEADERS FROM uri AS row
-MATCH (origin:Disease {id: row.stardId})
+MATCH (origin:Disease {id: row.startId})
 MATCH (destination:Chemical {id: row.endId})
 MERGE (origin)-[:COOCCURRENCE {count: toInteger(row.count)}]-(destination);
 
 WITH "https://raw.githubusercontent.com/fhircat/CORD-19-on-FHIR/master/cooccurrence/" AS base
 WITH base + "query-result-disease-gene-count.csv" AS uri
 LOAD CSV WITH HEADERS FROM uri AS row
-MATCH (origin:Disease {id: row.stardId})
+MATCH (origin:Disease {id: row.startId})
 MATCH (destination:Gene {id: row.endId})
 MERGE (origin)-[:COOCCURRENCE {count: toInteger(row.count)}]-(destination);
 
