@@ -280,3 +280,8 @@ RETURN gds.alpha.linkprediction.totalNeighbors(d1, d2) AS score
 
 score:2023.0
 ```
+
+## Error Handling
+
+### no changes, no records
+* In other words, make sure you have all of the nodes you think you should have. Making relationships to nodes that don't exist will give you this error.
